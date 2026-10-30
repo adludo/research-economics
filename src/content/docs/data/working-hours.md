@@ -24,6 +24,50 @@ Retrieved on **30 October 2026** from OWID's public GitHub archive at a fixed re
 
 Missing observations are omitted from the PWT extract, not replaced with zeros. Country labels follow OWID. CSV values retain the source precision; displayed hours are rounded to whole hours.
 
+## How working hours changed over time
+
+The PWT charts use 12 selected economies to show contrasting paths across regions: Australia, the United States, the United Kingdom, France, Germany, Japan, South Korea, China, India, Brazil, Mexico, and South Africa. This is an illustrative selection, not a representative sample or a world average. The historical chart includes all 14 economies in that separate dataset.
+
+### Recent country trends, 1970–2019
+
+![Twelve country panels of annual hours per worker. South Korea, Japan, and several European countries trend down; China and India end above their 1990 levels. South Africa has shorter coverage and a gap.](/charts/working-hours/country-trends.svg)
+
+Each panel uses the same axes. Labels show 2019 hours; missing observations remain gaps. South Africa starts in 2001 and has no observation in 2015. The other selected series cover the full displayed period. Straight or smooth-looking portions may reflect source estimation; they are not proof that workers' schedules never changed.
+
+[Open full-size SVG](/charts/working-hours/country-trends.svg) · [Download PNG](/charts/working-hours/country-trends.png) · [Underlying PWT observations](/data/working-hours/pwt-hours.csv).
+
+### Change over a common period, 1990–2019
+
+![Bar chart of annual-hours changes for eleven selected economies from 1990 to 2019: South Korea has the largest decline in this selection, while China and India show increases.](/charts/working-hours/change-1990-2019.svg)
+
+South Korea's hours fell **26.0%**, Japan's **16.6%**, and Germany's **12.4%** in this extract. China rose **9.8%** and India **2.1%**. These are endpoint changes in hours, not annual growth rates or changes in productivity. South Africa is omitted because 1990 is unavailable.
+
+[Open full-size SVG](/charts/working-hours/change-1990-2019.svg) · [Download PNG](/charts/working-hours/change-1990-2019.png).
+
+<!-- BEGIN CHART CHANGE TABLE -->
+| Country | Annual hours, 1990 | Annual hours, 2019 | Change |
+| --- | ---: | ---: | ---: |
+| South Korea | 2,674 | 1,980 | -26.0% |
+| Japan | 2,028 | 1,691 | -16.6% |
+| Germany | 1,583 | 1,386 | -12.4% |
+| Brazil | 1,879 | 1,708 | -9.1% |
+| France | 1,645 | 1,505 | -8.5% |
+| Australia | 1,864 | 1,727 | -7.4% |
+| United Kingdom | 1,746 | 1,668 | -4.5% |
+| Mexico | 2,176 | 2,137 | -1.8% |
+| United States | 1,796 | 1,765 | -1.7% |
+| India | 2,078 | 2,123 | +2.1% |
+| China | 1,975 | 2,169 | +9.8% |
+<!-- END CHART CHANGE TABLE -->
+
+### Long-run historical trends, 1870–2000
+
+![Fourteen historical country panels show annual hours lower in 2000 than in 1870, with different paths and some reversals between the selected observations.](/charts/working-hours/historical-trends.svg)
+
+All 14 economies have lower endpoint hours in this compilation. The decline was not uninterrupted: some series show reversals. Dots are recorded observations; lines connect them as visual guides and do not supply missing annual estimates. Source and population definitions change over time, as detailed in the historical comparison below. Do not join these lines to the PWT series.
+
+[Open full-size SVG](/charts/working-hours/historical-trends.svg) · [Download PNG](/charts/working-hours/historical-trends.png) · [Underlying historical observations](/data/working-hours/historical-hours.csv).
+
 ## Annual hours per worker in 2019
 
 All available economies for the same year are shown alphabetically. Choosing 2019 avoids mixing countries' latest available years and predates pandemic disruptions. It does not remove national measurement differences.
@@ -151,6 +195,15 @@ These are official access routes, **not datasets downloaded for the tables above
 ## Reproduce or update
 
 Run `python3 scripts/collate-working-hours.py` from the repository root. It downloads the pinned source CSVs and metadata, verifies SHA-256 checksums, writes the downloadable extracts, and regenerates the marked tables on this page. It uses Python's standard library and needs access to `raw.githubusercontent.com`.
+
+To regenerate the charts without downloading new data:
+
+```sh
+python3 -m pip install -r scripts/requirements-charts.txt
+python3 scripts/plot-working-hours.py
+```
+
+Matplotlib is needed only for regeneration. SVG and PNG files are committed, so Vercel builds need no Python or chart dependencies. The chart script reads the checked-in CSVs, leaves missing years as gaps, and regenerates the endpoint table above. On small screens, use the full-size SVG links to zoom into country panels.
 
 To adopt another release, review its definitions and coverage before deliberately updating the source revision and checksums. Keep the release, observation year, and retrieval date separate. Do not describe this snapshot as the latest release.
 
