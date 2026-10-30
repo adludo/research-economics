@@ -27,9 +27,10 @@ Documentation lives in `src/content/docs/`. Edit the section indexes or add indi
 
 ## Research coverage
 
-The wiki documents 15 core papers and one review from the supplied research discussion:
+The wiki documents 22 core papers and one review, combining the supplied research discussion with a further reading guide:
 
 - **Leisure and time allocation:** theory, historical trends, home production, recessions, unemployment, and leisure technology.
+- **Leisure, GDP, and productivity:** seven additional papers on hours and development, taxation, institutions, welfare beyond GDP, fatigue, and sleep.
 - **Closed economies and trade:** historical autarky/opening, growth evidence, identification critiques, natural experiments, and welfare counterfactuals.
 
-Each topic has paper links, data-source guidance, and key finding summaries. See `src/content/docs/guides/sources.md` for provenance and verification limits. Summaries follow the supplied discussion; external links and numerical claims have not been independently verified against full texts in this environment.
+Each topic has paper links, data-source guidance, and key finding summaries. See `src/content/docs/guides/sources.md` for provenance and verification limits. The original summaries follow the supplied discussion; the leisure–productivity extension is an additional literature guide. External links and numerical claims have not been independently verified against full texts in this environment.

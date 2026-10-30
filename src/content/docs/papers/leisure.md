@@ -110,3 +110,7 @@ Summaries and approximate estimates below follow the supplied research discussio
 Mark Aguiar and Erik Hurst, **“The Macroeconomics of Time Allocation.”** [NBER review working paper](https://www.nber.org/papers/w17995). A broader synthesis covering leisure, childcare, and home production over the life cycle and business cycle; not an additional independent empirical estimate.
 
 **Next:** [Leisure data sources](/data/leisure/) · [Leisure findings at a glance](/findings/leisure/)
+
+## Related research: output and productivity
+
+For links between leisure, income, working hours, and performance, see [Leisure, GDP, and productivity](/papers/leisure-productivity/). It covers cross-country hours, welfare beyond GDP, fatigue, and sleep.

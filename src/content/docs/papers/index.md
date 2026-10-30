@@ -5,6 +5,7 @@ description: A curated bibliography on leisure and trade restrictions.
 
 ## Research collections
 
+- [Leisure, GDP, and productivity](/papers/leisure-productivity/): seven additional papers on cross-country working hours, institutions, welfare accounting, fatigue, and sleep.
 - [Leisure and time allocation](/papers/leisure/): eight core papers, plus a review, on opportunity costs, household work, leisure trends, unemployment, and technology.
 - [Closed economies, trade, and income](/papers/trade/): seven papers on historical autarky/opening, cross-country growth, natural experiments, and model-based welfare gains.
 

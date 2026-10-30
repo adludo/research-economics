@@ -3,6 +3,7 @@ title: "Key findings"
 description: Evidence summaries with links to the underlying studies.
 ---
 
+- [Leisure and productivity findings](/findings/leisure-productivity/): how to distinguish GDP, hourly output, income, and welfare.
 - [Leisure findings](/findings/leisure/): leisure gains are uneven, unpaid work matters, and more free time need not improve well-being.
 - [Trade findings](/findings/trade/): distinguish real-income gains from GDP growth, and observed episodes from model-based counterfactuals.
 

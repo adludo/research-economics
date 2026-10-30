@@ -15,15 +15,24 @@ Documentation lives in `src/content/docs/`. Section indexes are curated register
 
 Validate with `npm ci` and `npm run build` before opening a pull request.
 
-## Pull requests
+## Branches, commits, and pushes
 
-When you open a pull request, follow these branch and commit conventions.
+These conventions apply to every agent-created commit and every push, including feature branches pushed without a pull request.
 
 ### Branch and commit conventions
 
 For branches and commits created by ChatGPT, Codex, or other coding agents:
 
 - Use descriptive lowercase branch names with hyphens, such as `chore/agent-commit-format`.
-- Follow the existing repository history: use `<TYPE>: <short lowercase description>` for commit subjects.
+- Required format: use `<TYPE>: <short lowercase description>` for commit subjects. This is mandatory even when older commits use another format.
 - Use `FEAT` for new functionality, `FIX` for bug fixes, and `CHORE` for documentation, configuration, maintenance, and agent instructions.
 - Keep the type uppercase, followed by a colon and one space. Describe the concrete change without a trailing period.
+
+### Required checks before every push
+
+- Fetch the target branch and read its current `AGENTS.md` as well as the checkout's instructions. Do not assume a feature branch contains the latest standards.
+- Review every commit introduced relative to the target branch with `git log --format=%s <target>..HEAD`; use `origin/main` unless another target is specified.
+- Verify every agent-created subject uses `FEAT`, `FIX`, or `CHORE`, then `: `, then a short lowercase description without a trailing period. For example: `CHORE: document leisure productivity research`.
+- Correct noncompliant subjects before pushing. Checking only the latest commit or planning to fix the pull request title is insufficient.
+- Run checks appropriate to the changes and inspect `git diff --check` and `git status`. Do not push until the subject and change checks pass.
+- If correcting commits already pushed, check the remote tip and use an explicit `--force-with-lease` only for the authorized feature branch. Never force-push the target branch or overwrite newer remote work.
