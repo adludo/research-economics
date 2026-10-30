@@ -9,6 +9,7 @@ export default defineConfig({
     social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/adludo/research-economics' }],
     sidebar: [
       { label: 'Overview', link: '/' },
+      { label: 'Glossary', link: '/glossary/' },
       { label: 'Papers', items: [
         { label: 'Paper register', link: '/papers/' },
         { label: 'Leisure and time allocation', link: '/papers/leisure/' },

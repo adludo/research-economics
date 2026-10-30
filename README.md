@@ -27,6 +27,8 @@ Documentation lives in `src/content/docs/`. Edit the section indexes or add indi
 
 ## Research coverage
 
+The wiki includes a glossary of key economic and research terms at `/glossary/`.
+
 The wiki documents 22 core papers and one review, combining the supplied research discussion with a further reading guide:
 
 - **Leisure and time allocation:** theory, historical trends, home production, recessions, unemployment, and leisure technology.
