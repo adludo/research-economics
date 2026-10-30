@@ -9,7 +9,7 @@ The initial research content was prepared from the user-supplied **“Pasted tex
 
 ## Verification status
 
-- The wiki reorganises the supplied discussion into citations, dataset guides, and finding summaries.
+- The original leisure and trade collections reorganise the supplied discussion into citations, dataset guides, and finding summaries. The leisure–productivity extension is a separate literature selection, not content from that discussion.
 - Primary-reference and official-provider links have been added. External reference retrieval is blocked by this environment's network policy, so live destination checks and independent full-text verification have **not** been completed.
 - Approximate numbers remain approximate. They should be checked against the final paper's table/page before quotation in further research.
 - A working-paper link is explicitly labelled and may not match the final publication's estimates. A dataset catalogue is an access route, not evidence that a paper used the current release.
@@ -29,3 +29,9 @@ Ramey–Francis and Aguiar–Hurst are kept separate because period, population,
 4. Add reproducible analysis only after recording those choices.
 
 Use the [contribution guide](/guides/contributing/) for new entries. This is a curated starting bibliography, not an exhaustive or systematic review.
+
+## Leisure–GDP–productivity extension
+
+Added on 30 October 2026 in response to the question about leisure and GDP/general productivity. Seven additional studies cover hours and development (Bick et al.), taxes (Prescott), institutions and coordinated leisure (Alesina et al.), European output and hours (Blanchard), welfare accounting (Jones–Klenow), long-hours productivity (Pencavel), and sleep/wages (Gibson–Shrader).
+
+This extension is a reading guide based on established literature rather than new live-source research. External publisher access was blocked; bibliographic details, link destinations, and qualitative summaries await independent verification against final articles. No estimates were replicated. No numerical effect sizes are quoted for the new studies; the arithmetic example in the findings page is explicitly illustrative. The original collection's numerical summaries retain their separate discussion-based provenance.
