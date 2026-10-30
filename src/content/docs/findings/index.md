@@ -1,17 +1,9 @@
 ---
-title: Key findings
-description: Traceable evidence summaries and limitations.
+title: "Key findings"
+description: Evidence summaries with links to the underlying studies.
 ---
 
-**No findings have been summarised yet.** Summaries require the source discussion and verification against the underlying literature.
+- [Leisure findings](/findings/leisure/): leisure gains are uneven, unpaid work matters, and more free time need not improve well-being.
+- [Trade findings](/findings/trade/): distinguish real-income gains from GDP growth, and observed episodes from model-based counterfactuals.
 
-## Finding entry format
-
-1. **Claim:** A specific statement supported by cited evidence.
-2. **Evidence:** Links to the paper, exact table/page, and associated dataset.
-3. **Result:** Estimate, units, population, period, and uncertainty.
-4. **Interpretation:** What the design supports; distinguish causal and descriptive results.
-5. **Limitations:** Assumptions, alternative explanations, and applicability.
-6. **Agreement or disagreement:** How other included studies compare.
-
-Label unverified interpretations explicitly. Avoid combining estimates from different populations or methods without explaining their comparability.
+The summaries link to paper-level details and retain uncertainty and identification caveats. Numerical claims are drawn from the supplied discussion and await independent full-text verification; see [source notes](/guides/sources/).

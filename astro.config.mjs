@@ -9,9 +9,22 @@ export default defineConfig({
     social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/adludo/research-economics' }],
     sidebar: [
       { label: 'Overview', link: '/' },
-      { label: 'Papers', link: '/papers/' },
-      { label: 'Data sources', link: '/data/' },
-      { label: 'Key findings', link: '/findings/' },
+      { label: 'Papers', items: [
+        { label: 'Paper register', link: '/papers/' },
+        { label: 'Leisure and time allocation', link: '/papers/leisure/' },
+        { label: 'Trade and income', link: '/papers/trade/' },
+      ] },
+      { label: 'Data sources', items: [
+        { label: 'Data overview', link: '/data/' },
+        { label: 'Leisure data', link: '/data/leisure/' },
+        { label: 'Trade and GDP data', link: '/data/trade/' },
+      ] },
+      { label: 'Key findings', items: [
+        { label: 'Evidence overview', link: '/findings/' },
+        { label: 'Leisure findings', link: '/findings/leisure/' },
+        { label: 'Trade findings', link: '/findings/trade/' },
+      ] },
+      { label: 'Source and editorial notes', link: '/guides/sources/' },
       { label: 'Contributing research', link: '/guides/contributing/' },
     ],
   })],

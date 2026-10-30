@@ -25,6 +25,11 @@ No secrets or backend services are needed. Vercel creates preview deployments fo
 
 Documentation lives in `src/content/docs/`. Edit the section indexes or add individual Markdown/MDX pages and link them from the indexes. Update `astro.config.mjs` to change the sidebar. Research contribution guidance is included in the site.
 
-## Research status
+## Research coverage
 
-The [source conversation](https://chatgpt.com/share/6ae3d9dc-5678-83ec-9fde-8474c85c588a) could not be accessed from the development environment. The site includes structured sections for papers, data sources, and findings, but substantive research content is pending access to the discussion. No citations or conclusions have been invented.
+The wiki documents 15 core papers and one review from the supplied research discussion:
+
+- **Leisure and time allocation:** theory, historical trends, home production, recessions, unemployment, and leisure technology.
+- **Closed economies and trade:** historical autarky/opening, growth evidence, identification critiques, natural experiments, and welfare counterfactuals.
+
+Each topic has paper links, data-source guidance, and key finding summaries. See `src/content/docs/guides/sources.md` for provenance and verification limits. Summaries follow the supplied discussion; external links and numerical claims have not been independently verified against full texts in this environment.
