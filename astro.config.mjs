@@ -17,6 +17,7 @@ export default defineConfig({
       ] },
       { label: 'Data sources', items: [
         { label: 'Data overview', link: '/data/' },
+        { label: 'Hours worked around the world', link: '/data/working-hours/' },
         { label: 'Leisure data', link: '/data/leisure/' },
         { label: 'Leisure and productivity data', link: '/data/leisure-productivity/' },
         { label: 'Trade and GDP data', link: '/data/trade/' },

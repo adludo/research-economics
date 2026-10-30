@@ -34,3 +34,7 @@ The wiki documents 22 core papers and one review, combining the supplied researc
 - **Closed economies and trade:** historical autarky/opening, growth evidence, identification critiques, natural experiments, and welfare counterfactuals.
 
 Each topic has paper links, data-source guidance, and key finding summaries. See `src/content/docs/guides/sources.md` for provenance and verification limits. The original summaries follow the supplied discussion; the leisure–productivity extension is an additional literature guide. External links and numerical claims have not been independently verified against full texts in this environment.
+
+## Collated working-hours data
+
+`/data/working-hours/` contains a 2019 comparison of 66 economies from PWT 10.0 and a separate Huberman–Minns historical comparison. Downloads and source metadata live in `public/data/working-hours/`. Run `python3 scripts/collate-working-hours.py` to regenerate them from checksum-verified OWID archive files. These historical releases are not current-year estimates.

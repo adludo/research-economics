@@ -35,3 +35,9 @@ Use the [contribution guide](/guides/contributing/) for new entries. This is a c
 Added on 30 October 2026 in response to the question about leisure and GDP/general productivity. Seven additional studies cover hours and development (Bick et al.), taxes (Prescott), institutions and coordinated leisure (Alesina et al.), European output and hours (Blanchard), welfare accounting (Jones–Klenow), long-hours productivity (Pencavel), and sleep/wages (Gibson–Shrader).
 
 This extension is a reading guide based on established literature rather than new live-source research. External publisher access was blocked; bibliographic details, link destinations, and qualitative summaries await independent verification against final articles. No estimates were replicated. No numerical effect sizes are quoted for the new studies; the arithmetic example in the findings page is explicitly illustrative. The original collection's numerical summaries retain their separate discussion-based provenance.
+
+## Working-hours data collection
+
+The international hours page uses CSV files and metadata retrieved on 30 October 2026 from OWID's public `owid-datasets` archive, pinned to revision `6155d4ca1ea14ef30e753010a25521eeb416e8a2`. Unlike the earlier reading guides, its country figures were calculated from retrieved data. They were not checked against original paper tables or current provider releases. Direct OECD, ILO, and OWID chart endpoints remained inaccessible. The page links to both the archive and official providers and records source checksums, transformations, and attribution in its downloadable provenance file.
+
+The metadata and CSV downloads on that page are the exception to the original collection's statement that no data were downloaded. The paper summaries remain unreplicated.
