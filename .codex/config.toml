@@ -1,0 +1,3 @@
+[agents.research_auditor]
+description = "Independently audit papers, findings, datasets, calculations, and graphs against primary evidence; distinguish verified claims from contradictions and inaccessible sources."
+config_file = "agents/research-auditor.toml"
