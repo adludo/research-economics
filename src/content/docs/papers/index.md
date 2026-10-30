@@ -1,21 +1,11 @@
 ---
 title: Papers
-description: Literature register with primary-source links and structured summaries.
+description: A curated bibliography on leisure and trade restrictions.
 ---
 
-The paper register will collect the studies discussed in the source conversation. **No papers have been entered or reviewed yet.**
+## Research collections
 
-Each entry should link to a DOI or publisher record and, where available, a lawful open-access version, working paper, and replication package. Distinguish working papers from published versions.
+- [Leisure and time allocation](/papers/leisure/): eight core papers, plus a review, on opportunity costs, household work, leisure trends, unemployment, and technology.
+- [Closed economies, trade, and income](/papers/trade/): seven papers on historical autarky/opening, cross-country growth, natural experiments, and model-based welfare gains.
 
-## Paper entry format
-
-- **Citation:** Authors, year, title, outlet, and version.
-- **Links:** DOI/publisher, open-access text, and replication materials.
-- **Research question:** What is being investigated?
-- **Data and scope:** Dataset, geography, sample, and period.
-- **Method:** Design and assumptions; distinguish association from causal identification.
-- **Key findings:** Direction, magnitude, units, and uncertainty, with page/table references.
-- **Limitations:** Threats to interpretation and external validity.
-- **Related evidence:** Links to the corresponding data and finding pages.
-
-See the [contribution guide](/guides/contributing/) before adding a study.
+Each entry includes a paper link, a method summary, key findings, and interpretation limits. Read the [source notes](/guides/sources/) for verification status and the [contribution guide](/guides/contributing/) for editorial standards.
