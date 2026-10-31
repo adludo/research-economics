@@ -1,0 +1,30 @@
+{
+  "retrieved_date_utc": "2026-10-30",
+  "archive_revision": "6155d4ca1ea14ef30e753010a25521eeb416e8a2",
+  "sources": {
+    "pwt.csv": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Penn%20World%20Table%20version%2010.0/Penn%20World%20Table%20version%2010.0.csv",
+      "sha256": "0ecd5c71e0f1dfdbeecd624f7c61875b5fa64094e639cccf6304b2fd181be505"
+    },
+    "pwt.json": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Penn%20World%20Table%20version%2010.0/datapackage.json",
+      "sha256": "79bcd8893b84bbdc00cea3465c7d1710301de364b526a4d139e2d8469e4d1a57"
+    },
+    "historical.csv": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Working%20Hours%20Data%20-%20Huberman%20%26%20Minns%20%282007%29/Working%20Hours%20Data%20-%20Huberman%20%26%20Minns%20%282007%29.csv",
+      "sha256": "534c2e6df4c4d8ca165598052021b70fe4143ddba68fe0f4ae61b3f9a1482291"
+    },
+    "historical.json": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Working%20Hours%20Data%20-%20Huberman%20%26%20Minns%20%282007%29/datapackage.json",
+      "sha256": "99c047264eb01a2460b0c6c9f45a176c25a45cb7470dbcd4ebd25865edeb09cc"
+    }
+  },
+  "transformations": [
+    "PWT: select nonempty annual working hours, preserve values and OWID labels, sort country/year.",
+    "2019: filter PWT extract to one common year; round displayed hours only.",
+    "Historical: rename columns, retain empty cells; endpoint changes = 100*(2000/1870-1).",
+    "No interpolation, population weighting, or imputation. Do not splice the series."
+  ],
+  "attribution": "PWT 10.0 / Feenstra, Inklaar and Timmer; Huberman and Minns (2007); distributed by Our World in Data.",
+  "usage": "Consult original-provider and OWID terms for reuse; no new licence is asserted for third-party data."
+}
