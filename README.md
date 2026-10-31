@@ -40,3 +40,6 @@ Each topic has paper links, data-source guidance, and key finding summaries. See
 `/data/working-hours/` contains a 2019 comparison of 66 economies from PWT 10.0 and a separate Huberman–Minns historical comparison. Downloads and source metadata live in `public/data/working-hours/`. Run `python3 scripts/collate-working-hours.py` to regenerate them from checksum-verified OWID archive files. These historical releases are not current-year estimates.
 
 The working-hours page also includes three graphs: selected-country trends, changes over 1990–2019, and historical trends. Run `python3 -m pip install -r scripts/requirements-charts.txt`, then `python3 scripts/plot-working-hours.py` to regenerate their SVG/PNG files and the endpoint table from the checked-in CSVs. Chart dependencies are not needed for Vercel builds.
+## Independent research auditor
+
+The repository defines a read-only Codex subagent, `research_auditor`, in `.codex/config.toml`. Its job is to check paper identities, primary-text support for findings, data provenance, calculations, and rendered graphs independently of the author. See [the audit guide](docs/RESEARCH_AUDIT.md) for invocation, evidence standards, host support, and the report format. Configuration alone does not run an audit or certify existing research.
