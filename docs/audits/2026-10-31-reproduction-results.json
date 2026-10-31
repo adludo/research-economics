@@ -1,0 +1,45 @@
+{
+  "src/content/docs/data/working-hours.md": {
+    "identical_bytes": true
+  },
+  "public/data/working-hours/pwt-metadata.json": {
+    "identical_bytes": true
+  },
+  "public/data/working-hours/pwt-hours.csv": {
+    "identical_bytes": true
+  },
+  "public/data/working-hours/pwt-hours-2019.csv": {
+    "identical_bytes": true
+  },
+  "public/data/working-hours/provenance.json": {
+    "same_except_retrieval_date": true,
+    "retrieval_dates": [
+      "2026-10-30",
+      "2026-10-31"
+    ]
+  },
+  "public/data/working-hours/historical-metadata.json": {
+    "identical_bytes": true
+  },
+  "public/data/working-hours/historical-hours.csv": {
+    "identical_bytes": true
+  },
+  "public/charts/working-hours/historical-trends.svg": {
+    "identical_bytes": true
+  },
+  "public/charts/working-hours/historical-trends.png": {
+    "identical_bytes": true
+  },
+  "public/charts/working-hours/country-trends.svg": {
+    "identical_bytes": true
+  },
+  "public/charts/working-hours/country-trends.png": {
+    "identical_bytes": true
+  },
+  "public/charts/working-hours/change-1990-2019.svg": {
+    "identical_bytes": true
+  },
+  "public/charts/working-hours/change-1990-2019.png": {
+    "identical_bytes": true
+  }
+}

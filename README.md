@@ -38,3 +38,7 @@ Each topic has paper links, data-source guidance, and key finding summaries. See
 ## Independent research auditor
 
 The repository defines a read-only Codex subagent, `research_auditor`, in `.codex/config.toml`. Its job is to check paper identities, primary-text support for findings, data provenance, calculations, and rendered graphs independently of the author. See [the audit guide](docs/RESEARCH_AUDIT.md) for invocation, evidence standards, host support, and the report format. Configuration alone does not run an audit or certify existing research.
+
+## Research audit status
+
+The [31 October 2026 research audit](docs/audits/2026-10-31-wiki-research-audit.md) covers the merged wiki and separately the unmerged working-hours data/graph branch. Archive extraction, displayed calculations, and graph geometry passed independent checks. Primary paper identities and findings remain unverified because reference and provider access was blocked. The report includes the evidence ledger and required follow-up checks; it is not a scientific certification.
