@@ -1,0 +1,155 @@
+{
+  "audited_commit": "68eb30f465deecfa99d098b682f396013d91deb3",
+  "checked_at_utc": "2026-10-31T08:02:44.466873+00:00",
+  "performed_by": "main agent; access probes only, not primary-source reading",
+  "results": [
+    {
+      "paper": "Becker (1965): the opportunity cost of time",
+      "path": "src/content/docs/papers/leisure.md",
+      "url": "https://doi.org/10.2307/2228949",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Gronau (1977): separate home production from leisure",
+      "path": "src/content/docs/papers/leisure.md",
+      "url": "https://doi.org/10.1086/260629",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Aguiar and Hurst (2007): five decades of leisure trends",
+      "path": "src/content/docs/papers/leisure.md",
+      "url": "https://doi.org/10.1162/qjec.122.3.969",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Ramey and Francis (2009): a century of work and leisure",
+      "path": "src/content/docs/papers/leisure.md",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/mac.1.2.189",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Ramey (2009): home production over the twentieth century",
+      "path": "src/content/docs/papers/leisure.md",
+      "url": "https://doi.org/10.1017/S0022050709000333",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Aguiar, Hurst, and Karabarbounis (2013): recession time use",
+      "path": "src/content/docs/papers/leisure.md",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.103.5.1664",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Krueger and Mueller (2012): unemployment and emotional well-being",
+      "path": "src/content/docs/papers/leisure.md",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.3.594",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Aguiar, Bils, Charles, and Hurst (2021): leisure technology",
+      "path": "src/content/docs/papers/leisure.md",
+      "url": "https://www.nber.org/papers/w23552",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Further reading: a synthesis",
+      "path": "src/content/docs/papers/leisure.md",
+      "url": "https://www.nber.org/papers/w17995",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Bick, Fuchs-Schündeln, and Lagakos (2018): hours across income levels",
+      "path": "src/content/docs/papers/leisure-productivity.md",
+      "url": "https://doi.org/10.1093/qje/qjx034",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Prescott (2004): taxes and market working hours",
+      "path": "src/content/docs/papers/leisure-productivity.md",
+      "url": "https://www.nber.org/papers/w10316",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Alesina, Glaeser, and Sacerdote (2005): institutions and coordinated leisure",
+      "path": "src/content/docs/papers/leisure-productivity.md",
+      "url": "https://www.nber.org/papers/w11278",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Blanchard (2004): productivity, hours, and Europe's income gap",
+      "path": "src/content/docs/papers/leisure-productivity.md",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/0895330042632735",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Jones and Klenow (2016): valuing leisure beyond GDP",
+      "path": "src/content/docs/papers/leisure-productivity.md",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20110236",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Pencavel (2015): diminishing returns to long working hours",
+      "path": "src/content/docs/papers/leisure-productivity.md",
+      "url": "https://doi.org/10.1111/ecoj.12166",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Gibson and Shrader (2018): sleep and labour productivity",
+      "path": "src/content/docs/papers/leisure-productivity.md",
+      "url": "https://doi.org/10.1162/REST_a_00746",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Irwin (2005): the Jeffersonian embargo",
+      "path": "src/content/docs/papers/trade.md",
+      "url": "https://www.nber.org/papers/w11355",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Bernhofen and Brown (2005): Japan's opening",
+      "path": "src/content/docs/papers/trade.md",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/0002828053828491",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Frankel and Romer (1999): does trade cause growth?",
+      "path": "src/content/docs/papers/trade.md",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.89.3.379",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Rodríguez and Rodrik (2001): a methodological critique",
+      "path": "src/content/docs/papers/trade.md",
+      "url": "https://www.nber.org/papers/w7081",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Wacziarg and Welch (2008): liberalisation and growth",
+      "path": "src/content/docs/papers/trade.md",
+      "url": "https://doi.org/10.1093/wber/lhn007",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Feyrer (2021): the Suez Canal natural experiment",
+      "path": "src/content/docs/papers/trade.md",
+      "url": "https://doi.org/10.1016/j.jdeveco.2021.102708",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "paper": "Arkolakis, Costinot, and Rodríguez-Clare (2012): model-based gains",
+      "path": "src/content/docs/papers/trade.md",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.1.94",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "provider": "PWT",
+      "url": "https://www.rug.nl/ggdc/productivity/pwt/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "provider": "Huberman–Minns article",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0014498307000058",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}

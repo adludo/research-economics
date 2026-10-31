@@ -29,6 +29,7 @@ export default defineConfig({
         { label: 'Leisure and productivity findings', link: '/findings/leisure-productivity/' },
         { label: 'Trade findings', link: '/findings/trade/' },
       ] },
+      { label: 'Research audit status', link: '/guides/audit-status/' },
       { label: 'Source and editorial notes', link: '/guides/sources/' },
       { label: 'Contributing research', link: '/guides/contributing/' },
     ],

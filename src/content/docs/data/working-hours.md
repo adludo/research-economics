@@ -3,6 +3,8 @@ title: Hours worked around the world
 description: Country working-hours data, historical comparisons, downloadable extracts, and source links.
 ---
 
+See the [audit status](/guides/audit-status/) for independently completed data/graph checks and the original-source verification still outstanding.
+
 ## What this collection measures
 
 **Annual hours per worker** measure market working time across a year. They reflect weekly schedules, part-time work, holidays, absences, and the composition of employment. They are not hours per resident, a statutory working week, or a direct measure of leisure.

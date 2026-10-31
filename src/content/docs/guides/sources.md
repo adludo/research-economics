@@ -9,11 +9,13 @@ The initial research content was prepared from the user-supplied **“Pasted tex
 
 ## Verification status
 
+See the [audit status](/guides/audit-status/) for checks completed on the merged data and graphs and the primary-source checks still outstanding.
+
 - The original leisure and trade collections reorganise the supplied discussion into citations, dataset guides, and finding summaries. The leisure–productivity extension is a separate literature selection, not content from that discussion.
 - Primary-reference and official-provider links have been added. External reference retrieval is blocked by this environment's network policy, so live destination checks and independent full-text verification have **not** been completed.
 - Approximate numbers remain approximate. They should be checked against the final paper's table/page before quotation in further research.
 - A working-paper link is explicitly labelled and may not match the final publication's estimates. A dataset catalogue is an access route, not evidence that a paper used the current release.
-- No data were downloaded or estimates replicated. Data-access conditions are guidance, not a claim of access approval.
+- The original literature reading guides did not download data or replicate estimates. The separate [working-hours collection](/data/working-hours/) includes retrieved data and generated graphs. Data-access conditions in the reading guides remain guidance, not a claim of access approval.
 
 ## Reconciliation of the discussion
 

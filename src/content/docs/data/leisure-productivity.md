@@ -13,7 +13,7 @@ For collated country figures and downloadable extracts, see [Hours worked around
 - PWT releases include output, employment, and, where available, average annual hours. Read the selected release's variable definitions and coverage before constructing ratios.
 - Labour-force surveys and ILOSTAT help distinguish employed workers' hours from employment/population effects. Cross-country harmonisation is central to [Bick et al.](/papers/leisure-productivity/).
 - For level comparisons across countries, select appropriate PPP-based output measures; for changes over time, use consistent real series. Do not mix nominal output, incompatible base years, or different worker coverage.
-- Hours per worker, hours per employed person, hours per working-age adult, and hours per resident are different statistics. Match numerator and denominator populations.
+- Hours per employed person differ from hours per working-age adult or resident. Check whether a source uses “workers” to mean employed persons, and match employment, job coverage, and denominator populations.
 
 These are access routes for a new project, not claims that every paper used today's releases. Record release, download date, variables, units, geography, age range, employment concept, and treatment of missing hours. Provider terms and microdata access rules vary.
 
