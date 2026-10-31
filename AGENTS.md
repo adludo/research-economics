@@ -36,3 +36,11 @@ For branches and commits created by ChatGPT, Codex, or other coding agents:
 - Correct noncompliant subjects before pushing. Checking only the latest commit or planning to fix the pull request title is insufficient.
 - Run checks appropriate to the changes and inspect `git diff --check` and `git status`. Do not push until the subject and change checks pass.
 - If correcting commits already pushed, check the remote tip and use an explicit `--force-with-lease` only for the authorized feature branch. Never force-push the target branch or overwrite newer remote work.
+
+## Independent research auditor
+
+Use the `research_auditor` role in `.codex/config.toml` to forensically review research changes before pushing. Follow [the audit guide](docs/RESEARCH_AUDIT.md) for paper identity, primary-text support, data lineage, independent calculations, and rendered-graph checks. The auditor must distinguish verified, contradicted, and unverified evidence and remain independent of the author.
+
+Save research audit reports under `docs/audits/`, correct supported defects, and request a recheck. Inaccessible papers or datasets must remain explicitly unverified; a successful build or an auditor invocation is not evidence that the research is correct. Draft pushes with unresolved items must disclose them in the report and handoff. Agent-configuration-only changes require review of the configuration and instructions, not an assertion that the whole wiki has been audited.
+
+If the host does not load custom roles, delegate with the role's instructions and audit guide through the available subagent tools. If independent delegation is unavailable, report that limit instead of describing a self-review as independent.

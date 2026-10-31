@@ -34,3 +34,7 @@ The wiki documents 22 core papers and one review, combining the supplied researc
 - **Closed economies and trade:** historical autarky/opening, growth evidence, identification critiques, natural experiments, and welfare counterfactuals.
 
 Each topic has paper links, data-source guidance, and key finding summaries. See `src/content/docs/guides/sources.md` for provenance and verification limits. The original summaries follow the supplied discussion; the leisure–productivity extension is an additional literature guide. External links and numerical claims have not been independently verified against full texts in this environment.
+
+## Independent research auditor
+
+The repository defines a read-only Codex subagent, `research_auditor`, in `.codex/config.toml`. Its job is to check paper identities, primary-text support for findings, data provenance, calculations, and rendered graphs independently of the author. See [the audit guide](docs/RESEARCH_AUDIT.md) for invocation, evidence standards, host support, and the report format. Configuration alone does not run an audit or certify existing research.
