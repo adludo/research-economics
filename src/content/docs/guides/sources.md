@@ -12,7 +12,7 @@ The initial research content was prepared from the user-supplied **“Pasted tex
 See the [audit status](/guides/audit-status/) for checks completed on the merged data and graphs and the primary-source checks still outstanding.
 
 - The original leisure and trade collections reorganise the supplied discussion into citations, dataset guides, and finding summaries. The leisure–productivity extension is a separate literature selection, not content from that discussion.
-- Primary-reference and official-provider links have been added. External reference retrieval is blocked by this environment's network policy, so live destination checks and independent full-text verification have **not** been completed.
+- For the original 23-reference reading lists, publisher/provider access was blocked and independent full-text checks have **not** been completed. The later fertility collection is different: relevant passages were read from author-hosted publication copies, while independent publisher-record and current provider checks remain outstanding.
 - Approximate numbers remain approximate. They should be checked against the final paper's table/page before quotation in further research.
 - A working-paper link is explicitly labelled and may not match the final publication's estimates. A dataset catalogue is an access route, not evidence that a paper used the current release.
 - The original literature reading guides did not download data or replicate estimates. The separate [working-hours collection](/data/working-hours/) includes retrieved data and generated graphs. Data-access conditions in the reading guides remain guidance, not a claim of access approval.
@@ -43,3 +43,9 @@ This extension is a reading guide based on established literature rather than ne
 The international hours page uses CSV files and metadata retrieved on 30 October 2026 from OWID's public `owid-datasets` archive, pinned to revision `6155d4ca1ea14ef30e753010a25521eeb416e8a2`. Unlike the earlier reading guides, its country figures were calculated from retrieved data. They were not checked against original paper tables or current provider releases. Direct OECD, ILO, and OWID chart endpoints remained inaccessible. The page links to both the archive and official providers and records source checksums, transformations, and attribution in its downloadable provenance file.
 
 The metadata and CSV downloads on that page are the exception to the original collection's statement that no data were downloaded. The paper summaries remain unreplicated.
+
+## Fertility, development, and parents’ time
+
+The fertility extension adds six research papers and one review published in 2003–2023. Unlike the earlier discussion-based reading lists, the relevant primary-text passages were read from author-hosted publication copies in Matthias Doepke’s public research repository, pinned at `d25df3c1d402d07977615f81f7cbe39c8ba8bc37`. [Source URLs and SHA-256 hashes](/data/fertility/sources.json) identify the inspected files; the wiki links rather than redistributes the PDFs.
+
+The paper register includes printed-page and PDF-page locators. Publication-copy support does not establish independent publisher-record verification, data validity, causal identification beyond the paper’s design, current provider access, or replication. This author-centred collection is a focused entry point, not a systematic review. No demographic observations or new fertility graphs were generated. See [fertility audit status](/guides/audit-status/#fertility-collection).
