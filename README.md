@@ -57,3 +57,9 @@ The merged wiki includes an audit-status page at `/guides/audit-status/`. The [m
 The fertility collection uses seven inspected author-hosted publication copies, with pinned source URLs and hashes in `public/data/fertility/sources.json`. The pages distinguish source-supported summaries from empirical replication and from independent publisher/DOI verification. It adds data-access guidance, not a new fertility dataset or causal graph.
 
 The [fertility source-reading audit](docs/audits/2026-11-01-fertility-review.md) records which claims were checked and which publisher/data/replication checks remain outstanding.
+
+## Fertility, GDP, and hours graphs
+
+`/data/fertility-charts/` links period fertility with real GDP per person and market working hours across matching country-years, 1970–2014. Three source-referenced SVG/PNG charts and downloadable extracts are included. Forecast fertility rows from 2015 onward are excluded. Run `python3 scripts/collate-fertility-economy.py` and `python3 scripts/plot-fertility-economy.py` to regenerate them. The figures are descriptive comparisons, not causal estimates or paper replications.
+
+The [fertility/GDP/hours graph audit](docs/audits/2026-11-01-fertility-charts.md) records the independent data and geometry checks, the corrected PWT archive-version attribution, and remaining source limits.

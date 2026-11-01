@@ -50,3 +50,9 @@ Complete the primary-source checks once source access is available. Re-audit any
 The later fertility extension adds six research papers and one review. Their identities and selected findings were checked against inspected author-hosted publication copies, with page locators and [pinned source hashes](/data/fertility/sources.json). This is a stronger source-reading status than the original discussion-based collection, whose historical audit above remains unchanged.
 
 Independent research auditors checked the new summaries and page locators against those copies; no material contradiction was found in the reviewed claims. Publisher/DOI records, corrections/retractions, original data, model/empirical replication, and current demographic-provider documentation remain unchecked or inaccessible. The collection does not establish a causal effect of leisure on births. The [paper register](/papers/fertility/) states each design and its limits.
+
+## Fertility, GDP, and working-hours graphs
+
+The [new graph collection](/data/fertility-charts/) has a separate data audit: 2,517 same-year complete records across 67 economies, with 509 records plotted for 12 illustrative economies. Archive extraction, endpoints, log/linear scales, year colours, and graph coordinates were independently checked. Forecast rows from 2015 onward are excluded. Each graph contains a visible source reference and SVG links to the exact CSV inputs.
+
+A material source-version label discrepancy was found before publication: the OWID archive is titled PWT10.0, while the matched GDP/person and hours values agree with CRAN-distributed PWT10.01. The figures and [provenance](/data/fertility-economy/provenance.json) now state both facts. This cross-distribution comparison does not establish original-provider identity or a causal fertility effect; original releases, revisions, reuse terms and live deployment remain separate checks.

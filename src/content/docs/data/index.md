@@ -3,6 +3,7 @@ title: Data sources
 description: Official data providers and practical measurement guidance.
 ---
 
+- [Fertility, GDP, and working-hours graphs](/data/fertility-charts/): same-year country paths, sources on every figure, and downloadable data.
 - [Fertility data and definitions](/data/fertility/): birth rates, period/cohort fertility, intentions, GDP, and parental time-use sources.
 
 - [Hours worked around the world](/data/working-hours/): a 66-economy 2019 table, historical comparisons, downloadable data, and source links.

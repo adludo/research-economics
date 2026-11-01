@@ -1,0 +1,19 @@
+{
+  "scripts/plot-fertility-economy.py": true,
+  "scripts/collate-fertility-economy.py": true,
+  "src/content/docs/data/fertility-charts.md": true,
+  "public/charts/fertility-economy/fertility-gdp.svg": true,
+  "public/charts/fertility-economy/fertility-hours.png": true,
+  "public/charts/fertility-economy/fertility-gdp.png": true,
+  "public/charts/fertility-economy/fertility-hours.svg": true,
+  "public/charts/fertility-economy/country-time-paths.png": true,
+  "public/charts/fertility-economy/country-time-paths.svg": true,
+  "public/data/fertility-economy/provenance.json": true,
+  "public/data/fertility-economy/gapminder-metadata.json": true,
+  "public/data/fertility-economy/matched-country-years.csv": true,
+  "public/data/fertility-economy/pwt-metadata.json": true,
+  "public/data/fertility-economy/pwt-vintage-check.json": true,
+  "public/data/fertility-economy/country-endpoints.csv": true,
+  "public/data/fertility-economy/pwt10.01-codebook.Rd": true,
+  "public/data/fertility-economy/selected-country-years.csv": true
+}

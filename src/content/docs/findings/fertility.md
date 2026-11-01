@@ -42,3 +42,7 @@ A reduction in paid work may fund childcare, unpaid household work, sleep, or re
 4. Do changes in skills, employment, or age structure explain any GDP response, rather than an assumed direct productivity effect?
 
 These are research questions, not findings already established by this collection. [Choose suitable data and outcomes](/data/fertility/).
+
+## Descriptive country graphs
+
+[Compare fertility, GDP per person, and working hours across years](/data/fertility-charts/). The graphs use archived historical data and do not replicate the causal or structural findings above.

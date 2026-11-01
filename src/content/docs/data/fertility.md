@@ -3,6 +3,8 @@ title: "Fertility data sources"
 description: "Birth-rate and fertility measures, GDP and time-use sources, and reproducible research design."
 ---
 
+For matched country-year data and graphs, see [Fertility, GDP, and working hours](/data/fertility-charts/). This source guide does not itself contain demographic observations.
+
 ## Choose the outcome before comparing countries
 
 | Measure | Meaning | Main interpretation limit |
@@ -17,7 +19,7 @@ These are measurement guidance, not newly downloaded estimates. Provider-specifi
 
 ## Demographic and macroeconomic access routes
 
-Official endpoints below are suggested routes for a new project. Their current versions, access rules, and documentation could not be retrieved in this environment. No demographic observations have been downloaded for this collection.
+Official endpoints below are suggested routes for a new project. Their current versions, access rules, and documentation could not be retrieved in this environment. This page provides access guidance; the separate [country-graph collection](/data/fertility-charts/) contains retrieved archived observations and documents its exact sources.
 
 | Source | Useful measures | Appropriate use and limits |
 | --- | --- | --- |
