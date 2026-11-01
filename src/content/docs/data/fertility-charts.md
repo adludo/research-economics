@@ -77,7 +77,7 @@ South Africa starts in 2001 because the common panel requires working-hours cove
 
 In the selected historical data, South Korea and China both end with lower fertility, but annual worker hours fall in South Korea and rise in China. National hours alone therefore do not provide a common explanation of these two paths.
 
-These graphs illustrate paths, not causal effects. They do not replicate the [fertility papers](/papers/fertility/) or establish that reducing working hours changes births. Age structure, birth timing, education, childcare policy, women's employment, income, and social norms may all affect the relationship.
+These graphs illustrate paths, not causal effects. The [statistics guide](/guides/causality/) explains the comparison groups and assumptions needed to go further. They do not replicate the [fertility papers](/papers/fertility/) or establish that reducing working hours changes births. Age structure, birth timing, education, childcare policy, women's employment, income, and social norms may all affect the relationship.
 
 In particular, [the modern fertility review](/papers/fertility/#doepke-et-al-2023-a-new-era-of-fertility-research) cautions against treating the historical income–fertility pattern as universal. The [household-bargaining paper](/papers/fertility/#doepke-and-kindermann-2019-bargaining-over-babies) concerns the distribution of childcare burdens, which is not measured by average national worker hours.
 

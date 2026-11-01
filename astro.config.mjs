@@ -10,6 +10,7 @@ export default defineConfig({
     sidebar: [
       { label: 'Overview', link: '/' },
       { label: 'Glossary', link: '/glossary/' },
+      { label: 'Statistics and causality', link: '/guides/causality/' },
       { label: 'Papers', items: [
         { label: 'Paper register', link: '/papers/' },
         { label: 'Birth rates and economic development', link: '/papers/fertility/' },
