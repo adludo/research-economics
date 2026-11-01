@@ -1,9 +1,11 @@
 ---
 title: Papers
-description: A curated bibliography on leisure and trade restrictions.
+description: A curated bibliography on fertility, leisure, productivity, and trade.
 ---
 
 ## Research collections
+
+- [Birth rates, growth, and time allocation](/papers/fertility/): six papers and a review on fertility, development, human capital, work and childcare, checked against author-hosted copies.
 
 - [Leisure, GDP, and productivity](/papers/leisure-productivity/): seven additional papers on cross-country working hours, institutions, welfare accounting, fatigue, and sleep.
 - [Leisure and time allocation](/papers/leisure/): eight core papers, plus a review, on opportunity costs, household work, leisure trends, unemployment, and technology.

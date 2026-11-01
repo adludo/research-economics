@@ -12,12 +12,15 @@ export default defineConfig({
       { label: 'Glossary', link: '/glossary/' },
       { label: 'Papers', items: [
         { label: 'Paper register', link: '/papers/' },
+        { label: 'Birth rates and economic development', link: '/papers/fertility/' },
         { label: 'Leisure and time allocation', link: '/papers/leisure/' },
         { label: 'Leisure, GDP, and productivity', link: '/papers/leisure-productivity/' },
         { label: 'Trade and income', link: '/papers/trade/' },
       ] },
       { label: 'Data sources', items: [
         { label: 'Data overview', link: '/data/' },
+        { label: 'Fertility data and definitions', link: '/data/fertility/' },
+        { label: 'Fertility, GDP, and hours graphs', link: '/data/fertility-charts/' },
         { label: 'Hours worked around the world', link: '/data/working-hours/' },
         { label: 'Leisure data', link: '/data/leisure/' },
         { label: 'Leisure and productivity data', link: '/data/leisure-productivity/' },
@@ -25,6 +28,7 @@ export default defineConfig({
       ] },
       { label: 'Key findings', items: [
         { label: 'Evidence overview', link: '/findings/' },
+        { label: 'Fertility findings', link: '/findings/fertility/' },
         { label: 'Leisure findings', link: '/findings/leisure/' },
         { label: 'Leisure and productivity findings', link: '/findings/leisure-productivity/' },
         { label: 'Trade findings', link: '/findings/trade/' },

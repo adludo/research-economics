@@ -29,8 +29,9 @@ Documentation lives in `src/content/docs/`. Edit the section indexes or add indi
 
 The wiki includes a glossary of key economic and research terms at `/glossary/`.
 
-The wiki documents 22 core papers and one review, combining the supplied research discussion with a further reading guide:
+The wiki documents 28 core papers and two reviews, combining the supplied research discussion with a further reading guide:
 
+- **Fertility, growth, and time allocation:** six papers and a review, with author-hosted source copies, page locators, data guidance, and independent research-auditor review.
 - **Leisure and time allocation:** theory, historical trends, home production, recessions, unemployment, and leisure technology.
 - **Leisure, GDP, and productivity:** seven additional papers on hours and development, taxation, institutions, welfare beyond GDP, fatigue, and sleep.
 - **Closed economies and trade:** historical autarky/opening, growth evidence, identification critiques, natural experiments, and welfare counterfactuals.
@@ -50,3 +51,15 @@ The repository defines a read-only Codex subagent, `research_auditor`, in `.code
 ## Current audit status
 
 The merged wiki includes an audit-status page at `/guides/audit-status/`. The [main-branch audit report](docs/audits/2026-10-31-main-audit.md) records verified archive extraction, calculations and graph geometry separately from outstanding primary-paper, original-data and reuse checks. The full wiki is not yet primary-source verified.
+
+## Fertility research sources
+
+The fertility collection uses seven inspected author-hosted publication copies, with pinned source URLs and hashes in `public/data/fertility/sources.json`. The pages distinguish source-supported summaries from empirical replication and from independent publisher/DOI verification. It adds data-access guidance, not a new fertility dataset or causal graph.
+
+The [fertility source-reading audit](docs/audits/2026-11-01-fertility-review.md) records which claims were checked and which publisher/data/replication checks remain outstanding.
+
+## Fertility, GDP, and hours graphs
+
+`/data/fertility-charts/` links period fertility with real GDP per person and market working hours across matching country-years, 1970–2014. Three source-referenced SVG/PNG charts and downloadable extracts are included. Forecast fertility rows from 2015 onward are excluded. Run `python3 scripts/collate-fertility-economy.py` and `python3 scripts/plot-fertility-economy.py` to regenerate them. The figures are descriptive comparisons, not causal estimates or paper replications.
+
+The [fertility/GDP/hours graph audit](docs/audits/2026-11-01-fertility-charts.md) records the independent data and geometry checks, the corrected PWT archive-version attribution, and remaining source limits.

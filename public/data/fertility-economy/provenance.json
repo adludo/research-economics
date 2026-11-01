@@ -1,0 +1,70 @@
+{
+  "retrieved_date_utc": "2026-11-01",
+  "sources": {
+    "gapminder.csv": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Fertility%20rate%20%28Complete%20Gapminder%2C%20v12%29%20%282017%29/Fertility%20rate%20%28Complete%20Gapminder%2C%20v12%29%20%282017%29.csv",
+      "sha256": "75495635c5dd08d7b7df7f192b0567f9f917eafbce45084ea9a73ee81de45527"
+    },
+    "gapminder.json": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Fertility%20rate%20%28Complete%20Gapminder%2C%20v12%29%20%282017%29/datapackage.json",
+      "sha256": "b07f8bcb818f6973ff74314200728dde2d941f88bd569a91b051396826bd84c8"
+    },
+    "pwt.csv": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Penn%20World%20Table%20version%2010.0/Penn%20World%20Table%20version%2010.0.csv",
+      "sha256": "0ecd5c71e0f1dfdbeecd624f7c61875b5fa64094e639cccf6304b2fd181be505"
+    },
+    "pwt.json": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Penn%20World%20Table%20version%2010.0/datapackage.json",
+      "sha256": "79bcd8893b84bbdc00cea3465c7d1710301de364b526a4d139e2d8469e4d1a57"
+    },
+    "pwt-codebook.Rd": {
+      "url": "https://raw.githubusercontent.com/cran/pwt10/957b298fd706a567af96ccb1663ad68d5e5d07ba/man/pwt10.01.Rd",
+      "sha256": "1423777c6f945858bad194f86d8791c4ac16e5dec0ef078b893fb13ac35f35a4"
+    }
+  },
+  "vintage_note": "OWID archive title/metadata say PWT10.0; matched GDP/person and hours values agree with CRAN-distributed PWT10.01. See pwt-vintage-check.json; no original-provider identity is asserted.",
+  "period": [
+    1970,
+    2014
+  ],
+  "forecast_exclusion": "Gapminder v12 metadata classifies 2015 onward as UN forecasts; all such rows excluded.",
+  "measure": "TFR, births per woman implied by age-specific period rates; not a count of births or crude birth rate.",
+  "gdp": "OWID GDP (expenditure, multiple price benchmarks) / Population; expenditure-side real GDP per person, 2017 PPP international dollars. Not GDP per hour or TFP.",
+  "hours": "PWT average annual market hours per worker/person engaged; not leisure or unpaid care.",
+  "join": "Exact OWID Entity name and calendar Year, no aliases; require all three measures even for GDP-only comparisons.",
+  "transformations": [
+    "1970–2014 only",
+    "No imputation, interpolation, extrapolation or country weighting added",
+    "Positive finite values only; exclude incomplete rows; retain full float precision in CSV",
+    "Gapminder historical series itself includes interpolated estimates; original inputs are not all annual observations"
+  ],
+  "coverage": {
+    "matched_rows": 2517,
+    "economies": 67,
+    "selected_rows": 509,
+    "selected_economies": 12,
+    "excluded_pwt_rows": {
+      "fertility": 1061,
+      "gdp_population_or_hours": 5780
+    }
+  },
+  "selection": [
+    "Australia",
+    "United States",
+    "United Kingdom",
+    "France",
+    "Germany",
+    "Japan",
+    "South Korea",
+    "China",
+    "India",
+    "Brazil",
+    "Mexico",
+    "South Africa"
+  ],
+  "limits": [
+    "Archived releases, not current-year values",
+    "No causal inference or paper-estimate replication",
+    "Original-provider records, corrections, later revisions and third-party reuse terms remain to be checked"
+  ]
+}

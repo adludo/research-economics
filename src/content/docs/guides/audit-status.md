@@ -5,7 +5,7 @@ description: What has been verified in the merged wiki, and what still needs pri
 
 **Audit date: 31 October 2026 (UTC).** The independent research auditors checked `main` at commit `68eb30f465deecfa99d098b682f396013d91deb3`, including the merged working-hours graphs and glossary.
 
-**Result:** The working-hours extracts, calculations and graphs match the pinned archived data. The paper summaries still require primary-source verification. This is not a scientific certification of the full wiki.
+**Result:** The working-hours extracts, calculations and graphs match the pinned archived data. The original 23 paper references and summaries still require primary-source verification; the later [fertility collection](#fertility-collection) has a separate source-reading status. This is not a scientific certification of the full wiki.
 
 ## Verified
 
@@ -26,7 +26,7 @@ For example, the archived data support the chart's 1990–2019 changes of **−2
 
 ## Still needs checking
 
-- **Paper identities and versions:** all 22 core papers and one review still need independent checks against DOI, publisher or official working-paper records.
+- **Paper identities and versions:** the 22 core papers and one review in that original audit still need independent checks against DOI, publisher or official working-paper records.
 - **Findings:** numerical and qualitative summaries need full-text checks and precise page/table/figure references. Read working-paper and final versions separately where estimates may differ.
 - **Original data:** compare the archived PWT and historical series with original release files, paper tables and population definitions.
 - **Methods and causal claims:** reproduce the papers' actual analyses before claiming their estimates have been replicated. Reproducing descriptive graphs is not the same task.
@@ -44,3 +44,15 @@ The audit clarified that “workers” and “employed persons” can use the sa
 The [detailed report](https://github.com/adludo/research-economics/blob/main/docs/audits/2026-10-31-main-audit.md) records the exact scope, methods, limitations, [source-access results](https://github.com/adludo/research-economics/blob/main/docs/audits/2026-10-31-main-source-access.json), and [reproduction comparison](https://github.com/adludo/research-economics/blob/main/docs/audits/2026-10-31-main-reproduction.json).
 
 Complete the primary-source checks once source access is available. Re-audit any changes to data, country selection, date ranges, calculations or plotting code. See [source notes](/guides/sources/) for the collection's provenance.
+
+## Fertility collection
+
+The later fertility extension adds six research papers and one review. Their identities and selected findings were checked against inspected author-hosted publication copies, with page locators and [pinned source hashes](/data/fertility/sources.json). This is a stronger source-reading status than the original discussion-based collection, whose historical audit above remains unchanged.
+
+Independent research auditors checked the new summaries and page locators against those copies; no material contradiction was found in the reviewed claims. Publisher/DOI records, corrections/retractions, original data, model/empirical replication, and current demographic-provider documentation remain unchecked or inaccessible. The collection does not establish a causal effect of leisure on births. The [paper register](/papers/fertility/) states each design and its limits.
+
+## Fertility, GDP, and working-hours graphs
+
+The [new graph collection](/data/fertility-charts/) has a separate data audit: 2,517 same-year complete records across 67 economies, with 509 records plotted for 12 illustrative economies. Archive extraction, endpoints, log/linear scales, year colours, and graph coordinates were independently checked. Forecast rows from 2015 onward are excluded. Each graph contains a visible source reference and SVG links to the exact CSV inputs.
+
+A material source-version label discrepancy was found before publication: the OWID archive is titled PWT10.0, while the matched GDP/person and hours values agree with CRAN-distributed PWT10.01. The figures and [provenance](/data/fertility-economy/provenance.json) now state both facts. This cross-distribution comparison does not establish original-provider identity or a causal fertility effect; original releases, revisions, reuse terms and live deployment remain separate checks.

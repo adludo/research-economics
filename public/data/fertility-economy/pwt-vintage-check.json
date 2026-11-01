@@ -1,0 +1,31 @@
+{
+  "performed_by": "main agent, all matched rows; independent auditor separately checked selected rows",
+  "interpretation": "OWID archive is titled PWT10.0; all matched GDP/person and hours values agree with CRAN-distributed PWT10.01, not necessarily with PWT10.0. This is a distributed-copy comparison, not an official-provider retrieval.",
+  "cran_revision": "957b298fd706a567af96ccb1663ad68d5e5d07ba",
+  "sources": {
+    "10.0": {
+      "url": "https://raw.githubusercontent.com/cran/pwt10/957b298fd706a567af96ccb1663ad68d5e5d07ba/data/pwt10.0.rda",
+      "sha256": "1e51143c37a726c745e4655a460481be93ed36a20243e5e671bd4160d93c35f6"
+    },
+    "10.01": {
+      "url": "https://raw.githubusercontent.com/cran/pwt10/957b298fd706a567af96ccb1663ad68d5e5d07ba/data/pwt10.01.rda",
+      "sha256": "6d9e028a69669e1550d6dea48ae8383bf0b629af9467fc826d2ed9ab222ead1a"
+    }
+  },
+  "matched_rows_checked": 2517,
+  "economies": 67,
+  "pwt_10_01_mismatches": 0,
+  "pwt_10_0_gdp_mismatches": 2517,
+  "maximum_absolute_gdp_difference_vs_10_01": 1.4551915228366852e-11,
+  "maximum_absolute_hours_difference_vs_10_01": 9.094947017729282e-13,
+  "tolerance": "relative 1e-10",
+  "validation_aliases_only": {
+    "Hong Kong": "China, Hong Kong SAR",
+    "Russia": "Russian Federation",
+    "South Korea": "Republic of Korea",
+    "United States": "United States of America",
+    "Venezuela": "Venezuela (Bolivarian Republic of)",
+    "Vietnam": "Viet Nam"
+  },
+  "notes": "Alias mapping is used only for this external cross-check; graph input join uses unchanged exact OWID names. No values substituted. R package million-unit GDP/pop ratio compared directly with OWID absolute-unit ratio."
+}
