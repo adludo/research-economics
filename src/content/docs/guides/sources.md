@@ -55,3 +55,7 @@ The paper register includes printed-page and PDF-page locators. Publication-copy
 The later graph collection uses same-country, same-year historical estimates from 1970–2014. Fertility comes from Gapminder v12 via the pinned OWID archive; forecasts from 2015 onward are excluded. GDP, population, and hours come from the OWID PWT archive. Its folder/metadata say “10.0”, but the matched values agree with CRAN-distributed PWT10.01 rather than 10.0; this discrepancy is disclosed on every figure and in the [comparison record](/data/fertility-economy/pwt-vintage-check.json). Original metadata and retrieval URLs are preserved.
 
 This is descriptive data analysis, not replication of the fertility papers. It uses TFR rather than counts of births, and does not treat market hours as leisure or GDP per person as hourly productivity.
+
+## Leisure and trade graph additions
+
+The leisure, leisure/productivity and trade data pages now include frozen-archive graphs and CSV extracts. US residual leisure and Norwegian daily leisure are kept separate. Productivity uses output GDP divided by total market worker hours; exports/GDP is interpreted from the archive's documented export formula despite its conflicting column label. Every figure contains retrieval references. These additions check aggregate archive values and do not verify the original papers' estimates or establish causal effects.

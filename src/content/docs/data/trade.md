@@ -5,6 +5,29 @@ description: Sources for output, income, trade flows, policy restrictions, and h
 
 Use separate measures for **economic performance**, **trade exposure**, and **policy restrictions**. Low trade/GDP alone does not establish that a government closed its economy.
 
+## Trade and GDP graphs
+
+### Merchandise exports and real GDP per person
+
+![Eight country panels follow merchandise export shares and real GDP per person through 1970–2014; calendar-year colours identify each path.](/charts/topic-graphs/trade-income.svg)
+
+[Full-size SVG](/charts/topic-graphs/trade-income.svg) · [PNG](/charts/topic-graphs/trade-income.png).
+
+### Separate country time paths
+
+![Separate rows for export shares and real GDP per person in the United States, France, China and India, with common scales within rows.](/charts/topic-graphs/trade-time-paths.svg)
+
+[Full-size SVG](/charts/topic-graphs/trade-time-paths.svg) · [PNG](/charts/topic-graphs/trade-time-paths.png) · [360 plotted country-years](/data/topic-graphs/trade-income.csv).
+
+The first figure includes Australia, the United States, the United Kingdom, France, Japan, China, India and Brazil. All have 45 matched years, 1970–2014. The second highlights four of those examples. This is an illustrative selection, not a world average. GDP axes are logarithmic; export-share axes are linear. Every figure includes a retrieval reference and SVG links to source CSVs.
+
+**What “trade” means here:** the CEPII-based archive column says “total merchandise trade”, but the dataset title and documented formula describe **merchandise exports divided by GDP**. We follow that explicit formula and preserve the conflicting original label in the [metadata](/data/topic-graphs/trade.json). We do not present the series as exports plus imports, including services, or a measure of policy liberalisation. Resolving its exact agreement with the original CEPII release remains pending.
+
+The supplied export/GDP percentage is copied unchanged. The metadata describes the underlying trade flows in current British pounds; the GDP denominator's construction remains unverified here. It is **not recomputed with PWT PPP GDP**. The separate horizontal/time-series income measure is PWT expenditure-side real GDP per person in 2017 PPP international dollars. This pairs different economic statistics for the same year; it does not turn their co-movement into a causal estimate.
+
+The PWT archive is labelled10.0, while the earlier cross-distribution comparison identified values matching CRAN10.01. The figure footers and [provenance](/data/topic-graphs/provenance.json) disclose that version issue. The new inputs are checked against the distributed copy where available. [Original CSV URLs and hashes](/data/topic-graphs/provenance.json) · [Reproduction and limits](#graph-reproduction).
+
+
 ## World Development Indicators (WDI)
 
 **Sources:** [World Bank WDI](https://databank.worldbank.org/source/world-development-indicators) · [Indicator catalogue](https://data.worldbank.org/indicator).
@@ -73,3 +96,16 @@ For [the Suez closure study](/papers/trade/#feyrer-2021-the-suez-canal-natural-e
 3. Match policy timing to comparable outcome data and record the data vintage.
 4. Identify the counterfactual; before/after growth differences alone do not isolate trade reform.
 5. Report robustness to institutions, contemporaneous reforms, sample composition, and measurement choices.
+
+## Graph reproduction
+
+```sh
+python3 scripts/collate-topic-graphs.py
+python3 -m pip install -r scripts/requirements-charts.txt
+python3 scripts/plot-topic-graphs.py
+npm run build
+```
+
+Sources are frozen at OWID revision `6155d4ca1ea14ef30e753010a25521eeb416e8a2`. The collation script verifies eight input checksums, retains the source metadata, and writes the downloadable extracts. Plotting uses only those extracts. SVG/PNG files are committed, so Vercel needs no Python runtime.
+
+Original provider records, current revisions, source assumptions and reuse terms remain separate checks. These graphs do not replicate the papers' models or establish causality.

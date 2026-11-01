@@ -5,6 +5,29 @@ description: Time-use diaries, historical series, and international comparison s
 
 This guide describes commonly used sources from the discussion. It is not a claim that every listed paper used every dataset. Follow each paper's methods and replication documentation for its exact vintage and sample.
 
+## Leisure graphs
+
+These two sources actually report leisure; neither is calculated as “168 hours minus paid work.” Their populations and definitions differ, so they are shown separately.
+
+### United States: historical residual leisure by age
+
+![Six separate age-group panels show historical US residual leisure estimates in weekly hours, 1900–2005.](/charts/topic-graphs/us-leisure.svg)
+
+[Full-size SVG](/charts/topic-graphs/us-leisure.svg) · [PNG](/charts/topic-graphs/us-leisure.png) · [72 plotted observations](/data/topic-graphs/us-leisure.csv) · [Source metadata](/data/topic-graphs/us.json).
+
+Source: Ramey and Francis (2009), distributed in the pinned OWID archive. Leisure is residual time after work, school, home production, commuting and personal care. Archived assumptions include commuting equal to 10% of work/school hours and personal care fixed at 77 hours/week. These are reconstructed estimates, not annual diary observations. The age14+ aggregate overlaps the other groups; do not sum them.
+
+### Norway: leisure on an average day
+
+![Norway leisure minutes per average day for the archived all-sex, female and male series in five survey years, 1970–2010.](/charts/topic-graphs/norway-leisure.svg)
+
+[Full-size SVG](/charts/topic-graphs/norway-leisure.svg) · [PNG](/charts/topic-graphs/norway-leisure.png) · [15 sex-year observations](/data/topic-graphs/norway-leisure.csv) · [Source metadata](/data/topic-graphs/norway.json).
+
+Source: Statistics Norway via OWID. Leisure includes sport/outdoors, entertainment/culture, socialising, reading, television, other leisure and associated travel. The archive says activities are normalised to 1,440 minutes/day by distributing missing minutes across activities. We copy those values rather than applying another correction. Age coverage is not specified in the archived metadata; “all” identifies the all-sex series, not a verified all-age sample.
+
+These are two historical national collections, not a harmonised global leisure ranking. Lines connect published observations; intermediate years are not added. Both graphs carry retrieval references. [Exact CSV URLs, hashes and transformations](/data/topic-graphs/provenance.json) · [Reproduction and limits](#graph-reproduction).
+
+
 ## American Time Use Survey (ATUS)
 
 **Official sources:** [Bureau of Labor Statistics ATUS](https://www.bls.gov/tus/) · [Data files](https://www.bls.gov/tus/data.htm) · [Well-being module](https://www.bls.gov/tus/wbdatafiles.htm).
@@ -75,3 +98,16 @@ For [Ramey (2009)](/papers/leisure/#ramey-2009-home-production-over-the-twentiet
 | Emotional value of unemployment time | Relevant longitudinal study | Well-being measure, transitions, and actual panel access |
 
 Specify whether leisure includes **sleep, eating, travel, or childcare**, whether secondary activities count, and whether children, retirees, and unemployed people enter the population. Record both the time budget and the welfare interpretation.
+
+## Graph reproduction
+
+```sh
+python3 scripts/collate-topic-graphs.py
+python3 -m pip install -r scripts/requirements-charts.txt
+python3 scripts/plot-topic-graphs.py
+npm run build
+```
+
+Sources are frozen at OWID revision `6155d4ca1ea14ef30e753010a25521eeb416e8a2`. The collation script verifies eight input checksums, retains the source metadata, and writes the downloadable extracts. Plotting uses only those extracts. SVG/PNG files are committed, so Vercel needs no Python runtime.
+
+Original provider records, current revisions, source assumptions and reuse terms remain separate checks. These graphs do not replicate the papers' models or establish causality.
