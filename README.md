@@ -63,3 +63,9 @@ The [fertility source-reading audit](docs/audits/2026-11-01-fertility-review.md)
 `/data/fertility-charts/` links period fertility with real GDP per person and market working hours across matching country-years, 1970–2014. Three source-referenced SVG/PNG charts and downloadable extracts are included. Forecast fertility rows from 2015 onward are excluded. Run `python3 scripts/collate-fertility-economy.py` and `python3 scripts/plot-fertility-economy.py` to regenerate them. The figures are descriptive comparisons, not causal estimates or paper replications.
 
 The [fertility/GDP/hours graph audit](docs/audits/2026-11-01-fertility-charts.md) records the independent data and geometry checks, the corrected PWT archive-version attribution, and remaining source limits.
+
+## Statistics guide
+
+`/guides/causality/` explains correlation versus causation, counterfactuals, randomised experiments, adjustment, difference-in-differences, discontinuity designs, instruments, and statistical uncertainty. It includes a labelled hypothetical example and pinned teaching references.
+
+The [causality-guide audit](docs/audits/2026-11-01-causality-guide.md) records independent methodological review, corrections, and source-reading limits.

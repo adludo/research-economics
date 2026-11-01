@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://mixtape.scunning.com/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]
