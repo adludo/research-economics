@@ -1,0 +1,13 @@
+code,country,gdp_tfr_first,gdp_tfr_last,gdp_tfr_years,hours_first,hours_last,hours_years,hours_at_last_year,hours_plot_included
+aus,Australia,1990,2024,35,2000,2020,21,32.29,False
+usa,United States,1990,2024,35,2003,2024,22,37.56,True
+gbr,United Kingdom,1990,2024,35,2000,2024,25,35.08,True
+fra,France,1990,2024,35,2000,2024,25,35.49,True
+deu,Germany,1990,2024,35,2000,2024,25,33.27,True
+jpn,Japan,1990,2024,35,2009,2020,11,36.6,False
+kor,South Korea,1990,2024,35,2000,2024,25,37.88,True
+chn,China,1990,2024,35,2005,2016,11,46.1,False
+ind,India,1990,2024,35,2018,2024,7,45.72,True
+bra,Brazil,1990,2024,35,2012,2024,13,38.86,True
+mex,Mexico,1990,2024,35,2002,2024,23,42.19,True
+zaf,South Africa,1990,2024,35,2000,2024,25,42.39,True

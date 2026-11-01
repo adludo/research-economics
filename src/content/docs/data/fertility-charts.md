@@ -3,6 +3,11 @@ title: Fertility, GDP, and working-hours graphs
 description: Matched country-year graphs linking fertility with GDP per person and annual market working hours.
 ---
 
+:::tip[Newer data through 2024]
+See the [recent fertility, GDP, and working-hours graphs](/data/recent-fertility-hours/) for newer World Bank and ILOSTAT estimates. GDP uses a different PPP base, and hours are weekly rather than annual. The page explains coverage and comparability.
+:::
+
+
 ## Measures and scope
 
 These graphs compare **period total fertility rate (TFR, births per woman)** with **real GDP per person** and **annual hours worked per worker**. TFR is not a count of babies, a crude birth rate, or completed family size. GDP per person is not hourly productivity, and market hours are not leisure.

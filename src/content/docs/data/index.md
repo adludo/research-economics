@@ -3,6 +3,7 @@ title: Data sources
 description: Official data providers and practical measurement guidance.
 ---
 
+- [Recent fertility, GDP, and working-hours graphs](/data/recent-fertility-hours/): World Bank and ILOSTAT estimates through 2024, coverage tables, and downloads.
 - [Fertility, GDP, and working-hours graphs](/data/fertility-charts/): same-year country paths, sources on every figure, and downloadable data.
 - [Fertility data and definitions](/data/fertility/): birth rates, period/cohort fertility, intentions, GDP, and parental time-use sources.
 

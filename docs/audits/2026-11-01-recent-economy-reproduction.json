@@ -1,0 +1,98 @@
+{
+  "date_utc": "2026-11-01",
+  "method": "Parent-run isolated reproduction; final collator freshly downloaded and verified all 22 pinned source payloads, then plotting ran offline with normalized LF CSVs and trimmed SVG line whitespace. Auditor independently reviews source arithmetic and graphics.",
+  "generated_outputs": 14,
+  "comparison_files": 18,
+  "results": [
+    {
+      "path": "public/data/recent-economy/fertility-hours.csv",
+      "sha256": "e92a9b22cddb4c85be77269cf72c144c91c60203b643cebc0efb2be213a9f412",
+      "identical": true
+    },
+    {
+      "path": "public/data/recent-economy/fertility-gdp.csv",
+      "sha256": "cc84828fbdee5ecebd3db37a83299a44023ed9a047578ae6c1321ef62a8f3fe7",
+      "identical": true
+    },
+    {
+      "path": "public/data/recent-economy/sources.json",
+      "sha256": "ffc7614809fbe70e371de0a12dbdaa6c985ccfef0d5f30e47080e39073e460a7",
+      "identical": true
+    },
+    {
+      "path": "public/data/recent-economy/country-years.csv",
+      "sha256": "610e40adeb8e77dce4dc6a53f0fcdc35f5e19dcd88b737c77744d27c4b3eb9a1",
+      "identical": true
+    },
+    {
+      "path": "public/data/recent-economy/coverage.csv",
+      "sha256": "49c771a6c2ed02e86f2e5765e947dc155dadbc28d20660cca2e34ce6d2f5d83a",
+      "identical": true
+    },
+    {
+      "path": "public/data/recent-economy/indicator-metadata.json",
+      "sha256": "67fcb71e7ea09ea6e5dfffa9c0da6ed10fb62d0030f45687115197708eccb7e1",
+      "identical": true
+    },
+    {
+      "path": "public/data/recent-economy/provenance.json",
+      "sha256": "0821cd7470c33c05945e8ded67b24c8595bc5781ea00dc3ca6114a1671b6d297",
+      "identical": true
+    },
+    {
+      "path": "public/charts/recent-economy/country-time-paths.svg",
+      "sha256": "bd65c3d02180b5d79546c06b8aeb2b2227b1f44da4bdfe91858bb209af4b083c",
+      "identical": true
+    },
+    {
+      "path": "public/charts/recent-economy/country-time-paths.png",
+      "sha256": "5354d9d08fc2971d03888034d5d78e2ca82629d3e11b7c80404727125bc052db",
+      "identical": true
+    },
+    {
+      "path": "public/charts/recent-economy/working-hours.svg",
+      "sha256": "7900a266043f9d6685fc4dd4ecb3beda30aadbd493b40b5cb8b27e7b16dfc565",
+      "identical": true
+    },
+    {
+      "path": "public/charts/recent-economy/fertility-hours.svg",
+      "sha256": "db1ceab5a0890d1d417d8e1bcec90af66e93d403cf724919e38467d67f043f01",
+      "identical": true
+    },
+    {
+      "path": "public/charts/recent-economy/fertility-gdp.png",
+      "sha256": "0df822eecca2e3642bfe9cef9f67e43ac04a95c0b1a1d9884577e00144d3961b",
+      "identical": true
+    },
+    {
+      "path": "public/charts/recent-economy/fertility-hours.png",
+      "sha256": "1a009387f056b65c720843188f6e94cb50127f153e6827789109b65172bf95b4",
+      "identical": true
+    },
+    {
+      "path": "public/charts/recent-economy/working-hours.png",
+      "sha256": "45b8dd4ca5b758caefa67ae0ef4442184a0259c67aefa1290674d87c7eefb203",
+      "identical": true
+    },
+    {
+      "path": "public/charts/recent-economy/fertility-gdp.svg",
+      "sha256": "bf10c64d9b8623b27726db69c9e0474b0a84904cc3910c44b1748ebc2061372d",
+      "identical": true
+    },
+    {
+      "path": "scripts/collate-recent-economy.py",
+      "sha256": "11ffe04e637d40dd231358617fde2c95384b07a523cebfb7f38b797f6bbfa74a",
+      "identical": true
+    },
+    {
+      "path": "scripts/plot-recent-economy.py",
+      "sha256": "b1ae5207b0f1e77d4024e1fdbe070d524568da20399d1c6c1f80a06d7cfc6bb6",
+      "identical": true
+    },
+    {
+      "path": "src/content/docs/data/recent-fertility-hours.md",
+      "sha256": "a51a00551680b43fa577926b28fbb51d22295474ea30e9fa61964489dc79bf21",
+      "identical": true
+    }
+  ]
+}
