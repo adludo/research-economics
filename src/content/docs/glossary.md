@@ -11,7 +11,7 @@ An economy with no international trade. Historical embargoes may approximate aut
 
 ## Causal effect
 
-The change in an outcome caused by a change in an input or policy, relative to what would otherwise have happened. A correlation alone does not establish causation: other factors or reverse causation may explain it. See [trade identification examples](/papers/trade/).
+The change in an outcome caused by a change in an input or policy, relative to what would otherwise have happened. See the [statistics and causality guide](/guides/causality/) for a worked example and research designs. A correlation alone does not establish causation: other factors or reverse causation may explain it. See [trade identification examples](/papers/trade/).
 
 ## Consumption-equivalent welfare
 
