@@ -74,3 +74,7 @@ The [leisure and trade graph audit](docs/audits/2026-11-01-topic-graphs.md) reco
 `/guides/causality/` explains correlation versus causation, counterfactuals, randomised experiments, adjustment, difference-in-differences, discontinuity designs, instruments, and statistical uncertainty. It includes a labelled hypothetical example and pinned teaching references.
 
 The [causality-guide audit](docs/audits/2026-11-01-causality-guide.md) records independent methodological review, corrections, and source-reading limits.
+
+## Recent fertility, GDP, and weekly hours
+
+The [recent-data guide](src/content/docs/data/recent-fertility-hours.md) adds four source-referenced figures with World Bank/ILOSTAT estimates through 2024. Regenerate them with `python3 scripts/collate-recent-economy.py` and `python3 scripts/plot-recent-economy.py` after installing `scripts/requirements-charts.txt`. The older annual-hours and fertility archives remain separate. See [the audit](docs/audits/2026-11-01-recent-economy.md) for verified and outstanding checks.

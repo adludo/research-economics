@@ -1,0 +1,191 @@
+code,country,year,tfr_births_per_woman,weekly_hours_per_employed_person
+usa,United States,2003,2.0475,38.31
+usa,United States,2004,2.0515,38.31
+usa,United States,2005,2.057,38.41
+usa,United States,2006,2.108,38.49
+usa,United States,2007,2.12,38.43
+usa,United States,2008,2.072,38.17
+usa,United States,2009,2.002,37.2
+usa,United States,2010,1.931,37.49
+usa,United States,2011,1.8945,37.62
+usa,United States,2012,1.8805,37.78
+usa,United States,2013,1.8575,37.93
+usa,United States,2014,1.8625,37.93
+usa,United States,2015,1.8435,37.9
+usa,United States,2016,1.8205,38.04
+usa,United States,2017,1.7655,38.02
+usa,United States,2018,1.7295,38.2
+usa,United States,2019,1.706,38.26
+usa,United States,2020,1.6415,37.67
+usa,United States,2021,1.664,38.06
+usa,United States,2022,1.6565,37.96
+usa,United States,2023,1.6165,37.8
+usa,United States,2024,1.6265,37.56
+gbr,United Kingdom,2000,1.64,35.85
+gbr,United Kingdom,2001,1.63,36.06
+gbr,United Kingdom,2002,1.63,35.79
+gbr,United Kingdom,2003,1.7,35.47
+gbr,United Kingdom,2004,1.75,35.46
+gbr,United Kingdom,2005,1.76,35.8
+gbr,United Kingdom,2006,1.82,35.72
+gbr,United Kingdom,2007,1.86,35.77
+gbr,United Kingdom,2008,1.91,35.52
+gbr,United Kingdom,2009,1.89,35.35
+gbr,United Kingdom,2010,1.92,35.23
+gbr,United Kingdom,2011,1.91,35.22
+gbr,United Kingdom,2012,1.92,35.36
+gbr,United Kingdom,2013,1.83,35.43
+gbr,United Kingdom,2014,1.81,35.59
+gbr,United Kingdom,2015,1.8,35.6
+gbr,United Kingdom,2016,1.79,35.71
+gbr,United Kingdom,2017,1.74,35.63
+gbr,United Kingdom,2018,1.68,35.46
+gbr,United Kingdom,2019,1.632,35.51
+gbr,United Kingdom,2020,1.571,35.19
+gbr,United Kingdom,2021,1.583,35.61
+gbr,United Kingdom,2022,1.56,35.19
+gbr,United Kingdom,2023,1.56,34.98
+gbr,United Kingdom,2024,1.551,35.08
+fra,France,2000,1.89,38.37
+fra,France,2001,1.9,38.06
+fra,France,2002,1.88,37.53
+fra,France,2003,1.89,36.75
+fra,France,2004,1.92,36.63
+fra,France,2005,1.94,36.76
+fra,France,2006,2.0,36.76
+fra,France,2007,1.98,36.74
+fra,France,2008,2.01,36.75
+fra,France,2009,2.0,36.47
+fra,France,2010,2.03,36.79
+fra,France,2011,2.01,36.81
+fra,France,2012,2.01,36.59
+fra,France,2013,1.99,36.0
+fra,France,2014,2.0,35.81
+fra,France,2015,1.96,35.89
+fra,France,2016,1.92,36.1
+fra,France,2017,1.89,36.0
+fra,France,2018,1.87,36.08
+fra,France,2019,1.86,36.05
+fra,France,2020,1.82,35.7
+fra,France,2021,1.83,35.69
+fra,France,2022,1.78,35.9
+fra,France,2023,1.66,35.66
+fra,France,2024,1.61,35.49
+deu,Germany,2000,1.38,37.94
+deu,Germany,2001,1.35,37.67
+deu,Germany,2002,1.34,37.33
+deu,Germany,2003,1.34,36.88
+deu,Germany,2004,1.36,36.88
+deu,Germany,2005,1.34,36.82
+deu,Germany,2006,1.33,36.02
+deu,Germany,2007,1.37,36.33
+deu,Germany,2008,1.38,35.85
+deu,Germany,2009,1.36,35.24
+deu,Germany,2010,1.39,35.44
+deu,Germany,2011,1.39,35.5
+deu,Germany,2012,1.41,35.44
+deu,Germany,2013,1.42,35.22
+deu,Germany,2014,1.47,35.26
+deu,Germany,2015,1.5,35.13
+deu,Germany,2016,1.6,35.19
+deu,Germany,2017,1.57,34.92
+deu,Germany,2018,1.57,34.87
+deu,Germany,2019,1.54,34.74
+deu,Germany,2020,1.53,33.9
+deu,Germany,2021,1.58,34.04
+deu,Germany,2022,1.455,33.94
+deu,Germany,2023,1.39,33.47
+deu,Germany,2024,1.36,33.27
+kor,South Korea,2000,1.48,50.72
+kor,South Korea,2001,1.309,50.61
+kor,South Korea,2002,1.178,50.06
+kor,South Korea,2003,1.191,49.29
+kor,South Korea,2004,1.164,48.78
+kor,South Korea,2005,1.085,48.2
+kor,South Korea,2006,1.132,48.03
+kor,South Korea,2007,1.259,47.3
+kor,South Korea,2008,1.192,46.28
+kor,South Korea,2009,1.149,46.13
+kor,South Korea,2010,1.226,45.37
+kor,South Korea,2011,1.244,44.17
+kor,South Korea,2012,1.297,44.92
+kor,South Korea,2013,1.187,43.38
+kor,South Korea,2014,1.205,44.11
+kor,South Korea,2015,1.239,43.94
+kor,South Korea,2016,1.172,43.32
+kor,South Korea,2017,1.052,43.06
+kor,South Korea,2018,0.977,41.84
+kor,South Korea,2019,0.918,40.99
+kor,South Korea,2020,0.837,39.9
+kor,South Korea,2021,0.808,39.24
+kor,South Korea,2022,0.778,38.58
+kor,South Korea,2023,0.721,39.09
+kor,South Korea,2024,0.748,37.88
+ind,India,2018,2.184,50.03
+ind,India,2019,2.12,50.01
+ind,India,2020,2.047,48.61
+ind,India,2021,2.014,47.69
+ind,India,2022,1.994,46.74
+ind,India,2023,1.975,45.82
+ind,India,2024,1.962,45.72
+bra,Brazil,2012,1.766,39.36
+bra,Brazil,2013,1.761,39.41
+bra,Brazil,2014,1.775,39.31
+bra,Brazil,2015,1.777,39.0
+bra,Brazil,2016,1.727,38.91
+bra,Brazil,2017,1.74,38.54
+bra,Brazil,2018,1.744,38.35
+bra,Brazil,2019,1.705,38.48
+bra,Brazil,2020,1.653,37.67
+bra,Brazil,2021,1.638,38.69
+bra,Brazil,2022,1.629,38.95
+bra,Brazil,2023,1.619,38.79
+bra,Brazil,2024,1.614,38.86
+mex,Mexico,2002,2.633,42.76
+mex,Mexico,2003,2.579,42.52
+mex,Mexico,2004,2.536,42.66
+mex,Mexico,2005,2.495,46.51
+mex,Mexico,2006,2.456,46.22
+mex,Mexico,2007,2.421,44.07
+mex,Mexico,2008,2.391,43.5
+mex,Mexico,2009,2.364,43.2
+mex,Mexico,2010,2.34,43.14
+mex,Mexico,2011,2.317,43.27
+mex,Mexico,2012,2.294,43.22
+mex,Mexico,2013,2.269,43.3
+mex,Mexico,2014,2.211,43.14
+mex,Mexico,2015,2.137,43.3
+mex,Mexico,2016,2.086,43.61
+mex,Mexico,2017,2.041,43.82
+mex,Mexico,2018,2.03,43.87
+mex,Mexico,2019,2.02,43.61
+mex,Mexico,2020,1.99,41.75
+mex,Mexico,2021,1.97,42.38
+mex,Mexico,2022,1.94,42.77
+mex,Mexico,2023,1.91,42.49
+mex,Mexico,2024,1.892,42.19
+zaf,South Africa,2000,2.413,46.82
+zaf,South Africa,2001,2.373,47.23
+zaf,South Africa,2002,2.324,47.3
+zaf,South Africa,2003,2.358,46.07
+zaf,South Africa,2004,2.436,46.45
+zaf,South Africa,2005,2.512,47.34
+zaf,South Africa,2006,2.548,45.7
+zaf,South Africa,2007,2.545,45.81
+zaf,South Africa,2008,2.679,44.68
+zaf,South Africa,2009,2.501,44.08
+zaf,South Africa,2010,2.445,43.88
+zaf,South Africa,2011,2.436,44.03
+zaf,South Africa,2012,2.447,43.6
+zaf,South Africa,2013,2.428,43.44
+zaf,South Africa,2014,2.424,43.39
+zaf,South Africa,2015,2.359,43.41
+zaf,South Africa,2016,2.261,43.28
+zaf,South Africa,2017,2.283,43.01
+zaf,South Africa,2018,2.27,42.86
+zaf,South Africa,2019,2.264,42.86
+zaf,South Africa,2020,2.257,42.28
+zaf,South Africa,2021,2.248,42.35
+zaf,South Africa,2022,2.227,42.55
+zaf,South Africa,2023,2.216,42.56
+zaf,South Africa,2024,2.205,42.39

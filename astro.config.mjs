@@ -21,7 +21,8 @@ export default defineConfig({
       { label: 'Data sources', items: [
         { label: 'Data overview', link: '/data/' },
         { label: 'Fertility data and definitions', link: '/data/fertility/' },
-        { label: 'Fertility, GDP, and hours graphs', link: '/data/fertility-charts/' },
+        { label: 'Recent fertility, GDP, and hours', link: '/data/recent-fertility-hours/' },
+        { label: 'Historical fertility, GDP, and hours', link: '/data/fertility-charts/' },
         { label: 'Hours worked around the world', link: '/data/working-hours/' },
         { label: 'Leisure data', link: '/data/leisure/' },
         { label: 'Leisure and productivity data', link: '/data/leisure-productivity/' },

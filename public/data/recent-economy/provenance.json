@@ -1,0 +1,153 @@
+{
+  "retrieved_date_utc": "2026-11-01",
+  "sources": {
+    "fertility.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--world_bank--world_development_indicators/4252d91d988efc0f116d4fa48e92357b778729e5/datapoints/ddf--datapoints--sp_dyn_tfrt_in--by--economy--year.csv",
+      "sha256": "d58293a3e465befd1c9a8631a6c7b6ade02d49035dac3d6922d01500e2535618"
+    },
+    "gdp.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--world_bank--world_development_indicators/4252d91d988efc0f116d4fa48e92357b778729e5/datapoints/ddf--datapoints--ny_gdp_pcap_pp_kd--by--economy--year.csv",
+      "sha256": "6e0ae6530328cab99cfe2e76ecb0c35a47a1151ad227dfb944b05bacfe8716d3"
+    },
+    "wdi-metadata.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--world_bank--world_development_indicators/4252d91d988efc0f116d4fa48e92357b778729e5/ddf--concepts--continuous.csv",
+      "sha256": "4d2fafe7196db67d9a47f7f86968576f18cadb709a75cbdd5c4339532b559906"
+    },
+    "wdi-entities.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--world_bank--world_development_indicators/4252d91d988efc0f116d4fa48e92357b778729e5/ddf--entities--economy--country.csv",
+      "sha256": "4a949d4ff018be208a0e504a26cf6570c88820c79b4f35bd7d65d32e9c5071b5"
+    },
+    "wdi-processing.py": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--world_bank--world_development_indicators/4252d91d988efc0f116d4fa48e92357b778729e5/etl/scripts/etl.py",
+      "sha256": "b59178e0feaa48ab3d7a021914e31d45db6dca1008793de3fd6b3cb1b437a44c"
+    },
+    "ilo-sex.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/ddf--entities--sex.csv",
+      "sha256": "4082e092651c2010482e114e74222145e822c9e13c4c5f873df773ad7015cf6c"
+    },
+    "ilo-sector.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/ddf--entities--classif1.csv",
+      "sha256": "41837492e73eaaca8d66ecea16dc2c17354c9ac10ad940044aa44e6594af8f93"
+    },
+    "ilo-metadata.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/ddf--concepts--continuous.csv",
+      "sha256": "7690bcfcb4365446b54db882bde873aa2efcc18725d33de059f03f78be7101c6"
+    },
+    "ilo-source-selection.md": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/README.md",
+      "sha256": "fe30730cef2acddc6cccd63bf1d11f16cdddb06b84c1b24df6d68028423e98a5"
+    },
+    "ilo-processing.py": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/etl/scripts/etl_manual.py",
+      "sha256": "ade8e51b10f6e0bd0003914f689c12b5e5b86100d8349709cb9e4b41b0c09881"
+    },
+    "hours-aus.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/datapoints/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area--sex--classif1--time/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area-aus--sex--classif1--time.csv",
+      "sha256": "1771c36f7fa10995831cb20fa3af35a39041b57ebdd1cb147804f1af8235551d"
+    },
+    "hours-usa.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/datapoints/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area--sex--classif1--time/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area-usa--sex--classif1--time.csv",
+      "sha256": "9dfbf79098b2b9ec32c0d54234ba7d593a0e25f3a7f5d1d2c638aeb04eab4496"
+    },
+    "hours-gbr.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/datapoints/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area--sex--classif1--time/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area-gbr--sex--classif1--time.csv",
+      "sha256": "c1273767f41f5dbe63b4d8c99b88b5fb0992ff5c47b738a208539785f4b28fa0"
+    },
+    "hours-fra.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/datapoints/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area--sex--classif1--time/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area-fra--sex--classif1--time.csv",
+      "sha256": "f68eb3f9e9c723bdc348a6491f32a4563760b1186aa1bc46065c5066bccd81d5"
+    },
+    "hours-deu.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/datapoints/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area--sex--classif1--time/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area-deu--sex--classif1--time.csv",
+      "sha256": "637a88e45af797872269a9f210992eba9665687abe60ed317f22cde684018730"
+    },
+    "hours-jpn.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/datapoints/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area--sex--classif1--time/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area-jpn--sex--classif1--time.csv",
+      "sha256": "cc94baa0605ae023ded6957849d659a58ee393ae64e57494c2dbff8747749bad"
+    },
+    "hours-kor.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/datapoints/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area--sex--classif1--time/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area-kor--sex--classif1--time.csv",
+      "sha256": "2db6a857e065937b5593726afd9d843a32a0352d2b7d8bdb07aca1c917d03c25"
+    },
+    "hours-chn.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/datapoints/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area--sex--classif1--time/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area-chn--sex--classif1--time.csv",
+      "sha256": "59b20449c7522851d58096d9e25e6c5e558edfaac7c749271c4502188a859942"
+    },
+    "hours-ind.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/datapoints/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area--sex--classif1--time/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area-ind--sex--classif1--time.csv",
+      "sha256": "a148ff8549bb9a7daa3d40ba9deeac2d1b3c5686ced48f8a91eb53daac793bcc"
+    },
+    "hours-bra.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/datapoints/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area--sex--classif1--time/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area-bra--sex--classif1--time.csv",
+      "sha256": "0ed924159f78fbb99e4def83292ee71a5c32cbe3c22480675bcf3b20db2a233a"
+    },
+    "hours-mex.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/datapoints/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area--sex--classif1--time/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area-mex--sex--classif1--time.csv",
+      "sha256": "33c07655d477aeb406fcc91f9582962968ec1ff631f41d756225db7355be9589"
+    },
+    "hours-zaf.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--ilo--ilostat/c4dd68c687df8162835e1684cffec8723b19eee8/datapoints/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area--sex--classif1--time/ddf--datapoints--how_temp_sex_eco_nb--by--ref_area-zaf--sex--classif1--time.csv",
+      "sha256": "2837fe7c4939bc37aea30885ac55c16c7cf37f798d66b625c5cb65a5d3843459"
+    }
+  },
+  "period": [
+    1990,
+    2024
+  ],
+  "hours_period": [
+    2000,
+    2024
+  ],
+  "selection": {
+    "aus": "Australia",
+    "usa": "United States",
+    "gbr": "United Kingdom",
+    "fra": "France",
+    "deu": "Germany",
+    "jpn": "Japan",
+    "kor": "South Korea",
+    "chn": "China",
+    "ind": "India",
+    "bra": "Brazil",
+    "mex": "Mexico",
+    "zaf": "South Africa"
+  },
+  "recent_hours_codes": [
+    "usa",
+    "gbr",
+    "fra",
+    "deu",
+    "kor",
+    "ind",
+    "bra",
+    "mex",
+    "zaf"
+  ],
+  "source_revisions": {
+    "wdi": "4252d91d988efc0f116d4fa48e92357b778729e5 (2026-10-14)",
+    "ilo": "c4dd68c687df8162835e1684cffec8723b19eee8 (2026-02-27)"
+  },
+  "coverage": {
+    "country_year_rows": 420,
+    "fertility_gdp_pairs": 420,
+    "fertility_hours_pairs": 190,
+    "recent_hours_countries": 9
+  },
+  "join": "Exact lowercase country code + calendar year. Separate pairwise joins; GDP does not require hours.",
+  "transformations": [
+    "Copy published values; retain floating-point precision.",
+    "1990\u20132024 for GDP/fertility; 2000\u20132024 for weekly hours.",
+    "ILO SEX_T (total sex) and ECO_AGGREGATE_TOTAL (all economic activities).",
+    "Hours graphs select original countries with a 2024 hours value.",
+    "Missing values left empty; no interpolation, extrapolation, averaging, or weighting added.",
+    "Do not multiply weekly hours by 52 or splice with PWT annual hours."
+  ],
+  "limits": [
+    "WDI includes statistical estimates and interpolated/extrapolated fertility; exact WPP vintage and row flags absent.",
+    "ILO mirror selects one source per country using metadata ordering, then note_source ordering; original flags and source IDs are discarded.",
+    "Country survey definitions, age coverage and series breaks not harmonized by this project.",
+    "2024 cutoff excludes later rows but does not establish that every included figure is directly measured or forecast-free.",
+    "Original-provider API/file agreement and current revisions unverified due network restrictions.",
+    "GDP/person is not productivity; market hours are not leisure; associations are not causal."
+  ]
+}

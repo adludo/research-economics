@@ -3,6 +3,11 @@ title: "Fertility data sources"
 description: "Birth-rate and fertility measures, GDP and time-use sources, and reproducible research design."
 ---
 
+:::tip[Newer data through 2024]
+See the [recent fertility, GDP, and working-hours graphs](/data/recent-fertility-hours/) for newer World Bank and ILOSTAT estimates. GDP uses a different PPP base, and hours are weekly rather than annual. The page explains coverage and comparability.
+:::
+
+
 For matched country-year data and graphs, see [Fertility, GDP, and working hours](/data/fertility-charts/). This source guide does not itself contain demographic observations.
 
 ## Choose the outcome before comparing countries

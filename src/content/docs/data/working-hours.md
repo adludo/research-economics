@@ -3,6 +3,11 @@ title: Hours worked around the world
 description: Country working-hours data, historical comparisons, downloadable extracts, and source links.
 ---
 
+:::tip[Newer data through 2024]
+See the [recent fertility, GDP, and working-hours graphs](/data/recent-fertility-hours/) for newer World Bank and ILOSTAT estimates. GDP uses a different PPP base, and hours are weekly rather than annual. The page explains coverage and comparability.
+:::
+
+
 See the [audit status](/guides/audit-status/) for independently completed data/graph checks and the original-source verification still outstanding.
 
 ## What this collection measures
