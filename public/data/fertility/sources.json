@@ -1,0 +1,57 @@
+{
+  "collection": "Fertility, growth, and time allocation",
+  "retrieved_at_utc": "2026-11-01T02:33:14.075196+00:00",
+  "author_repository": "https://github.com/mdoepke/mdoepke.github.io",
+  "revision": "d25df3c1d402d07977615f81f7cbe39c8ba8bc37",
+  "status": "Author-hosted publication copies read; claims checked at the page locators listed in the wiki. Independent publisher-record verification, corrections, and replication remain outstanding.",
+  "files": [
+    {
+      "file": "Doepke_JEG_04.pdf",
+      "source_url": "https://raw.githubusercontent.com/mdoepke/mdoepke.github.io/d25df3c1d402d07977615f81f7cbe39c8ba8bc37/research/Doepke_JEG_04.pdf",
+      "sha256": "6b2ef105cf9207df1d40f727300ad6e246d10ab7c7ac6a4e6a9373fd201bb501",
+      "bytes": 485123
+    },
+    {
+      "file": "delaCroix_Doepke_AER_03.pdf",
+      "source_url": "https://raw.githubusercontent.com/mdoepke/mdoepke.github.io/d25df3c1d402d07977615f81f7cbe39c8ba8bc37/research/delaCroix_Doepke_AER_03.pdf",
+      "sha256": "dd8735e568c106da4c4b55c38cfb546531d10da7dedb157126fff3bc0b93bea0",
+      "bytes": 197519
+    },
+    {
+      "file": "Doepke_Hazan_Maoz_ReStud_15.pdf",
+      "source_url": "https://raw.githubusercontent.com/mdoepke/mdoepke.github.io/d25df3c1d402d07977615f81f7cbe39c8ba8bc37/research/Doepke_Hazan_Maoz_ReStud_15.pdf",
+      "sha256": "1b987266f73ab7db6151a2e9f8dd135e333307b619c703d461e778448e363fef",
+      "bytes": 1645364
+    },
+    {
+      "file": "Doepke_Kindermann_AER_2019.pdf",
+      "source_url": "https://raw.githubusercontent.com/mdoepke/mdoepke.github.io/d25df3c1d402d07977615f81f7cbe39c8ba8bc37/research/Doepke_Kindermann_AER_2019.pdf",
+      "sha256": "b125d2ff38494b69b44c36490d7c90b462a2fb0894a7bbf75dca31339492aef0",
+      "bytes": 1301005
+    },
+    {
+      "file": "Doepke_JPopEc_05.pdf",
+      "source_url": "https://raw.githubusercontent.com/mdoepke/mdoepke.github.io/d25df3c1d402d07977615f81f7cbe39c8ba8bc37/research/Doepke_JPopEc_05.pdf",
+      "sha256": "c1542b0ec80b017f6c07b21a1e52bff00bd21af6145cf96e17c2d17fa053540c",
+      "bytes": 434035
+    },
+    {
+      "file": "Doepke_Tertilt_AEAPP_2018.pdf",
+      "source_url": "https://raw.githubusercontent.com/mdoepke/mdoepke.github.io/d25df3c1d402d07977615f81f7cbe39c8ba8bc37/research/Doepke_Tertilt_AEAPP_2018.pdf",
+      "sha256": "fcb14d10866424378ca6e87b1fc3a604f7d676fab039c3a542f25277f942eff2",
+      "bytes": 554260
+    },
+    {
+      "file": "Doepke_Hannusch_Kindermann_Tertilt_Handbook_23.pdf",
+      "source_url": "https://raw.githubusercontent.com/mdoepke/mdoepke.github.io/d25df3c1d402d07977615f81f7cbe39c8ba8bc37/research/Doepke_Hannusch_Kindermann_Tertilt_Handbook_23.pdf",
+      "sha256": "99b41dfa3d9bc81dcf467a40103319115a2b1815653404bdb1d56a3f6fb7c2e6",
+      "bytes": 1479634
+    }
+  ],
+  "reuse": "PDFs are linked, not redistributed in this repository. Access does not establish a reuse licence.",
+  "author_bibliography": {
+    "url": "https://raw.githubusercontent.com/mdoepke/mdoepke.github.io/d25df3c1d402d07977615f81f7cbe39c8ba8bc37/research.html",
+    "sha256": "64714f87e6500d7ef2d001283d9c38253cb46fc488509be513d28968ec88927c",
+    "checked": "Matches the research bibliography used for publication-copy identity checks."
+  }
+}

@@ -27,18 +27,45 @@ Documentation lives in `src/content/docs/`. Edit the section indexes or add indi
 
 ## Research coverage
 
-The wiki documents 22 core papers and one review, combining the supplied research discussion with a further reading guide:
+The wiki includes a glossary of key economic and research terms at `/glossary/`.
 
+The wiki documents 28 core papers and two reviews, combining the supplied research discussion with a further reading guide:
+
+- **Fertility, growth, and time allocation:** six papers and a review, with author-hosted source copies, page locators, data guidance, and independent research-auditor review.
 - **Leisure and time allocation:** theory, historical trends, home production, recessions, unemployment, and leisure technology.
 - **Leisure, GDP, and productivity:** seven additional papers on hours and development, taxation, institutions, welfare beyond GDP, fatigue, and sleep.
 - **Closed economies and trade:** historical autarky/opening, growth evidence, identification critiques, natural experiments, and welfare counterfactuals.
 
 Each topic has paper links, data-source guidance, and key finding summaries. See `src/content/docs/guides/sources.md` for provenance and verification limits. The original summaries follow the supplied discussion; the leisure–productivity extension is an additional literature guide. External links and numerical claims have not been independently verified against full texts in this environment.
 
+## Collated working-hours data
+
+`/data/working-hours/` contains a 2019 comparison of 66 economies from PWT 10.0 and a separate Huberman–Minns historical comparison. Downloads and source metadata live in `public/data/working-hours/`. Run `python3 scripts/collate-working-hours.py` to regenerate them from checksum-verified OWID archive files. These historical releases are not current-year estimates.
+
+The working-hours page also includes three graphs: selected-country trends, changes over 1990–2019, and historical trends. Run `python3 -m pip install -r scripts/requirements-charts.txt`, then `python3 scripts/plot-working-hours.py` to regenerate their SVG/PNG files and the endpoint table from the checked-in CSVs. Chart dependencies are not needed for Vercel builds.
+
 ## Independent research auditor
 
 The repository defines a read-only Codex subagent, `research_auditor`, in `.codex/config.toml`. Its job is to check paper identities, primary-text support for findings, data provenance, calculations, and rendered graphs independently of the author. See [the audit guide](docs/RESEARCH_AUDIT.md) for invocation, evidence standards, host support, and the report format. Configuration alone does not run an audit or certify existing research.
 
-## Research audit status
+## Current audit status
 
-The [31 October 2026 research audit](docs/audits/2026-10-31-wiki-research-audit.md) covers the merged wiki and separately the unmerged working-hours data/graph branch. Archive extraction, displayed calculations, and graph geometry passed independent checks. Primary paper identities and findings remain unverified because reference and provider access was blocked. The report includes the evidence ledger and required follow-up checks; it is not a scientific certification.
+The merged wiki includes an audit-status page at `/guides/audit-status/`. The [main-branch audit report](docs/audits/2026-10-31-main-audit.md) records verified archive extraction, calculations and graph geometry separately from outstanding primary-paper, original-data and reuse checks. The full wiki is not yet primary-source verified.
+
+## Fertility research sources
+
+The fertility collection uses seven inspected author-hosted publication copies, with pinned source URLs and hashes in `public/data/fertility/sources.json`. The pages distinguish source-supported summaries from empirical replication and from independent publisher/DOI verification. It adds data-access guidance, not a new fertility dataset or causal graph.
+
+The [fertility source-reading audit](docs/audits/2026-11-01-fertility-review.md) records which claims were checked and which publisher/data/replication checks remain outstanding.
+
+## Fertility, GDP, and hours graphs
+
+`/data/fertility-charts/` links period fertility with real GDP per person and market working hours across matching country-years, 1970–2014. Three source-referenced SVG/PNG charts and downloadable extracts are included. Forecast fertility rows from 2015 onward are excluded. Run `python3 scripts/collate-fertility-economy.py` and `python3 scripts/plot-fertility-economy.py` to regenerate them. The figures are descriptive comparisons, not causal estimates or paper replications.
+
+The [fertility/GDP/hours graph audit](docs/audits/2026-11-01-fertility-charts.md) records the independent data and geometry checks, the corrected PWT archive-version attribution, and remaining source limits.
+
+## Statistics guide
+
+`/guides/causality/` explains correlation versus causation, counterfactuals, randomised experiments, adjustment, difference-in-differences, discontinuity designs, instruments, and statistical uncertainty. It includes a labelled hypothetical example and pinned teaching references.
+
+The [causality-guide audit](docs/audits/2026-11-01-causality-guide.md) records independent methodological review, corrections, and source-reading limits.

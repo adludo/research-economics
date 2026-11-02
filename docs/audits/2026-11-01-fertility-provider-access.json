@@ -1,0 +1,34 @@
+{
+  "checked_at_utc": "2026-11-01T02:34:40.588897+00:00",
+  "scope": "Access probes for official-provider discovery links; not validation of provider definitions",
+  "results": [
+    {
+      "url": "https://data.worldbank.org/indicator",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://dhsprogram.com/data/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://population.un.org/wpp/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.ggp-i.org/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.humanfertility.org/",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.oecd.org/en/data/datasets/oecd-family-database.html",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.oecd.org/en/topics/social-institutions-and-gender-index.html",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}

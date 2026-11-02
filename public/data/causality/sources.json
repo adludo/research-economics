@@ -1,0 +1,64 @@
+{
+  "title": "Sources for the correlation and causation guide",
+  "retrieved_at_utc": "2026-11-01T12:20:29.584013+00:00",
+  "author": "Matheus Facure",
+  "work": "Causal Inference for the Brave and True",
+  "revision": "4df1445987d3b6f9824d508863a1a2f0a503e888",
+  "status": "Teaching chapters read; not empirical replication or an audit of every example in the notebooks. Further-reading textbooks were not inspected.",
+  "files": [
+    {
+      "chapter": "01-Introduction-To-Causality",
+      "url": "https://raw.githubusercontent.com/matheusfacure/python-causality-handbook/4df1445987d3b6f9824d508863a1a2f0a503e888/causal-inference-for-the-brave-and-true/01-Introduction-To-Causality.ipynb",
+      "sha256": "d6ce615d22faac536f1d485f22d8cfd79a82426cae366316b79d4ecf12b69332",
+      "bytes": 89293
+    },
+    {
+      "chapter": "02-Randomised-Experiments",
+      "url": "https://raw.githubusercontent.com/matheusfacure/python-causality-handbook/4df1445987d3b6f9824d508863a1a2f0a503e888/causal-inference-for-the-brave-and-true/02-Randomised-Experiments.ipynb",
+      "sha256": "75988a500ae4e32d36b160218b6e74d26ea64d166dc016178f482326522c6724",
+      "bytes": 24796
+    },
+    {
+      "chapter": "04-Graphical-Causal-Models",
+      "url": "https://raw.githubusercontent.com/matheusfacure/python-causality-handbook/4df1445987d3b6f9824d508863a1a2f0a503e888/causal-inference-for-the-brave-and-true/04-Graphical-Causal-Models.ipynb",
+      "sha256": "2b2fd21c44ed175bd2f70351f0b6638b47909f374170f2dae175943582cfe414",
+      "bytes": 101087
+    },
+    {
+      "chapter": "07-Beyond-Confounders",
+      "url": "https://raw.githubusercontent.com/matheusfacure/python-causality-handbook/4df1445987d3b6f9824d508863a1a2f0a503e888/causal-inference-for-the-brave-and-true/07-Beyond-Confounders.ipynb",
+      "sha256": "7b5d52a0ce8b6cdb400f39a0c440b91338d0ca15adecd4531f9dd96efb8f5ecd",
+      "bytes": 170443
+    },
+    {
+      "chapter": "08-Instrumental-Variables",
+      "url": "https://raw.githubusercontent.com/matheusfacure/python-causality-handbook/4df1445987d3b6f9824d508863a1a2f0a503e888/causal-inference-for-the-brave-and-true/08-Instrumental-Variables.ipynb",
+      "sha256": "01749f96f0b98e834eb47a05ec792afcb73012703fb1cc41449894b92d0660f8",
+      "bytes": 277425
+    },
+    {
+      "chapter": "13-Difference-in-Differences",
+      "url": "https://raw.githubusercontent.com/matheusfacure/python-causality-handbook/4df1445987d3b6f9824d508863a1a2f0a503e888/causal-inference-for-the-brave-and-true/13-Difference-in-Differences.ipynb",
+      "sha256": "bf22d63bd3ce94984c4f4b47564e38612b2ed031a2616e5a4d1b09de946c8aab",
+      "bytes": 66760
+    },
+    {
+      "chapter": "16-Regression-Discontinuity-Design",
+      "url": "https://raw.githubusercontent.com/matheusfacure/python-causality-handbook/4df1445987d3b6f9824d508863a1a2f0a503e888/causal-inference-for-the-brave-and-true/16-Regression-Discontinuity-Design.ipynb",
+      "sha256": "0db4f91106036fc9411e8855566994f575417bebaeec407f1cb49fb6908e5019",
+      "bytes": 469476
+    },
+    {
+      "chapter": "09-Non-Compliance-and-LATE",
+      "url": "https://raw.githubusercontent.com/matheusfacure/python-causality-handbook/4df1445987d3b6f9824d508863a1a2f0a503e888/causal-inference-for-the-brave-and-true/09-Non-Compliance-and-LATE.ipynb",
+      "sha256": "4532e7e7d636bc51007bb126acccc3e1b4309635d29d858a3ccb45b5b52856c1",
+      "bytes": 37249
+    },
+    {
+      "chapter": "03-Stats-Review-The-Most-Dangerous-Equation",
+      "url": "https://raw.githubusercontent.com/matheusfacure/python-causality-handbook/4df1445987d3b6f9824d508863a1a2f0a503e888/causal-inference-for-the-brave-and-true/03-Stats-Review-The-Most-Dangerous-Equation.ipynb",
+      "sha256": "18c6b51f4b2682428fed25aa422771f1e70567536c8bd2723023205f45fb7c96",
+      "bytes": 393495
+    }
+  ]
+}

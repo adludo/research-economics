@@ -3,6 +3,8 @@ title: Leisure and productivity data
 description: Sources and measurement choices for linking time use to output and welfare.
 ---
 
+For collated country figures and downloadable extracts, see [Hours worked around the world](/data/working-hours/).
+
 ## National output, hours, and employment
 
 **Starting sources:** [OECD productivity data](https://www.oecd.org/en/topics/productivity.html) · [Penn World Table](https://www.rug.nl/ggdc/productivity/pwt/) · [ILOSTAT](https://ilostat.ilo.org/) · [World Bank WDI](https://databank.worldbank.org/source/world-development-indicators).
