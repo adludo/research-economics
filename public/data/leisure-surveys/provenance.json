@@ -1,0 +1,71 @@
+{
+  "retrieved_date_utc": "2026-11-02",
+  "archive_revision": "6155d4ca1ea14ef30e753010a25521eeb416e8a2",
+  "sources": {
+    "atus.csv": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Who%20Americans%20spend%20time%20with%20-%20American%20Time%20Use%20Survey%20%282009-2019%29/Who%20Americans%20spend%20time%20with%20-%20American%20Time%20Use%20Survey%20%282009-2019%29.csv",
+      "sha256": "006c04032cc99e1e5f272525b81932baa1cc781447a38c27485abd47d732ab85"
+    },
+    "atus.json": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Who%20Americans%20spend%20time%20with%20-%20American%20Time%20Use%20Survey%20%282009-2019%29/datapackage.json",
+      "sha256": "67812114862c30ee5917d6072594a752a3240d0cfc4e4e811a0d7ad9a85598f8"
+    },
+    "historical.csv": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/The%20allocation%20of%20time%20over%20five%20decades%20-%20Aguiar%20and%20Hurst%20%282006%29/The%20allocation%20of%20time%20over%20five%20decades%20-%20Aguiar%20and%20Hurst%20%282006%29.csv",
+      "sha256": "355317a8f659d205b752bf424f40cf2b8a731d387cd57eaae447d719d23a226a"
+    },
+    "historical.json": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/The%20allocation%20of%20time%20over%20five%20decades%20-%20Aguiar%20and%20Hurst%20%282006%29/datapackage.json",
+      "sha256": "382d1b4454b2fcd7ef0aeee954995cb10dbd1cd7bb1287209fdfb44752fc09e9"
+    },
+    "mtus.csv": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Multinational%20Time%20Use%20Study%20%28MTUS%29%20-%20Gershuny%20and%20Fisher%20%282013%29/Multinational%20Time%20Use%20Study%20%28MTUS%29%20-%20Gershuny%20and%20Fisher%20%282013%29.csv",
+      "sha256": "09f7b2f6bd8381629fb0488009a4917c94cc88cadcd4bec9fa79a52d65e33882"
+    },
+    "mtus.json": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Multinational%20Time%20Use%20Study%20%28MTUS%29%20-%20Gershuny%20and%20Fisher%20%282013%29/datapackage.json",
+      "sha256": "e87f78c837ad787a6529e69ccf39b431850016e3b4905904ade4ed325c40454b"
+    },
+    "hetus.csv": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Time%20spent%2C%20participation%20time%2C%20and%20participation%20rates%20-%20Eurostat/Time%20spent%2C%20participation%20time%2C%20and%20participation%20rates%20-%20Eurostat.csv",
+      "sha256": "9f18e72e8641fb99523dd9be762662050612c979dddaa3c7263dcfc3579747ad"
+    },
+    "hetus.json": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Time%20spent%2C%20participation%20time%2C%20and%20participation%20rates%20-%20Eurostat/datapackage.json",
+      "sha256": "8251e037ad3fcccd268ff4121a5e3387fb064d9183a581365a69f1619067225f"
+    },
+    "finland.csv": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Time%20use%20in%20Finland%20-%20Statistics%20Finland/Time%20use%20in%20Finland%20-%20Statistics%20Finland.csv",
+      "sha256": "ee9343c66f49c0bdd98746df5234e98cc1908e695c35b4a974e71bcbe4243679"
+    },
+    "finland.json": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Time%20use%20in%20Finland%20-%20Statistics%20Finland/datapackage.json",
+      "sha256": "a0215c0d8ae9050d620000557898464b122e01183e0abfc3691320e8ff5aebe1"
+    }
+  },
+  "coverage": {
+    "atus_age_company_rows": 402,
+    "atus_ages": 67,
+    "mtus_country_years": 89,
+    "mtus_countries": 16,
+    "hetus_country_waves": 32,
+    "hetus_countries": 22,
+    "finland_sex_years": 12,
+    "historical_measure_years": 20
+  },
+  "transformations": {
+    "atus": "Copy six reported company categories; relabel Year as respondent age. Values are pooled 2009\u20132019, not annual or longitudinal observations. Do not sum overlapping company categories or call them leisure-only time.",
+    "mtus": "Only country-year coverage and number of nonempty activity fields; do not aggregate processed conditional activity means. A dot identifies an archive row, not a complete population leisure estimate.",
+    "hetus": "Copy population Time spent on leisure/social/associative life; do not select Participation time/rate. Year is retained as wave label, not verified fieldwork year. Preserve archive normalization.",
+    "finland": "Copy Free time for all/men/women; years are archive labels. No renormalization. Age coverage not established in archive metadata.",
+    "historical": "Copy four All individuals leisure definitions. OWID attributes to Aguiar\u2013Hurst2006 working paper, not a current AHTUS extract or a replication of the final2007 paper.",
+    "diagrams": "Authored conceptual guides only; no AHTUS or OECD empirical numerical extract downloaded."
+  },
+  "limits": [
+    "Archived releases, not current provider estimates.",
+    "Original data/provider definitions and reuse terms remain unverified where access is blocked.",
+    "No interpolation, averaging, weighting, imputation, or causal inference added by this project.",
+    "AHTUS/OECD diagram semantics are reading aids, not verified release-specific processing or category definitions.",
+    "Country and wave population definitions differ; do not pool these measures or infer a global leisure ranking."
+  ]
+}

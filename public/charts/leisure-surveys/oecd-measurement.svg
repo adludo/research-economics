@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="417.6pt" viewBox="0 0 864 417.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 417.6
+L 864 417.6
+L 864 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 93.27744 245.607264
+L 193.43232 245.607264
+Q 213.30432 245.607264 213.30432 240.700464
+L 213.30432 151.592976
+Q 213.30432 146.686176 193.43232 146.686176
+L 93.27744 146.686176
+Q 73.40544 146.686176 73.40544 151.592976
+L 73.40544 240.700464
+Q 73.40544 245.607264 93.27744 245.607264
+z
+" clip-path="url(#p7ce22b9e56)" style="fill: #f1f5f9; stroke: #087e8b; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 241.92 245.607264
+L 342.07488 245.607264
+Q 361.94688 245.607264 361.94688 240.700464
+L 361.94688 151.592976
+Q 361.94688 146.686176 342.07488 146.686176
+L 241.92 146.686176
+Q 222.048 146.686176 222.048 151.592976
+L 222.048 240.700464
+Q 222.048 245.607264 241.92 245.607264
+z
+" clip-path="url(#p7ce22b9e56)" style="fill: #f1f5f9; stroke: #6554a4; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 390.56256 245.607264
+L 490.71744 245.607264
+Q 510.58944 245.607264 510.58944 240.700464
+L 510.58944 151.592976
+Q 510.58944 146.686176 490.71744 146.686176
+L 390.56256 146.686176
+Q 370.69056 146.686176 370.69056 151.592976
+L 370.69056 240.700464
+Q 370.69056 245.607264 390.56256 245.607264
+z
+" clip-path="url(#p7ce22b9e56)" style="fill: #f1f5f9; stroke: #bb641c; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 539.20512 245.607264
+L 639.36 245.607264
+Q 659.232 245.607264 659.232 240.700464
+L 659.232 151.592976
+Q 659.232 146.686176 639.36 146.686176
+L 539.20512 146.686176
+Q 519.33312 146.686176 519.33312 151.592976
+L 519.33312 240.700464
+Q 519.33312 245.607264 539.20512 245.607264
+z
+" clip-path="url(#p7ce22b9e56)" style="fill: #f1f5f9; stroke: #00795e; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 687.84768 245.607264
+L 788.00256 245.607264
+Q 807.87456 245.607264 807.87456 240.700464
+L 807.87456 151.592976
+Q 807.87456 146.686176 788.00256 146.686176
+L 687.84768 146.686176
+Q 667.97568 146.686176 667.97568 151.592976
+L 667.97568 240.700464
+Q 667.97568 245.607264 687.84768 245.607264
+z
+" clip-path="url(#p7ce22b9e56)" style="fill: #f1f5f9; stroke: #b64164; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(116.838864 193.023236)">Paid work</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(116.005271 205.340829)">and study</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(272.604784 193.023236)">Unpaid</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(278.688299 205.340829)">work</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(417.263281 193.023236)">Personal</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(428.723906 205.340829)">care</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #102a43" x="589.28256" y="199.182032" transform="rotate(-0 589.28256 199.182032)">Leisure</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(722.308558 193.023236)">Other</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(713.129573 205.340829)">activities</text>
+   </g>
+  </g>
+  <g id="text_6">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="69.12" y="31.709344" transform="rotate(-0 69.12 31.709344)">OECD time use: five broad activity groups</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52667a" x="69.12" y="56.376" transform="rotate(-0 69.12 56.376)">Measurement diagram • no empirical quantities or time shares are plotted</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52667a" x="69.12" y="317.376" transform="rotate(-0 69.12 317.376)">Conceptual category map: box sizes do not represent minutes or time shares.</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52667a" x="69.12" y="342.432" transform="rotate(-0 69.12 342.432)">No OECD numerical extract retrieved; survey dates and current comparability notes remain unchecked.</text>
+  </g>
+  <g id="text_10">
+   <a xlink:href="https://www.oecd.org/en/data/datasets/time-use-database.html">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52667a" x="69.12" y="369.576" transform="rotate(-0 69.12 369.576)">Guide reference: https://www.oecd.org/en/data/datasets/time-use-database.html</text>
+   </a>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52667a" x="69.12" y="390.8736" transform="rotate(-0 69.12 390.8736)">Basis: this wiki’s source guide; original-provider definitions/access could not be verified (HTTP 403).</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52667a" x="69.12" y="408.4128" transform="rotate(-0 69.12 408.4128)">Prepared 2026-11-02 • Conceptual illustration; no current provider data downloaded for this diagram.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7ce22b9e56">
+   <rect x="43.2" y="96.048" width="794.88" height="196.272"/>
+  </clipPath>
+ </defs>
+</svg>

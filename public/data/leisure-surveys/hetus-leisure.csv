@@ -1,0 +1,33 @@
+country,wave_label,leisure_minutes_per_day
+Austria,2010,306.0
+Belgium,2000,331.46036
+Belgium,2010,341.0
+Bulgaria,2000,255.35466
+Estonia,2000,278.58038
+Estonia,2010,323.0
+Finland,2000,338.82355
+Finland,2010,365.25363
+France,2000,264.36719
+France,2010,303.0
+Germany,2000,329.37241
+Germany,2010,351.0
+Greece,2010,344.0
+Hungary,2010,300.0
+Italy,2000,275.57413
+Italy,2010,294.0
+Latvia,2000,265.55325
+Lithuania,2000,253.5282
+Luxembourg,2010,274.80914
+Netherlands,2010,334.0
+Norway,2000,346.72235
+Norway,2010,353.2453
+Poland,2000,296.02789
+Poland,2010,302.0
+Romania,2010,266.0
+Serbia,2010,329.0
+Slovenia,2000,299.20776
+Spain,2000,291.40472
+Spain,2010,311.0
+Turkey,2010,327.0
+United Kingdom,2000,309.93713
+United Kingdom,2010,314.7814
