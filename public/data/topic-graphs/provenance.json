@@ -1,0 +1,59 @@
+{
+  "retrieved_date_utc": "2026-11-01",
+  "sources": {
+    "us.csv": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/A%20Century%20of%20Work%20and%20Leisure%20-%20Ramey%20and%20Francis%20%282009%29/A%20Century%20of%20Work%20and%20Leisure%20-%20Ramey%20and%20Francis%20%282009%29.csv",
+      "sha256": "d0ea41541b2d98a3c85545e68e920ada3e320ddb6314a56ca5efd5bc0b960c21"
+    },
+    "us.json": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/A%20Century%20of%20Work%20and%20Leisure%20-%20Ramey%20and%20Francis%20%282009%29/datapackage.json",
+      "sha256": "b1b79d00d180b0197daa2d342226218d3c184f5c9cebad0c89460e5923cbdad7"
+    },
+    "norway.csv": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Long%20run%20time%20use%20in%20Norway%2C%20by%20sex%20-%20Norway%20Statistics/Long%20run%20time%20use%20in%20Norway%2C%20by%20sex%20-%20Norway%20Statistics.csv",
+      "sha256": "634814fabcf8b666e93d56d4245e807c328dcec38cdb9a7c066c1eb22fb8a2b4"
+    },
+    "norway.json": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Long%20run%20time%20use%20in%20Norway%2C%20by%20sex%20-%20Norway%20Statistics/datapackage.json",
+      "sha256": "6049dc776561f0f6a1d1dc0e16a933f8439c923d059896b0a841d197b53a8b68"
+    },
+    "trade.csv": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Total%20value%20of%20exports%20by%20country%20to%20world%20%28%25GDP%29%20%28OWID%20calculations%20based%20on%20Fouquin%20and%20Hugot%20%28CEP/Total%20value%20of%20exports%20by%20country%20to%20world%20%28%25GDP%29%20%28OWID%20calculations%20based%20on%20Fouquin%20and%20Hugot%20%28CEP.csv",
+      "sha256": "ffe93173136819da4295f3c76ed66487bfed1aae04dd2ccc0306f0828cec46d9"
+    },
+    "trade.json": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Total%20value%20of%20exports%20by%20country%20to%20world%20%28%25GDP%29%20%28OWID%20calculations%20based%20on%20Fouquin%20and%20Hugot%20%28CEP/datapackage.json",
+      "sha256": "4dd22859e32522ee70ecd1da41db091c21ace1078914ee38df48d5ebeb519357"
+    },
+    "pwt.csv": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Penn%20World%20Table%20version%2010.0/Penn%20World%20Table%20version%2010.0.csv",
+      "sha256": "0ecd5c71e0f1dfdbeecd624f7c61875b5fa64094e639cccf6304b2fd181be505"
+    },
+    "pwt.json": {
+      "url": "https://raw.githubusercontent.com/owid/owid-datasets/6155d4ca1ea14ef30e753010a25521eeb416e8a2/datasets/Penn%20World%20Table%20version%2010.0/datapackage.json",
+      "sha256": "79bcd8893b84bbdc00cea3465c7d1710301de364b526a4d139e2d8469e4d1a57"
+    }
+  },
+  "counts": {
+    "us_leisure": 72,
+    "norway_leisure": 15,
+    "leisure_productivity": 12,
+    "trade_income": 360
+  },
+  "transformations": [
+    "Exact year matches only; no filling/interpolation or country aliases",
+    "US leisure copied only for declared six total-sex age groups; no reconstruction added",
+    "Norway all/female/male leisure minutes copied unchanged; archive normalization retained",
+    "Output/hour = output-side real GDP / (persons engaged \u00d7 annual hours); GDP/person = expenditure-side real GDP / population; archive inputs use absolute dollar/person units",
+    "Export/GDP percentage copied as supplied; its documentation defines exports despite broader column label; not recomputed with PPP GDP"
+  ],
+  "pwt_vintage": "Archive folder/metadata say10.0; earlier matched data and these macro definitions are cross-checked against CRAN10.01; original-provider identity not established",
+  "limits": [
+    "Not causal estimates or replications of paper models",
+    "US residual and Norway daily leisure definitions/populations are incompatible; not pooled",
+    "Norway age coverage not specified in archived metadata",
+    "Published archive normalization and historical assumptions not independently validated",
+    "Exports measure excludes services and is not policy openness; no inference of autarky",
+    "Original providers/revisions/reuse conditions and live deployment remain separate checks"
+  ]
+}

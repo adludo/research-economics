@@ -1,0 +1,23 @@
+{
+  "scripts/plot-topic-graphs.py": true,
+  "scripts/collate-topic-graphs.py": true,
+  "public/charts/topic-graphs/norway-leisure.svg": true,
+  "public/charts/topic-graphs/trade-time-paths.svg": true,
+  "public/charts/topic-graphs/norway-leisure.png": true,
+  "public/charts/topic-graphs/trade-time-paths.png": true,
+  "public/charts/topic-graphs/leisure-productivity.png": true,
+  "public/charts/topic-graphs/us-leisure.svg": true,
+  "public/charts/topic-graphs/trade-income.png": true,
+  "public/charts/topic-graphs/leisure-productivity.svg": true,
+  "public/charts/topic-graphs/us-leisure.png": true,
+  "public/charts/topic-graphs/trade-income.svg": true,
+  "public/data/topic-graphs/provenance.json": true,
+  "public/data/topic-graphs/trade.json": true,
+  "public/data/topic-graphs/us-leisure.csv": true,
+  "public/data/topic-graphs/leisure-productivity.csv": true,
+  "public/data/topic-graphs/trade-income.csv": true,
+  "public/data/topic-graphs/norway.json": true,
+  "public/data/topic-graphs/norway-leisure.csv": true,
+  "public/data/topic-graphs/us.json": true,
+  "public/data/topic-graphs/pwt.json": true
+}

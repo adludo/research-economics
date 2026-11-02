@@ -1,0 +1,13 @@
+country,year,leisure,leisure_unit,output_per_hour_2017_ppp
+Norway,1970,310.0,"minutes/day, national all-sex series",17.760331558639933
+Norway,1980,361.74878,"minutes/day, national all-sex series",36.85388143152069
+Norway,1990,371.0,"minutes/day, national all-sex series",44.950709088265995
+Norway,2000,384.0,"minutes/day, national all-sex series",74.9446637690691
+Norway,2010,374.73975,"minutes/day, national all-sex series",114.91974670080396
+United States,1950,40.400002,"hours/week, age14+ residual estimate",19.80348525051429
+United States,1960,39.799999,"hours/week, age14+ residual estimate",25.648903697274694
+United States,1970,41.700001,"hours/week, age14+ residual estimate",33.242286525146575
+United States,1980,44.299999,"hours/week, age14+ residual estimate",39.36243568660511
+United States,1990,41.400002,"hours/week, age14+ residual estimate",45.1628656932491
+United States,2000,39.900002,"hours/week, age14+ residual estimate",55.1133129548356
+United States,2005,40.599998,"hours/week, age14+ residual estimate",62.5224200735477

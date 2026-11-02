@@ -64,6 +64,11 @@ The [fertility source-reading audit](docs/audits/2026-11-01-fertility-review.md)
 
 The [fertility/GDP/hours graph audit](docs/audits/2026-11-01-fertility-charts.md) records the independent data and geometry checks, the corrected PWT archive-version attribution, and remaining source limits.
 
+## Leisure and trade graph collections
+
+The leisure, leisure/productivity and trade data guides include five source-referenced graphs with downloadable extracts. Sources and caveats distinguish US residual leisure, Norwegian daily leisure, output/hour, and merchandise exports/GDP. Rebuild with `python3 scripts/collate-topic-graphs.py` and `python3 scripts/plot-topic-graphs.py`. No Python is needed for Vercel deployment.
+
+The [leisure and trade graph audit](docs/audits/2026-11-01-topic-graphs.md) records source checks, corrected presentation issues, and remaining original-provider limits.
 ## Statistics guide
 
 `/guides/causality/` explains correlation versus causation, counterfactuals, randomised experiments, adjustment, difference-in-differences, discontinuity designs, instruments, and statistical uncertainty. It includes a labelled hypothetical example and pinned teaching references.
