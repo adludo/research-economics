@@ -1,0 +1,153 @@
+{
+  "date_utc": "2026-11-02",
+  "method": "Parent-run isolated reproduction. Collation freshly downloaded and hash-verified ten pinned inputs; plotting used those generated extracts and the authored diagram specification. Independent auditor checks are recorded separately.",
+  "generated_files": 25,
+  "comparison_files": 29,
+  "results": [
+    {
+      "path": "public/data/leisure-surveys/historical-definitions.csv",
+      "sha256": "3f521e095b0e27806c3d6e38cb95e1395fd1a5b2ce997f7d015687bd373ccaf8",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-surveys/atus.json",
+      "sha256": "67812114862c30ee5917d6072594a752a3240d0cfc4e4e811a0d7ad9a85598f8",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-surveys/atus-social-time.csv",
+      "sha256": "49089832bad780464f4602ecad5c483345bb35a9a787348b33f83786bf25af54",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-surveys/hetus-leisure.csv",
+      "sha256": "4c2cc9140411bb9d83486d9f484b446b55fbe7d53afa9003477b6a705d3a8add",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-surveys/sources.json",
+      "sha256": "d8665019c3884d26bb7bdf0be938af3372edee4d45f292981ad43aab9e110a0c",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-surveys/mtus-coverage.csv",
+      "sha256": "fb9e048f44eaf9b9a0cf997ac952dcb15662bd2012fb341e97c47696baa01dec",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-surveys/hetus.json",
+      "sha256": "8251e037ad3fcccd268ff4121a5e3387fb064d9183a581365a69f1619067225f",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-surveys/mtus.json",
+      "sha256": "e87f78c837ad787a6529e69ccf39b431850016e3b4905904ade4ed325c40454b",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-surveys/measurement-diagrams.json",
+      "sha256": "2842ff19521721d81dd094a1e454800647ba5d235f8f62526b5b63b8f122a1a1",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-surveys/historical.json",
+      "sha256": "382d1b4454b2fcd7ef0aeee954995cb10dbd1cd7bb1287209fdfb44752fc09e9",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-surveys/finland.json",
+      "sha256": "a0215c0d8ae9050d620000557898464b122e01183e0abfc3691320e8ff5aebe1",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-surveys/finland-free-time.csv",
+      "sha256": "ec37c28336c7be64e109a19a3af3351ae924cb1d5e6b19fac6aaa190be3cf33d",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-surveys/provenance.json",
+      "sha256": "13b4a415734a11b6e6729f268bbf1021c35ea1ff27b4a06256cd26ad29de203d",
+      "identical": true
+    },
+    {
+      "path": "public/charts/leisure-surveys/hetus-leisure.svg",
+      "sha256": "adc4c5a5776878b9d423660a6a2b632e5aab4f3c7d93398d1ea5b04e9ccf6714",
+      "identical": true
+    },
+    {
+      "path": "public/charts/leisure-surveys/historical-definitions.svg",
+      "sha256": "5ea38b394ffb977d1a8f083663d699ccc79bd18764e75e14e0a912af29381e3f",
+      "identical": true
+    },
+    {
+      "path": "public/charts/leisure-surveys/mtus-coverage.svg",
+      "sha256": "2a7b806f5645491de125f24b1376c9fdb04f5eea47a799ff8f0547d06e0ecb84",
+      "identical": true
+    },
+    {
+      "path": "public/charts/leisure-surveys/oecd-measurement.svg",
+      "sha256": "78b091ea454d48e3e3736d2f48d3942986a6b94da53eae8a6e93a498516e4343",
+      "identical": true
+    },
+    {
+      "path": "public/charts/leisure-surveys/finland-free-time.png",
+      "sha256": "1d448d3aa89d74114cbd2e404d3678ad6ec606d1a816f10ded54304c619dae5d",
+      "identical": true
+    },
+    {
+      "path": "public/charts/leisure-surveys/mtus-coverage.png",
+      "sha256": "04e6f16b1f7a26526d5e87b632d5422a31a519cc9254a8af45a498ca36c27e0d",
+      "identical": true
+    },
+    {
+      "path": "public/charts/leisure-surveys/atus-social-time.png",
+      "sha256": "a16689cf7e14db55b3a8f3bde4906da94b5fb481a4c13ca8dcd81b2586644019",
+      "identical": true
+    },
+    {
+      "path": "public/charts/leisure-surveys/hetus-leisure.png",
+      "sha256": "76765ae84188c259decad0041021b6eda63436fb5ce9f4b308f1e863c11e4d9d",
+      "identical": true
+    },
+    {
+      "path": "public/charts/leisure-surveys/finland-free-time.svg",
+      "sha256": "d85d2ef647ad5d8419dc397df6abdf47f1f080737759ba1c0adc3bdf2fd702c1",
+      "identical": true
+    },
+    {
+      "path": "public/charts/leisure-surveys/historical-definitions.png",
+      "sha256": "84ace92858dd8e1b35f89b97735fc0ea79bb53c696b97b6f8071a0b6cf1ce149",
+      "identical": true
+    },
+    {
+      "path": "public/charts/leisure-surveys/ahtus-measurement.png",
+      "sha256": "0bf80cab2e4fcecd8c8bec29022c4e683900d06dd8dccb6229dde4ccb8e02739",
+      "identical": true
+    },
+    {
+      "path": "public/charts/leisure-surveys/atus-social-time.svg",
+      "sha256": "338adcd0baad8d38d23f6c875c3a2c782a6a50049d04a05eabe3727383ead093",
+      "identical": true
+    },
+    {
+      "path": "public/charts/leisure-surveys/ahtus-measurement.svg",
+      "sha256": "cbe5a02a07c47315798972b12ec59477ac2243671154e8646aaab4c98b3ebcf9",
+      "identical": true
+    },
+    {
+      "path": "public/charts/leisure-surveys/oecd-measurement.png",
+      "sha256": "43153182f45cc53653aa9b6898eee0c61bf77788364d666658c4aaa6dba0329f",
+      "identical": true
+    },
+    {
+      "path": "scripts/collate-leisure-surveys.py",
+      "sha256": "4d5bae0620e9b03530b3d4ba2dbfa826953d4371982eb2dda61b7d5b219e98b9",
+      "identical": true
+    },
+    {
+      "path": "scripts/plot-leisure-surveys.py",
+      "sha256": "98174e752a339141afd993f9f7cd89ec3d02cd3aedac90cc22d027984f611af8",
+      "identical": true
+    }
+  ]
+}

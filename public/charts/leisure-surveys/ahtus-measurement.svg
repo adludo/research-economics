@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="417.6pt" viewBox="0 0 864 417.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 417.6
+L 864 417.6
+L 864 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 93.27744 245.607264
+L 230.59296 245.607264
+Q 250.46496 245.607264 250.46496 240.700464
+L 250.46496 151.592976
+Q 250.46496 146.686176 230.59296 146.686176
+L 93.27744 146.686176
+Q 73.40544 146.686176 73.40544 151.592976
+L 73.40544 240.700464
+Q 73.40544 245.607264 93.27744 245.607264
+z
+" clip-path="url(#p7ce22b9e56)" style="fill: #f1f5f9; stroke: #087e8b; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 279.08064 245.607264
+L 416.39616 245.607264
+Q 436.26816 245.607264 436.26816 240.700464
+L 436.26816 151.592976
+Q 436.26816 146.686176 416.39616 146.686176
+L 279.08064 146.686176
+Q 259.20864 146.686176 259.20864 151.592976
+L 259.20864 240.700464
+Q 259.20864 245.607264 279.08064 245.607264
+z
+" clip-path="url(#p7ce22b9e56)" style="fill: #f1f5f9; stroke: #6554a4; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 464.88384 245.607264
+L 602.19936 245.607264
+Q 622.07136 245.607264 622.07136 240.700464
+L 622.07136 151.592976
+Q 622.07136 146.686176 602.19936 146.686176
+L 464.88384 146.686176
+Q 445.01184 146.686176 445.01184 151.592976
+L 445.01184 240.700464
+Q 445.01184 245.607264 464.88384 245.607264
+z
+" clip-path="url(#p7ce22b9e56)" style="fill: #f1f5f9; stroke: #bb641c; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 650.68704 245.607264
+L 788.00256 245.607264
+Q 807.87456 245.607264 807.87456 240.700464
+L 807.87456 151.592976
+Q 807.87456 146.686176 788.00256 146.686176
+L 650.68704 146.686176
+Q 630.81504 146.686176 630.81504 151.592976
+L 630.81504 240.700464
+Q 630.81504 245.607264 650.68704 245.607264
+z
+" clip-path="url(#p7ce22b9e56)" style="fill: #f1f5f9; stroke: #00795e; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(131.148091 193.023236)">Original US</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(124.909028 205.340829)">diary surveys</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 250.875014 196.14672
+Q 254.836131 196.14672 257.343804 196.14672
+" style="fill: none; stroke: #52667a; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 253.343804 194.14672
+L 257.343804 196.14672
+L 253.343804 198.14672
+" style="fill: none; stroke: #52667a; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(314.589728 193.023236)">Harmonised</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(309.586447 205.340829)">activity codes</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 436.678214 196.14672
+Q 440.639331 196.14672 443.147004 196.14672
+" style="fill: none; stroke: #52667a; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 439.147004 194.14672
+L 443.147004 196.14672
+L 439.147004 198.14672
+" style="fill: none; stroke: #52667a; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(491.490662 193.023236)">Choose sample</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(484.382772 205.340829)">and diary weights</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 622.481414 196.14672
+Q 626.442531 196.14672 628.950204 196.14672
+" style="fill: none; stroke: #52667a; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 624.950204 194.14672
+L 628.950204 196.14672
+L 624.950204 198.14672
+" style="fill: none; stroke: #52667a; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(671.645191 193.023236)">Activity averages</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #102a43" transform="translate(665.736128 205.340829)">in minutes or hours</text>
+   </g>
+  </g>
+  <g id="text_5">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="69.12" y="31.709344" transform="rotate(-0 69.12 31.709344)">AHTUS: how harmonised diaries support a measure</text>
+  </g>
+  <g id="text_6">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52667a" x="69.12" y="56.376" transform="rotate(-0 69.12 56.376)">Measurement diagram • no empirical quantities or time shares are plotted</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52667a" x="69.12" y="317.376" transform="rotate(-0 69.12 317.376)">Conceptual reading guide, not a provider flowchart or a graph of leisure quantities.</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52667a" x="69.12" y="342.432" transform="rotate(-0 69.12 342.432)">No current AHTUS numerical extract retrieved; release-specific methods remain unchecked.</text>
+  </g>
+  <g id="text_9">
+   <a xlink:href="https://www.timeuse.org/ahtus">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52667a" x="69.12" y="369.576" transform="rotate(-0 69.12 369.576)">Guide reference: https://www.timeuse.org/ahtus</text>
+   </a>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52667a" x="69.12" y="390.8736" transform="rotate(-0 69.12 390.8736)">Basis: this wiki’s source guide; original-provider definitions/access could not be verified (HTTP 403).</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52667a" x="69.12" y="408.4128" transform="rotate(-0 69.12 408.4128)">Prepared 2026-11-02 • Conceptual illustration; no current provider data downloaded for this diagram.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7ce22b9e56">
+   <rect x="43.2" y="96.048" width="794.88" height="196.272"/>
+  </clipPath>
+ </defs>
+</svg>

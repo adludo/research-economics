@@ -78,3 +78,7 @@ The [causality-guide audit](docs/audits/2026-11-01-causality-guide.md) records i
 ## Recent fertility, GDP, and weekly hours
 
 The [recent-data guide](src/content/docs/data/recent-fertility-hours.md) adds four source-referenced figures with World Bank/ILOSTAT estimates through 2024. Regenerate them with `python3 scripts/collate-recent-economy.py` and `python3 scripts/plot-recent-economy.py` after installing `scripts/requirements-charts.txt`. The older annual-hours and fertility archives remain separate. See [the audit](docs/audits/2026-11-01-recent-economy.md) for verified and outstanding checks.
+
+## Leisure-survey figures
+
+The [leisure-source guide](src/content/docs/data/leisure.md) includes section-specific numerical examples, MTUS coverage, and clearly labelled AHTUS/OECD measurement diagrams. Rebuild with `python3 scripts/collate-leisure-surveys.py` and `python3 scripts/plot-leisure-surveys.py`, using `scripts/requirements-charts.txt`. The [audit record](docs/audits/2026-11-02-leisure-surveys.md) separates archive checks from original-provider and diagram-definition limits.
