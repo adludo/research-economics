@@ -3,6 +3,8 @@ title: Leisure and productivity data
 description: Sources and measurement choices for linking time use to output and welfare.
 ---
 
+For the general [productivity calculation guide](/productivity/calculation/) and [slowdown interpretation](/productivity/slowdown/), see the dedicated productivity section.
+
 For collated country figures and downloadable extracts, see [Hours worked around the world](/data/working-hours/).
 
 ## Leisure and productivity graph

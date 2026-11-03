@@ -78,3 +78,7 @@ The [causality-guide audit](docs/audits/2026-11-01-causality-guide.md) records i
 ## Recent fertility, GDP, and weekly hours
 
 The [recent-data guide](src/content/docs/data/recent-fertility-hours.md) adds four source-referenced figures with World Bank/ILOSTAT estimates through 2024. Regenerate them with `python3 scripts/collate-recent-economy.py` and `python3 scripts/plot-recent-economy.py` after installing `scripts/requirements-charts.txt`. The older annual-hours and fertility archives remain separate. See [the audit](docs/audits/2026-11-01-recent-economy.md) for verified and outstanding checks.
+
+## Productivity measures and slowdown
+
+The [productivity section](src/content/docs/productivity/index.md) explains headline output/hour, alternative calculations and input accounting, with a [reading register](src/content/docs/papers/productivity.md). The historical slowdown example includes eight country comparisons and 200 downloadable country-years. Regenerate it with `python3 scripts/collate-productivity.py`. [Audit scope and source-reading limits](docs/audits/2026-11-03-productivity.md).
