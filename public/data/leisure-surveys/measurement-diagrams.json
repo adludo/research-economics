@@ -1,0 +1,27 @@
+{
+  "ahtus": {
+    "title": "AHTUS: how harmonised diaries support a measure",
+    "source_url": "https://www.timeuse.org/ahtus",
+    "nodes": [
+      "Original US\ndiary surveys",
+      "Harmonised\nactivity codes",
+      "Choose sample\nand diary weights",
+      "Activity averages\nin minutes or hours"
+    ],
+    "note": "Conceptual reading guide, not a provider flowchart or a graph of leisure quantities.",
+    "limit": "No current AHTUS numerical extract retrieved; release-specific methods remain unchecked."
+  },
+  "oecd": {
+    "title": "OECD time use: five broad activity groups",
+    "source_url": "https://www.oecd.org/en/data/datasets/time-use-database.html",
+    "nodes": [
+      "Paid work\nand study",
+      "Unpaid\nwork",
+      "Personal\ncare",
+      "Leisure",
+      "Other\nactivities"
+    ],
+    "note": "Conceptual category map: box sizes do not represent minutes or time shares.",
+    "limit": "No OECD numerical extract retrieved; survey dates and current comparability notes remain unchecked."
+  }
+}

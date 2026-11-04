@@ -82,3 +82,6 @@ The [recent-data guide](src/content/docs/data/recent-fertility-hours.md) adds fo
 ## Productivity measures and slowdown
 
 The [productivity section](src/content/docs/productivity/index.md) explains headline output/hour, alternative calculations and input accounting, with a [reading register](src/content/docs/papers/productivity.md). The historical slowdown example includes eight country comparisons and 200 downloadable country-years. Regenerate it with `python3 scripts/collate-productivity.py`. [Audit scope and source-reading limits](docs/audits/2026-11-03-productivity.md).
+## Leisure-survey figures
+
+The [leisure-source guide](src/content/docs/data/leisure.md) includes section-specific numerical examples, MTUS coverage, and clearly labelled AHTUS/OECD measurement diagrams. Rebuild with `python3 scripts/collate-leisure-surveys.py` and `python3 scripts/plot-leisure-surveys.py`, using `scripts/requirements-charts.txt`. The [audit record](docs/audits/2026-11-02-leisure-surveys.md) separates archive checks from original-provider and diagram-definition limits.
