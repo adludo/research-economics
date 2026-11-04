@@ -1,0 +1,58 @@
+{
+  "date_utc": "2026-11-03",
+  "method": "Parent-run isolated collation with fresh retrieval/hash verification of all six pinned inputs; table and five generated data files rebuilt. Reference/vintage records are copied review inputs, not generated validations. Codebook line whitespace normalized.",
+  "generated_artifacts": 6,
+  "comparison_files": 10,
+  "results": [
+    {
+      "path": "public/data/productivity/vintage-check.json",
+      "sha256": "917aefdd53bfa457ca3bf81cf497f3132892b7dfadf1e26441a05eaa85075539",
+      "identical": true
+    },
+    {
+      "path": "public/data/productivity/references.json",
+      "sha256": "82639d330fcefcdbda1fbf7cf7df8788149f239862e37bbc5cd79b0a4eb9a42f",
+      "identical": true
+    },
+    {
+      "path": "public/data/productivity/sources.json",
+      "sha256": "21b0262c8dac49d5e70092621a30452a81810f53d01fba00406dca8537f70f3c",
+      "identical": true
+    },
+    {
+      "path": "public/data/productivity/country-years.csv",
+      "sha256": "7a665a5ebf15f56f7f547d9cd65bfdc6fa1ad2b04fade9f3e7e5adbfaf60a65f",
+      "identical": true
+    },
+    {
+      "path": "public/data/productivity/growth-comparison.csv",
+      "sha256": "d9caf211b145c992e08c03c89e8b66e2a4a14bbfdc35454d4ef567436a6df7d2",
+      "identical": true
+    },
+    {
+      "path": "public/data/productivity/pwt-metadata.json",
+      "sha256": "79bcd8893b84bbdc00cea3465c7d1710301de364b526a4d139e2d8469e4d1a57",
+      "identical": true
+    },
+    {
+      "path": "public/data/productivity/pwt-codebook.Rd",
+      "sha256": "c5b933e3cffbfc69e7d14e186f93db4291ffce33af8585ff614c002c919e4229",
+      "identical": true
+    },
+    {
+      "path": "public/data/productivity/provenance.json",
+      "sha256": "cfe598536c6bb9162eb837af1c918b27939d14b229110f8fdba258841e1b8b44",
+      "identical": true
+    },
+    {
+      "path": "scripts/collate-productivity.py",
+      "sha256": "d6834e269acc7bc10ac0613eeb5d458fac9fe88fce6bf329b313f1eb30538ba1",
+      "identical": true
+    },
+    {
+      "path": "src/content/docs/productivity/slowdown.md",
+      "sha256": "47b7eda41ce5b410a5d3c5b42105218a51049d56aa9413e0404801c024f113d9",
+      "identical": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "rows": 200,
+  "fields": [
+    "rgdpna",
+    "emp",
+    "avh"
+  ],
+  "relative_tolerance": 1e-10,
+  "mismatches": 0,
+  "method": "Compare every selected OWID country-year against pinned CRAN-distributed PWT10.01. GDP and employment multiplied by1e6; hours unchanged. This checks agreement with that distributed copy, not original-provider identity."
+}

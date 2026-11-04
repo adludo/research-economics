@@ -1,0 +1,118 @@
+{
+  "checked_date_utc": "2026-11-03",
+  "references": [
+    {
+      "key": "oecd2001",
+      "authors": "OECD",
+      "title": "Measuring Productivity: OECD Manual. Measurement of Aggregate and Industry-level Productivity Growth",
+      "year": 2001,
+      "doi": "10.1787/9789264194519-en",
+      "reference_url": "https://doi.org/10.1787/9789264194519-en",
+      "request_result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "full_text_read": false,
+      "publisher_identity_verified": false,
+      "status": "Suggested primary reference; primary text, final version, and publisher metadata not verified here. No numerical paper findings reproduced."
+    },
+    {
+      "key": "solow1957",
+      "authors": "Robert M. Solow",
+      "title": "Technical Change and the Aggregate Production Function",
+      "year": 1957,
+      "doi": "10.2307/1926047",
+      "reference_url": "https://doi.org/10.2307/1926047",
+      "request_result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "full_text_read": false,
+      "publisher_identity_verified": false,
+      "status": "Suggested primary reference; primary text, final version, and publisher metadata not verified here. No numerical paper findings reproduced."
+    },
+    {
+      "key": "jorgenson1967",
+      "authors": "Dale W. Jorgenson and Zvi Griliches",
+      "title": "The Explanation of Productivity Change",
+      "year": 1967,
+      "doi": "10.2307/2296675",
+      "reference_url": "https://doi.org/10.2307/2296675",
+      "request_result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "full_text_read": false,
+      "publisher_identity_verified": false,
+      "status": "Suggested primary reference; primary text, final version, and publisher metadata not verified here. No numerical paper findings reproduced."
+    },
+    {
+      "key": "diewert1976",
+      "authors": "W. Erwin Diewert",
+      "title": "Exact and Superlative Index Numbers",
+      "year": 1976,
+      "doi": "10.1016/0304-4076(76)90009-9",
+      "reference_url": "https://doi.org/10.1016/0304-4076(76)90009-9",
+      "request_result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "full_text_read": false,
+      "publisher_identity_verified": false,
+      "status": "Suggested primary reference; primary text, final version, and publisher metadata not verified here. No numerical paper findings reproduced."
+    },
+    {
+      "key": "caves1982",
+      "authors": "Douglas W. Caves, Laurits R. Christensen, and W. Erwin Diewert",
+      "title": "The Economic Theory of Index Numbers and the Measurement of Input, Output, and Productivity",
+      "year": 1982,
+      "doi": "10.2307/1913388",
+      "reference_url": "https://doi.org/10.2307/1913388",
+      "request_result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "full_text_read": false,
+      "publisher_identity_verified": false,
+      "status": "Suggested primary reference; primary text, final version, and publisher metadata not verified here. No numerical paper findings reproduced."
+    },
+    {
+      "key": "syverson2011",
+      "authors": "Chad Syverson",
+      "title": "What Determines Productivity?",
+      "year": 2011,
+      "doi": "10.1257/jel.49.2.326",
+      "reference_url": "https://doi.org/10.1257/jel.49.2.326",
+      "request_result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "full_text_read": false,
+      "publisher_identity_verified": false,
+      "status": "Suggested primary reference; primary text, final version, and publisher metadata not verified here. No numerical paper findings reproduced."
+    },
+    {
+      "key": "feenstra2015",
+      "authors": "Robert C. Feenstra, Robert Inklaar, and Marcel P. Timmer",
+      "title": "The Next Generation of the Penn World Table",
+      "year": 2015,
+      "doi": "10.1257/aer.20130954",
+      "reference_url": "https://doi.org/10.1257/aer.20130954",
+      "request_result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "full_text_read": false,
+      "publisher_identity_verified": false,
+      "status": "Suggested primary reference; primary text, final version, and publisher metadata not verified here. No numerical paper findings reproduced."
+    },
+    {
+      "key": "byrne2016",
+      "authors": "David M. Byrne, John G. Fernald, and Marshall B. Reinsdorf",
+      "title": "Does the United States Have a Productivity Slowdown or a Measurement Problem?",
+      "year": 2016,
+      "doi": "10.1353/eca.2016.0002",
+      "reference_url": "https://doi.org/10.1353/eca.2016.0002",
+      "request_result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "full_text_read": false,
+      "publisher_identity_verified": false,
+      "status": "Suggested primary reference; primary text, final version, and publisher metadata not verified here. No numerical paper findings reproduced."
+    },
+    {
+      "key": "goldin2024",
+      "authors": "Ian Goldin, Pantelis Koutroumpis, François Lafond, and Julian Winkler",
+      "title": "Why Is Productivity Slowing Down?",
+      "year": 2024,
+      "doi": "10.1257/jel.20221543",
+      "reference_url": "https://doi.org/10.1257/jel.20221543",
+      "request_result": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "full_text_read": false,
+      "publisher_identity_verified": false,
+      "status": "Suggested primary reference; primary text, final version, and publisher metadata not verified here. No numerical paper findings reproduced."
+    }
+  ],
+  "inspected_material": [
+    "Pinned CRAN PWT10.01 variable codebook",
+    "Pinned author-hosted Boppart–Li README and implementation lines156–162"
+  ],
+  "limits": "Methods are explanatory derivations, not verified full-text summaries of these papers. Corrections/retractions were not checked."
+}

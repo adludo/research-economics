@@ -79,7 +79,7 @@ The arithmetic difference between two percentages. A growth rate rising from 2% 
 
 ## Productivity
 
-Output relative to the inputs used to produce it. Always specify the input and output: labour productivity, total factor productivity, wages, and total GDP are different measures. This wiki uses **labour productivity** when discussing GDP per hour. See [productivity research](/papers/leisure-productivity/).
+Output relative to the inputs used to produce it. Always specify the input and output: labour productivity, total factor productivity, wages, and total GDP are different measures. This wiki uses **labour productivity** when discussing GDP per hour. See the [productivity methods guide](/productivity/), [calculation details](/productivity/calculation/) and [time-use research](/papers/leisure-productivity/).
 
 ## Purchasing power parity (PPP)
 

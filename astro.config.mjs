@@ -11,6 +11,12 @@ export default defineConfig({
       { label: 'Overview', link: '/' },
       { label: 'Glossary', link: '/glossary/' },
       { label: 'Statistics and causality', link: '/guides/causality/' },
+      { label: 'Productivity', items: [
+        { label: 'Understanding productivity', link: '/productivity/' },
+        { label: 'How to calculate it', link: '/productivity/calculation/' },
+        { label: 'The productivity slowdown', link: '/productivity/slowdown/' },
+        { label: 'Methodology and paper references', link: '/papers/productivity/' },
+      ] },
       { label: 'Papers', items: [
         { label: 'Paper register', link: '/papers/' },
         { label: 'Birth rates and economic development', link: '/papers/fertility/' },

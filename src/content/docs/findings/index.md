@@ -3,6 +3,7 @@ title: "Key findings"
 description: Evidence summaries with links to the underlying studies.
 ---
 
+- [Productivity slowdown and interpretation](/productivity/slowdown/): a reproducible historical comparison, measurement choices and limits of causal explanations.
 - [Fertility findings](/findings/fertility/): development, income, survival, household bargaining, and the limits of leisure interpretations.
 
 - [Leisure and productivity findings](/findings/leisure-productivity/): how to distinguish GDP, hourly output, income, and welfare.
