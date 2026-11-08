@@ -89,6 +89,10 @@ A conversion that accounts for differences in price levels across economies. PPP
 
 A **repeated cross-section** samples people at successive dates, usually different people each time. A **panel** follows the same units over time. Country trends from repeated cross-sections are not evidence of each person's trajectory. See [ATUS](/data/leisure/#american-time-use-survey-atus).
 
+## Shadow value of leisure
+
+The marginal consumption someone would trade for another unit of leisure while holding utility fixed. In a utility model it is the ratio of the marginal utility of leisure to that of consumption, with consistent time and money units. Equality to a net wage requires additional labour-choice assumptions. It is not a universal market price. See [equations and a worked example](/findings/leisure-value/).
+
 ## Tax wedge
 
 The gap between an employer's labour cost and a worker's net reward, created by taxes and contributions; precise definitions vary. Consumption taxes may also affect the incentive to exchange work for consumption in macroeconomic models. Check the paper's measure before comparing estimates. See [Prescott](/papers/leisure-productivity/#prescott-2004-taxes-and-market-working-hours).

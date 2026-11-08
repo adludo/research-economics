@@ -7,6 +7,7 @@ description: Evidence summaries with links to the underlying studies.
 - [Fertility findings](/findings/fertility/): development, income, survival, household bargaining, and the limits of leisure interpretations.
 
 - [Leisure and productivity findings](/findings/leisure-productivity/): how to distinguish GDP, hourly output, income, and welfare.
+- [The value of leisure time](/findings/leisure-value/): shadow values, the net-wage benchmark and model-based monetary examples.
 - [Leisure findings](/findings/leisure/): leisure gains are uneven, unpaid work matters, and more free time need not improve well-being.
 - [Trade findings](/findings/trade/): distinguish real-income gains from GDP growth, and observed episodes from model-based counterfactuals.
 

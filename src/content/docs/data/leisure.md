@@ -168,6 +168,8 @@ The archived metadata distinguishes activity-based leisure (measure 1, including
 
 ## Choose and define the measure first
 
+To convert measured time into a welfare or consumption-money value, also specify preferences or a relevant choice model; see [leisure valuation equations](/findings/leisure-value/). Diary hours alone do not identify their monetary value.
+
 | Research question | Starting point | Essential check |
 | --- | --- | --- |
 | Recent US leisure | ATUS | Activity definitions, diary weights, and module years |

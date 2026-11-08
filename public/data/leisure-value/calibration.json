@@ -1,0 +1,23 @@
+{
+  "source_id": "bjk2025",
+  "source_printed_pages": [
+    433,
+    438,
+    439,
+    440
+  ],
+  "annual_consumption": 31046,
+  "currency": "2012 US dollars",
+  "theta": 8.9,
+  "frisch_elasticity": 1.0,
+  "baseline_leisure_share": 0.7,
+  "annual_waking_hours": 5840,
+  "marginal_tax_rate": 0.353,
+  "annual_earnings_for_calibration": 38491,
+  "counterfactual_additional_annual_hours": [
+    1,
+    365
+  ],
+  "note": "Rounded paper calibration moments, not raw observations or person-specific preference estimates. 5840=16*365; use this reference-year convention consistently. Do not infer current dollars. Counterfactuals and derived monetary results are ours, not reported paper estimates.",
+  "calibration_year": 2006
+}

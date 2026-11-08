@@ -1,0 +1,16 @@
+{
+  "marginal_value_per_hour_2012_usd": 14.193976027397264,
+  "net_hourly_wage_from_rounded_moments_2012_usd": 14.214427511415524,
+  "source_sha256": "563fd50e571f782cc29255e39a4892429b1520534b91972e99d73ab2ebba8836",
+  "formulas": {
+    "marginal": "C*theta*(1-ell)**(1/epsilon)/H",
+    "wtp": "C*(1-exp(-(v(ell+hours/H)-v(ell))))",
+    "equivalent_consumption_increase": "C*(exp(v(ell+hours/H)-v(ell))-1)"
+  },
+  "limits": [
+    "Our algebra and static counterfactuals from rounded calibration, not published price estimates.",
+    "Hold consumption baseline and other welfare dimensions fixed; no wage-income/policy equilibrium simulated.",
+    "Money is in2012USdollars; no inflation update.",
+    "Finite WTP and equivalent consumption increase use different comparison allocations."
+  ]
+}

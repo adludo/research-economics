@@ -5,6 +5,8 @@ description: Eight foundational and empirical studies of leisure, home productio
 
 Leisure is a use of time, not simply the absence of paid work. These studies distinguish paid employment, household production, schooling, care, and leisure, and ask how their allocation affects welfare.
 
+For equations that convert leisure into consumption-money values, see [valuing leisure time](/papers/leisure-value/) and the [worked examples](/findings/leisure-value/).
+
 **Reading route:** Becker → Gronau for theory; Aguiar–Hurst alongside Ramey–Francis for measurement; then the recession, unemployment, and technology papers.
 
 :::note[Evidence status]

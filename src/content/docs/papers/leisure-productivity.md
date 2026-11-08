@@ -87,6 +87,8 @@ Output per hour is labour productivity, not total factor productivity. Lower wor
 - **Limits:** Valuation depends on utility assumptions, measurement, and the selected welfare components. The paper does not establish that increasing leisure causes higher GDP or that its index captures every dimension of well-being.
 - **Data route:** [Welfare accounting inputs](/data/leisure-productivity/#welfare-accounting-inputs).
 
+For a separately inspected 2025 application with explicit leisure-value equations and money conversions, see [the valuation literature](/papers/leisure-value/). This does not change the reading status of the original 2016 entry.
+
 ## Pencavel (2015): diminishing returns to long working hours
 
 **Citation:** John Pencavel. “The Productivity of Working Hours.” *The Economic Journal* 125(589), 2052–2076.

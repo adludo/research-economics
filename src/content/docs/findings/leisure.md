@@ -18,6 +18,10 @@ These are summaries of the supplied discussion, not a systematic review or indep
 | [Krueger–Mueller (2012)](/papers/leisure/#krueger-and-mueller-2012-unemployment-and-emotional-well-being) | Unemployed people reported more sadness and less enjoyment of leisure; sadness decreased on re-employment. | Does not establish that leisure causes unhappiness. |
 | [Aguiar et al. (2021)](/papers/leisure/#aguiar-bils-charles-and-hurst-2021-leisure-technology) | The model attributes about 2% lower work hours among young men to improved leisure technology. | Model-based attribution for a specified group, not a gaming experiment or economy-wide effect. |
 
+## Putting a value on free time
+
+The [leisure-value guide](/findings/leisure-value/) explains a shadow-value equation, the assumptions behind using a net wage, and a calibrated consumption-equivalent example from a separately inspected paper. Time quantities and monetary welfare values require different inputs.
+
 ## Why the trend papers differ
 
 Aguiar–Hurst and Ramey–Francis answer different questions. They use different periods, population coverage, and treatment of schooling and household work. Their headline hour estimates should not be averaged or treated as a direct contradiction.

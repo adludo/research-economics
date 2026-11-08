@@ -1,0 +1,43 @@
+{
+  "date_utc": "2026-11-08",
+  "method": "Parent-run isolated calculator with fresh primary-PDF retrieval and hash verification. Generated two result files and the findings table; source/calibration/access records were copied inputs, not generated validations.",
+  "generated_artifacts": 3,
+  "comparison_files": 7,
+  "results": [
+    {
+      "path": "public/data/leisure-value/calibration.json",
+      "sha256": "11dd0f9999d03a02ad4d6303c4ee9a54542e80dae9eff7e357a109e02fb4f28e",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-value/worked-examples.csv",
+      "sha256": "4952a9775c7688372f47f9bd9261c12dc4c8ab87acd565cd759be8e3de977f70",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-value/derived-values.json",
+      "sha256": "78ed6040a680a4b7919305d6b1a1a4ececa7e012458f27e53aa1f72cd28a2ae7",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-value/sources.json",
+      "sha256": "0d15e8a8962bf7d8cae087096d31f0022429b9efbc3b039f48721f9749439e7a",
+      "identical": true
+    },
+    {
+      "path": "public/data/leisure-value/access-status.json",
+      "sha256": "58e1aa5b6bb95948cfbd95ff130e941e07efda43f469e102b74dd0057947480e",
+      "identical": true
+    },
+    {
+      "path": "scripts/calculate-leisure-value.py",
+      "sha256": "0e8aee287f69cacf5b4242dd787cff3a00c585c31da2979b8c57f9f61bf985ea",
+      "identical": true
+    },
+    {
+      "path": "src/content/docs/findings/leisure-value.md",
+      "sha256": "6b1cbec572ec6e8900d2d043d41ce6fa309f5c30639049a113769bdb1ad676f3",
+      "identical": true
+    }
+  ]
+}

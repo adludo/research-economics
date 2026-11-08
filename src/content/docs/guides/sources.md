@@ -59,3 +59,7 @@ This is descriptive data analysis, not replication of the fertility papers. It u
 ## Leisure and trade graph additions
 
 The leisure, leisure/productivity and trade data pages now include frozen-archive graphs and CSV extracts. US residual leisure and Norwegian daily leisure are kept separate. Productivity uses output GDP divided by total market worker hours; exports/GDP is interpreted from the archive's documented export formula despite its conflicting column label. Every figure contains retrieval references. These additions check aggregate archive values and do not verify the original papers' estimates or establish causal effects.
+
+## Leisure-value equations
+
+The leisure-valuation addition reads Brouillette, Jones and Klenow's (2025) author-hosted publication copy, pinned at revision `1eeeb63a3a020e97778eb926cc09ca3ea472d32b`. The [source record](/data/leisure-value/sources.json) gives its hash and printed/PDF locators. Equations and calibration passages were checked; the hourly values and finite consumption-money examples are labelled as our own derivations. The full copyrighted PDF is linked rather than redistributed. Earlier Becker/Jones–Klenow entries retain their original reading status. Publisher authentication, corrections/retractions and empirical replication remain separate checks.

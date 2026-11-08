@@ -1,0 +1,33 @@
+{
+  "retrieved_date_utc": "2026-11-08",
+  "sources": [
+    {
+      "id": "bjk2025",
+      "title": "Race and Economic Well-Being in the United States",
+      "authors": [
+        "Jean-Félix Brouillette",
+        "Charles I. Jones",
+        "Peter J. Klenow"
+      ],
+      "year": 2025,
+      "journal": "AER: Insights",
+      "volume": 7,
+      "issue": 4,
+      "pages": "429–446",
+      "doi": "10.1257/aeri.20240467",
+      "source_url": "https://raw.githubusercontent.com/jfbrou/jfbrou.github.io/1eeeb63a3a020e97778eb926cc09ca3ea472d32b/papers/dignity.pdf",
+      "repository_revision": "1eeeb63a3a020e97778eb926cc09ca3ea472d32b",
+      "sha256": "563fd50e571f782cc29255e39a4892429b1520534b91972e99d73ab2ebba8836",
+      "bytes": 676739,
+      "primary_text_status": "Published-layout author copy read; metadata on its masthead checked. Independent publisher authentication, corrections/retractions and replication not established.",
+      "locators": {
+        "utility": "printed p.433 (PDFp.5), unnumbered flow-utility and leisure equations",
+        "welfare_scaling": "printed p.433 eq.(1); printed p.434 eq.(3)",
+        "time_measure": "printed pp.438–439 (PDFpp.10–11), SectionII.E",
+        "calibration": "printed pp.439–440 (PDFpp.11–12), SectionIII",
+        "jones_klenow_citation": "printed p.446 (PDFp.18), references"
+      }
+    }
+  ],
+  "scope": "Focused search, not systematic review. Only this source underlies new source-supported numerical/calibration claims; older foundations are reading pointers with their existing status."
+}

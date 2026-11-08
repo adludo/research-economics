@@ -85,3 +85,7 @@ The [productivity section](src/content/docs/productivity/index.md) explains head
 ## Leisure-survey figures
 
 The [leisure-source guide](src/content/docs/data/leisure.md) includes section-specific numerical examples, MTUS coverage, and clearly labelled AHTUS/OECD measurement diagrams. Rebuild with `python3 scripts/collate-leisure-surveys.py` and `python3 scripts/plot-leisure-surveys.py`, using `scripts/requirements-charts.txt`. The [audit record](docs/audits/2026-11-02-leisure-surveys.md) separates archive checks from original-provider and diagram-definition limits.
+
+## Valuing leisure time
+
+The [equation guide](src/content/docs/findings/leisure-value.md) and [literature register](src/content/docs/papers/leisure-value.md) cover marginal shadow values, the conditional net-wage benchmark and finite consumption-equivalent examples from an inspected 2025 paper. Run `python3 scripts/calculate-leisure-value.py --verify-source` to regenerate the worked examples and table. See [the audit](docs/audits/2026-11-08-leisure-value.md) for source locators and verification limits.

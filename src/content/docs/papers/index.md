@@ -5,6 +5,8 @@ description: A curated bibliography on fertility, leisure, productivity, and tra
 
 ## Research collections
 
+- [Valuing leisure time](/papers/leisure-value/): an inspected 2025 consumption–leisure model, equations and locators, plus the existing theoretical foundations.
+
 - [Productivity methodology and reading references](/papers/productivity/): foundational calculations and slowdown literature, with inspected-code and full-text access status.
 
 - [Birth rates, growth, and time allocation](/papers/fertility/): six papers and a review on fertility, development, human capital, work and childcare, checked against author-hosted copies.

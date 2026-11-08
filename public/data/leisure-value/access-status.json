@@ -1,0 +1,22 @@
+{
+  "checked_date_utc": "2026-11-08",
+  "checks": [
+    {
+      "url": "https://doi.org/10.1257/aeri.20240467",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://doi.org/10.1257/aer.20110236",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://doi.org/10.2307/2228949",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://web.stanford.edu/~chadj/JonesKlenowAER2016.pdf",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "limit": "Blocked originals are unverified. Successful author-copy retrieval is separate evidence; it does not authenticate publisher records."
+}
