@@ -3,7 +3,7 @@ title: Australia
 description: An outline for the Australia case study, ready for future literature, data and findings.
 ---
 
-**Status: Outline.** The sections below are reserved for future research.
+**Status: Outline.** The sections below are reserved for future research. Public datasets and descriptive graphs are collected in [Australian population and economy](/data/australia/).
 
 ## Overview
 
@@ -22,6 +22,8 @@ description: An outline for the Australia case study, ready for future literatur
 ## Policy and institutions
 
 ## Literature and data sources
+
+- [Australian population and economy](/data/australia/): Census demographics, families, GDP, sector growth and employment, with downloads and source attribution.
 
 ## Key findings
 

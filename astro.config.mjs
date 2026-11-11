@@ -26,6 +26,7 @@ export default defineConfig({
       ] },
       { label: 'Data sources', items: [
         { label: 'Data overview', link: '/data/' },
+        { label: 'Australian population and economy', link: '/data/australia/' },
         { label: 'Fertility data and definitions', link: '/data/fertility/' },
         { label: 'Recent fertility, GDP, and hours', link: '/data/recent-fertility-hours/' },
         { label: 'Historical fertility, GDP, and hours', link: '/data/fertility-charts/' },
