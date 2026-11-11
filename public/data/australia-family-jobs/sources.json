@@ -1,0 +1,65 @@
+{
+  "retrieved_date_utc": "2026-11-11",
+  "repository_base": "16a9e78ee6d6e20b6a5324684d1abc6950d618c7",
+  "sources": {
+    "tables.zip": {
+      "url": "https://github.com/carlosyanez/auscensus/releases/download/aux_files/tables.zip",
+      "sha256": "9997eb8547d9b2c22bdc6c42b7c7ca9553e15acee88bf776659b3c20ccaff313",
+      "bytes": 3373,
+      "role": "Third-party archived ABS DataPack metadata, mutable aux_files release; checksum identifies fetched payload, not official authenticity."
+    },
+    "descriptors.zip": {
+      "url": "https://github.com/carlosyanez/auscensus/releases/download/aux_files/descriptors.zip",
+      "sha256": "cbf43aef3e78a530131afd4b414234c2bab1d40d80513295fc6d42f109d95d52",
+      "bytes": 328980,
+      "role": "Third-party archived ABS DataPack metadata, mutable aux_files release; checksum identifies fetched payload, not official authenticity."
+    },
+    "content.zip": {
+      "url": "https://github.com/carlosyanez/auscensus/releases/download/aux_files/content.zip",
+      "sha256": "154e8b1ae59014b8557f5282422eacc1d938d4fada03086b2aa04db130d19912",
+      "bytes": 51297,
+      "role": "Third-party archived ABS DataPack metadata, mutable aux_files release; checksum identifies fetched payload, not official authenticity."
+    },
+    "HILDA-User-Manual-Release-21.0.pdf": {
+      "url": "https://raw.githubusercontent.com/Henrik-Alexander/transition_fatherhood_australia/158860420d10a13610fedb38c798eaa3af08dc92/handbooks/HILDA-User-Manual-Release-21.0.pdf",
+      "sha256": "1b22ae126beaf80788d85e8ead3cf0a65c93728163e0936d4c8a169c9f45a2ae",
+      "bytes": 5248363,
+      "role": "Primary HILDA documentation in a third-party archive, Release 21, last modified 5 December 2022. Not a HILDA data file."
+    },
+    "metadata-transform.R": {
+      "url": "https://raw.githubusercontent.com/carlosyanez/auscensus/fcd367e10fab602d561ea9a9cea3a7ea12df355d/data-raw/process_data.R",
+      "sha256": "ebcf3788f51c6151f256ecab82fdd4cf5fc98767e6760a321905341298a2faf1",
+      "bytes": 11137,
+      "role": "Code tracing descriptors and catalogue to DataPack metadata workbook sheets."
+    }
+  },
+  "derived_files": {
+    "census-table-catalogue.json": "Select 2021 rows for G28, G29, G30, G47, G48, G54, G58 and G60 from tables.parquet in tables.zip. Copy names and populations unchanged.",
+    "census-cell-examples.json": "Select named illustrative descriptors for the discussed tables from descriptors.parquet, Year=2021. Retain original keys/strings; no observation counts extracted.",
+    "census-state-file-locators.json": "Select content.parquet rows where Year=2021, geo=STE, and element in G28, G29, G30, G47, G48, G54, G58, G60; preserve fields and multipart file locators. This is a file inventory, not retrieved cell values."
+  },
+  "metadata_reading": "Python 3.12 with pyarrow 26.0.1; unzip payloads in memory and read Parquet tables. This library is not a site-build dependency.",
+  "access_checks": {
+    "census-dictionary": {
+      "url": "https://www.abs.gov.au/census/guide-census-data/census-dictionary/2021",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    "tablebuilder": {
+      "url": "https://www.abs.gov.au/statistics/microdata-tablebuilder/tablebuilder",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    "census-microdata": {
+      "url": "https://www.abs.gov.au/statistics/microdata-tablebuilder/available-microdata-tablebuilder/census-population-and-housing",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    "hilda": {
+      "url": "https://melbourneinstitute.unimelb.edu.au/hilda",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  },
+  "limits": [
+    "Original ABS metadata agreement and current product availability remain unverified.",
+    "HILDA manual inspected at named pages; current official-manual agreement, approved-record access and actual joint sample counts not checked.",
+    "No four-way observations or new empirical graphs were obtained."
+  ]
+}

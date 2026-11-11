@@ -3,6 +3,7 @@ title: Data sources
 description: Official data providers and practical measurement guidance.
 ---
 
+- [Australian parents, jobs and family size](/data/australia-families-jobs/): existing-data gaps, partial Census tables and routes to linked parent and family data.
 - [Australian population and economy](/data/australia/): Census age and families, industry employment, GDP, sector growth and annual labour-market graphs.
 - [Productivity calculations and historical inputs](/productivity/slowdown/#a-reproducible-historical-comparison): real output, total hours, dated growth comparisons and downloadable inputs.
 - [Recent fertility, GDP, and working-hours graphs](/data/recent-fertility-hours/): World Bank and ILOSTAT estimates through 2024, coverage tables, and downloads.

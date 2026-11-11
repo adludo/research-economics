@@ -1,0 +1,58 @@
+[
+  {
+    "Short": "P_15_19_Num_chld_evr_brn_Nne",
+    "Long": "Age_group_of_parent_15_19_years_number_of_children_ever_born_no_children",
+    "DataPackfile": "G28",
+    "Profiletable": "G28",
+    "Columnheadingdescriptioninprofile": "Number of children ever born: None",
+    "Year": 2021.0
+  },
+  {
+    "Short": "P_15_19_Num_chld_evr_brn_1",
+    "Long": "Age_group_of_parent_15_19_years_number_of_children_ever_born_one_child",
+    "DataPackfile": "G28",
+    "Profiletable": "G28",
+    "Columnheadingdescriptioninprofile": "Number of children ever born: One child",
+    "Year": 2021.0
+  },
+  {
+    "Short": "D_0_4_FPEFT_MPEFT",
+    "Long": "Dependent_children_aged_0_4_years_female_parent_employed_worked_full_time_male_parent_employed_worked_full_time",
+    "DataPackfile": "G47A",
+    "Profiletable": "G47a",
+    "Columnheadingdescriptioninprofile": "MALE PARENT: Employed: Worked full-time|DEPENDENT CHILDREN AGED 0-4 YEARS",
+    "Year": 2021.0
+  },
+  {
+    "Short": "M_LPLFS_EFT_DC_0_4",
+    "Long": "Male_lone_parent_employed_worked_full_time_age_of_dependent_children_0_4_years",
+    "DataPackfile": "G48A",
+    "Profiletable": "G48",
+    "Columnheadingdescriptioninprofile": "Age of dependent children: 0-4 years",
+    "Year": 2021.0
+  },
+  {
+    "Short": "M_Ag_For_Fshg_15_19",
+    "Long": "Males_agriculture_forestry_and_fishing_age_15_19_years",
+    "DataPackfile": "G54A",
+    "Profiletable": "G54",
+    "Columnheadingdescriptioninprofile": "Age: 15-19 years|MALES",
+    "Year": 2021.0
+  },
+  {
+    "Short": "M15_19_Managers",
+    "Long": "Males_15_19_years_occupation_managers",
+    "DataPackfile": "G60A",
+    "Profiletable": "G60",
+    "Columnheadingdescriptioninprofile": "Occupation: Managers|MALES",
+    "Year": 2021.0
+  },
+  {
+    "Short": "P_15_19_Num_chd_evr_brn_6_mr",
+    "Long": "Age_group_of_parent_15_19_years_number_of_children_ever_born_six_or_more_children",
+    "DataPackfile": "G28",
+    "Profiletable": "G28",
+    "Columnheadingdescriptioninprofile": "Number of children ever born: Six or more children",
+    "Year": 2021.0
+  }
+]

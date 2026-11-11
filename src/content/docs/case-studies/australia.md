@@ -23,6 +23,8 @@ description: An outline for the Australia case study, ready for future literatur
 
 ## Literature and data sources
 
+- [Parents, jobs and family size](/data/australia-families-jobs/): whether the existing data support joint comparisons, and Census/HILDA access routes.
+
 - [Australian population and economy](/data/australia/): Census demographics, families, GDP, sector growth and employment, with downloads and source attribution.
 
 ## Key findings

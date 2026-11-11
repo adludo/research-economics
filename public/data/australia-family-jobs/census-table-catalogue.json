@@ -1,0 +1,42 @@
+[
+  {
+    "table": "G28",
+    "title": "Number of Children Ever Born",
+    "population": "Females aged 15 years and over"
+  },
+  {
+    "table": "G29",
+    "title": "Family Composition",
+    "population": "Families and persons in families in occupied private dwellings"
+  },
+  {
+    "table": "G30",
+    "title": "Family Composition and Country of Birth of Parents by Age of Dependent Children",
+    "population": "Dependent children"
+  },
+  {
+    "table": "G47",
+    "title": "Labour Force Status by Sex of Parents by Age of Dependent Children for Couple Families",
+    "population": "Dependent children in couple families"
+  },
+  {
+    "table": "G48",
+    "title": "Labour Force Status by Sex of Parent by Age of Dependent Children for One Parent Families",
+    "population": "Dependent children in one parent families"
+  },
+  {
+    "table": "G54",
+    "title": "Industry of Employment by Age by Sex",
+    "population": "Employed persons aged 15 years and over"
+  },
+  {
+    "table": "G58",
+    "title": "Total Family Income (Weekly) by Labour Force Status of Parents/Partners for Couple Families with Children",
+    "population": "Couple families with no children"
+  },
+  {
+    "table": "G60",
+    "title": "Occupation by age by Sex",
+    "population": "Employed persons aged 15 years and over"
+  }
+]

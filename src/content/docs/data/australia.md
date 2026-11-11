@@ -7,6 +7,8 @@ This guide collects public sources for the [Australia case study](/case-studies/
 
 **Evidence status, 11 November 2026:** The graphs use pinned public archives of ABS Census extracts, an ABS-format employment workbook, and World Bank World Development Indicators (WDI). Official ABS, World Bank and ILO endpoints could not be retrieved through this environment's network policy. Agreement with original releases and the availability of newer releases remain **unverified**. The [source manifest](/data/australia/sources.json) records exact retrieval URLs and checksums. These are dated snapshots, not a live dashboard.
 
+For a joint analysis of occupation, child counts, state and parent age, see [Australian parents, jobs and family size](/data/australia-families-jobs/). The extracts below do not link those characteristics for the same families.
+
 ## Census population and demographics
 
 The 2021 Census provides a common snapshot for small-area demographics. Census counts differ from **estimated resident population (ERP)**, which adjusts for undercount and residents temporarily overseas. Use ERP for population growth between censuses. Do not subtract a Census count from an ERP estimate to measure migration.
