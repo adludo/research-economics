@@ -60,6 +60,6 @@
   "limits": [
     "Original ABS metadata agreement and current product availability remain unverified.",
     "HILDA manual inspected at named pages; current official-manual agreement, approved-record access and actual joint sample counts not checked.",
-    "No four-way observations or new empirical graphs were obtained."
+    "No four-way observations containing job type were obtained. Subsequent G28 age/parity/state graphs have a separate graph-sources.json manifest."
   ]
 }

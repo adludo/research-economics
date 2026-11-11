@@ -5,7 +5,7 @@ description: What the existing Australian data can link, and where to obtain joi
 
 **The existing wiki extracts cannot link job type, family size, state and parent age for the same parents.** They contain separate aggregates. HILDA's documented person and family links provide a route to joint analysis with approved data access. A custom Census table is another route to investigate, but the required combination has not been confirmed in TableBuilder.
 
-**Checked 11 November 2026.** This is a data-availability finding, not an estimate of how occupation affects fertility. No joint observations or new empirical graphs were obtained. Original ABS and HILDA websites returned proxy HTTP 403. The evidence below comes from the checked-in extracts, archived Census metadata and an inspected HILDA user manual; current products and access conditions still need checking.
+**Checked 11 November 2026.** This is a data-availability finding, not an estimate of how occupation affects fertility. Two graphs below now use an archived age × children-ever-born × state table. No four-way extract containing job type was obtained. Original ABS and HILDA websites returned proxy HTTP 403. The evidence below comes from the checked-in extracts, archived Census metadata and an inspected HILDA user manual; current products and access conditions still need checking.
 
 ## What the wiki already contains
 
@@ -35,7 +35,7 @@ For a first descriptive comparison, use **parents' current occupation × number 
 
 ## Census tables that provide partial links
 
-The archived 2021 General Community Profile metadata identifies the tables below. The [state-file inventory](/data/australia-family-jobs/census-state-file-locators.json) lists their `STE` files, including multipart tables. We inspected metadata, not the observation counts in those files. Obtain the actual tables from [ABS DataPacks](https://www.abs.gov.au/census/find-census-data/datapacks) or [Community Profiles](https://www.abs.gov.au/census/find-census-data/community-profiles).
+The archived 2021 General Community Profile metadata identifies the tables below. The [state-file inventory](/data/australia-family-jobs/census-state-file-locators.json) lists their `STE` files, including multipart tables. We inspected metadata for these tables; G28 observations are now graphed below from a separate pinned archive. The existing guide also uses G29 family counts. Observation counts for G30, G47, G48, G54, G58 and G60 were not retrieved for this page. Obtain the actual tables from [ABS DataPacks](https://www.abs.gov.au/census/find-census-data/datapacks) or [Community Profiles](https://www.abs.gov.au/census/find-census-data/community-profiles).
 
 | Table | Archived title and population | Useful link / missing link |
 | --- | --- | --- |
@@ -100,7 +100,40 @@ Request one cross-tabulation or approved-record extract with the following speci
 4. **Timing and quality:** keep one Census vintage or same-wave HILDA records; record age/composition reference dates, classifications, missing responses, confidentiality perturbation, top-coding and, for survey data, weights and standard errors. Pool years only with an explicit design.
 5. **Output:** counts and the distribution of child counts within each parent-age × state × occupation group, with denominators and source metadata. Broaden age/job groups where cells are unreliable. Do not interpret an open-ended category as an exact count when calculating means.
 
-Once this joint extract exists, suitable graphs would compare child-count distributions by occupation within state and parent-age bands. The current separate aggregates cannot support those graphs. Even a valid joint table would show association; selection into work, income, age and reverse effects of children on employment require a separate [causal research design](/guides/causality/).
+Once the four-way joint extract exists, suitable graphs would compare child-count distributions by occupation within state and parent-age bands. The currently retrieved tables cannot support those occupation comparisons. Even a valid joint table would show association; selection into work, income, age and reverse effects of children on employment require a separate [causal research design](/guides/causality/).
+
+## Graphs of available joint data
+
+These figures link **women's age, children ever born and state** in the 2021 Census. They include women with zero births. They do not identify current parents' occupations, fathers, age at childbirth or the size of a resident family. Women in different age bands are different groups observed in 2021, not the same cohort followed over time.
+
+### Two or more children ever born, by age and state
+
+![Heatmap showing the percentage of women reporting at least two children ever born, by five-year age band from 25–29 to 55–59 and eight Australian states and territories.](/charts/australia-family-jobs/two-plus-by-age-state.svg)
+
+[PNG](/charts/australia-family-jobs/two-plus-by-age-state.png) · [Counts, denominators and percentages CSV](/data/australia-family-jobs/parity-summary.csv). Each percentage is `women reporting 2, 3, 4, 5 or 6+ births / women stating a child count × 100`. Women with an unstated count are excluded from this denominator, not treated as having zero children. Differences in non-response can affect comparisons.
+
+### Birth-count distribution at ages 45–49
+
+![Stacked bars show the distribution of zero, one, two, three, four, five, six-or-more and unstated children ever born among women aged 45–49 in eight states and territories.](/charts/australia-family-jobs/parity-45-49.svg)
+
+[PNG](/charts/australia-family-jobs/parity-45-49.png) · [CSV](/data/australia-family-jobs/parity-summary.csv). This denominator includes **all eight categories**, so the unstated share remains visible. Ages 45–49 provide a common age band for comparison; this is not a claim that every woman has completed childbearing. The `6+` category cannot be treated as exactly six when calculating an average.
+
+### Graph sources and reproduction
+
+[Retrieved source TSV](/data/australia-family-jobs/parity-source.tsv) · [Exact URL, checksum and definitions](/data/australia-family-jobs/graph-sources.json). Source: ABS Census G28, via [Census2021.DataPack revision 2cb8412](https://github.com/HughParsonage/Census2021.DataPack/blob/2cb84120792534c4d39adfa7a7d4d2abd092d981/tsv/STE/STE__Age5yr_ChildrenEverBorn.tsv), retrieved 11 November 2026. The archived transformation at lines 1466–1474 maps G28 age and birth-count cells; the separately inspected G28 descriptors establish that `6` means six or more and blank means not stated. Every graph contains a retrieval reference.
+
+Both graphs select the eight states/territories and seven age bands 25–29 through 55–59. All 56 selected groups contain all eight categories (448 cells); no missing values are filled. Other Territories and other ages are omitted. ABS confidentiality perturbation is retained and denominators are sums of the same source cells, not population totals from another table. No weights, interpolation or estimates of omitted counts are added.
+
+The official DataPack download still returned proxy HTTP 403. Original-provider agreement remains unverified. G47/G48/G54/G60 observations were not obtained, so there are no new job-type or parental-employment graphs. HILDA records remain subject to access approval.
+
+With the existing chart dependencies installed, reproduce with:
+
+```sh
+python -m pip install -r scripts/requirements-charts.txt
+python scripts/plot-australia-parity.py
+```
+
+Use `--input-cache public/data/australia-family-jobs/parity-source.tsv` for offline regeneration. The script validates the source checksum, exports the summary CSV and renders both SVG/PNG pairs. The static website build uses the checked-in images. See the [graph audit](https://github.com/adludo/research-economics/blob/docs/australia-family-jobs-data/docs/audits/2026-11-11-australia-parity-graphs.md).
 
 ## Evidence and remaining checks
 

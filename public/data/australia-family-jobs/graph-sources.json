@@ -1,0 +1,10 @@
+{
+  "url": "https://raw.githubusercontent.com/HughParsonage/Census2021.DataPack/2cb84120792534c4d39adfa7a7d4d2abd092d981/tsv/STE/STE__Age5yr_ChildrenEverBorn.tsv",
+  "sha256": "14e543b4fc15ab035242516ee0d18fe6092e627adc824117ae94ef77c8822569",
+  "bytes": 29685,
+  "retrieved_date_utc": "2026-11-11",
+  "source_table": "2021 G28 Number of Children Ever Born; females aged 15 and over",
+  "selection": "Eight named states/territories; ages25\u201359 in seven five-year groups. Other Territories and other ages omitted. All selected groups have all eight source categories; no missing-cell filling.",
+  "definitions": "Archive6 means6+ per G28 cell descriptors; blank parity is not stated. Counts are women, not children or families. Age is Census age, not age at birth.",
+  "limits": "Historical cross-section, not cohort fertility or a causal estimate. Resident family size, fathers ages and job type are absent. ABS original agreement unverified; official download proxy403."
+}
