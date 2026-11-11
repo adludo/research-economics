@@ -1,0 +1,222 @@
+[
+  {
+    "series_id": "A84090238L",
+    "label": "Agriculture, Forestry and Fishing",
+    "header": "Agriculture, Forestry and Fishing ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090239R",
+    "label": "Mining",
+    "header": "Mining ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090240X",
+    "label": "Manufacturing",
+    "header": "Manufacturing ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090236J",
+    "label": "Electricity, Gas, Water and Waste Services",
+    "header": "Electricity, Gas, Water and Waste Services ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090246L",
+    "label": "Construction",
+    "header": "Construction ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090247R",
+    "label": "Wholesale Trade",
+    "header": "Wholesale Trade ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090243F",
+    "label": "Retail Trade",
+    "header": "Retail Trade ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090229K",
+    "label": "Accommodation and Food Services",
+    "header": "Accommodation and Food Services ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090232X",
+    "label": "Transport, Postal and Warehousing",
+    "header": "Transport, Postal and Warehousing ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090237K",
+    "label": "Information Media and Telecommunications",
+    "header": "Information Media and Telecommunications ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090233A",
+    "label": "Financial and Insurance Services",
+    "header": "Financial and Insurance Services ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090244J",
+    "label": "Rental, Hiring and Real Estate Services",
+    "header": "Rental, Hiring and Real Estate Services ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090234C",
+    "label": "Professional, Scientific and Technical Services",
+    "header": "Professional, Scientific and Technical Services ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090241A",
+    "label": "Administrative and Support Services",
+    "header": "Administrative and Support Services ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090242C",
+    "label": "Public Administration and Safety",
+    "header": "Public Administration and Safety ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090231W",
+    "label": "Education and Training",
+    "header": "Education and Training ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090235F",
+    "label": "Health Care and Social Assistance",
+    "header": "Health Care and Social Assistance ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090230V",
+    "label": "Arts and Recreation Services",
+    "header": "Arts and Recreation Services ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84090245K",
+    "label": "Other Services",
+    "header": "Other Services ;  Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  },
+  {
+    "series_id": "A84932381A",
+    "label": "Employed total",
+    "header": "Employed total ;",
+    "unit": "thousands of employed persons",
+    "series_type": "Seasonally Adjusted",
+    "data_type": "STOCK",
+    "frequency": "Quarter",
+    "collection_month": 2,
+    "observations": 163
+  }
+]

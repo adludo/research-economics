@@ -1,0 +1,121 @@
+{
+  "date_utc": "2026-11-11",
+  "method": "Fresh public network retrieval in isolated directory /tmp/australia-repro-g5gx457q; checksum validation, collation and plotting; byte comparison with repository outputs.",
+  "commands": [
+    "python scripts/collate-australia.py",
+    "python scripts/plot-australia.py"
+  ],
+  "matched_files": 26,
+  "files": [
+    {
+      "path": "public/charts/australia/age.png",
+      "sha256": "be8b11d971680c21159c6d5294115d9271c0ef1e6db018289ff0edc5bf0bc5ba"
+    },
+    {
+      "path": "public/charts/australia/age.svg",
+      "sha256": "900d770b461ccdc94846bc88eb767bc58d44e7ac80d7606f44621456855d6682"
+    },
+    {
+      "path": "public/charts/australia/families.png",
+      "sha256": "43b30686f07b310f653f6c232ad34afd44e5086035680b822906113978ae4d29"
+    },
+    {
+      "path": "public/charts/australia/families.svg",
+      "sha256": "b0d3e1327448cbb97e01aa78e6dda7b000279298c4141154b7471ba76fca6b1b"
+    },
+    {
+      "path": "public/charts/australia/industry-employment.png",
+      "sha256": "619ac3ae7a39741568b7b8aa413b9c50ef25285b84eb54823b5f9573bebe32d5"
+    },
+    {
+      "path": "public/charts/australia/industry-employment.svg",
+      "sha256": "731230354e1c0e1b3f2b032e4a39fcf181246efbe3c248d731272bc0fea17d85"
+    },
+    {
+      "path": "public/charts/australia/labour-market.png",
+      "sha256": "bff6e9721f56ed4a96f60aee9bbdca9c4948d077a4d0ccb9598f3d197ce36f1c"
+    },
+    {
+      "path": "public/charts/australia/labour-market.svg",
+      "sha256": "fe3190926ceca8fe077b8688cb061f09532295ea55a7aabcbd9df57c6bddb8e7"
+    },
+    {
+      "path": "public/charts/australia/macro.png",
+      "sha256": "94812ce51df0bf1159c38a59a8b5957b1f1555dfbba8a869a6daa8bf99f43428"
+    },
+    {
+      "path": "public/charts/australia/macro.svg",
+      "sha256": "fdf853deb4419ceaaf25b51376b753b4cf7507b92496f9d62880e5e5e5aa5e2c"
+    },
+    {
+      "path": "public/charts/australia/population.png",
+      "sha256": "9f51b2275cfdfc8a76a736040f8a679229dcda6f7074b042b473b7178afe52aa"
+    },
+    {
+      "path": "public/charts/australia/population.svg",
+      "sha256": "315e0f2bc8bf269aa7961514b121d13928144df28b14e4b510a5dc9a688e903c"
+    },
+    {
+      "path": "public/charts/australia/sector-growth.png",
+      "sha256": "a942fe4177db08198024a8c0b33fff6d8c8524a2629d67955d431d175c2fd9a2"
+    },
+    {
+      "path": "public/charts/australia/sector-growth.svg",
+      "sha256": "bbdba9aa5627a1f87f6edb44cbf184991a6c13c5347f77e3a20925712a2b7b26"
+    },
+    {
+      "path": "public/data/australia/annual-indicators.csv",
+      "sha256": "2ad19cccd7f8d512736f157ddb9a207210666603d38398552043248728af7cac"
+    },
+    {
+      "path": "public/data/australia/census-age.csv",
+      "sha256": "dfab3f24dc08896af4959942767375bec04d13b5046c9115ae62cd987255ba51"
+    },
+    {
+      "path": "public/data/australia/census-age.tsv",
+      "sha256": "9363b05324821a0f1a582a470b9e3c12fb5bb439fd57bc6df48c39179d62ce69"
+    },
+    {
+      "path": "public/data/australia/census-families.csv",
+      "sha256": "8463b3cdf9d7ed3baeeff12193bd6569c6c7b957b6003a620232cd660a32fd69"
+    },
+    {
+      "path": "public/data/australia/census-families.tsv",
+      "sha256": "ea9bff55d6f92af6f61ee7895b2faa40789a5c42414777c08c040bec569283bb"
+    },
+    {
+      "path": "public/data/australia/census-persons.tsv",
+      "sha256": "1e2da299ac5eed1a4bc84f764ef0ae7fe916e0f2033b0709b74333163e2d59bb"
+    },
+    {
+      "path": "public/data/australia/census-population.csv",
+      "sha256": "a33a125cb66ce600ef33c9460bceb16c45c34324cb1de9903a2ec2ef5c164b6c"
+    },
+    {
+      "path": "public/data/australia/coverage.json",
+      "sha256": "1e82c3b2c0ebe6c9fd159f4c4c7e8570317640e89a82440f1ff8fb9487b2fb25"
+    },
+    {
+      "path": "public/data/australia/employment-metadata.json",
+      "sha256": "11e6b54d944aba75e6c0590d40bd189a1efc20aa4be5289a1470054e497dc36b"
+    },
+    {
+      "path": "public/data/australia/indicator-metadata.json",
+      "sha256": "57ca07eb9b553cd26626f16dd8d298cde2fef787dfef793c4b69d52f8d6e01d7"
+    },
+    {
+      "path": "public/data/australia/industry-employment.csv",
+      "sha256": "045dfe311c090b7e4d70ad69aa897154dea7da69ab2ebda67bca499cfb5026e7"
+    },
+    {
+      "path": "public/data/australia/sources.json",
+      "sha256": "98d4cf7419ce6a7346d4f8fdb50dfe6f57621e9a961a9f53f8cbbb25094b4b36"
+    }
+  ],
+  "static_checks": {
+    "build_pages": 32,
+    "australia_page_internal_urls_and_anchors": 75,
+    "production_http_routes_passed": 10
+  },
+  "limits": "Archive reproducibility does not establish original-provider agreement, current release coverage, or scientific validity."
+}

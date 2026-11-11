@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="720pt" viewBox="0 0 864 720" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 720
+L 864 720
+L 864 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 319.68 576
+L 829.44 576
+L 829.44 108
+L 319.68 108
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 319.68 576
+L 319.68 108
+" clip-path="url(#p9fb119f3d9)" style="fill: none; stroke: #e2e8f0; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m418d54b341" d="M 0 0
+L 0 3.5
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m418d54b341" x="319.68" y="576" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="319.68" y="590.598437" transform="rotate(-0 319.68 590.598437)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 408.642093 576
+L 408.642093 108
+" clip-path="url(#p9fb119f3d9)" style="fill: none; stroke: #e2e8f0; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m418d54b341" x="408.642093" y="576" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="408.642093" y="590.598437" transform="rotate(-0 408.642093 590.598437)">500</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 497.604186 576
+L 497.604186 108
+" clip-path="url(#p9fb119f3d9)" style="fill: none; stroke: #e2e8f0; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m418d54b341" x="497.604186" y="576" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="497.604186" y="590.598437" transform="rotate(-0 497.604186 590.598437)">1000</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 586.566279 576
+L 586.566279 108
+" clip-path="url(#p9fb119f3d9)" style="fill: none; stroke: #e2e8f0; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m418d54b341" x="586.566279" y="576" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="586.566279" y="590.598437" transform="rotate(-0 586.566279 590.598437)">1500</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 675.528373 576
+L 675.528373 108
+" clip-path="url(#p9fb119f3d9)" style="fill: none; stroke: #e2e8f0; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m418d54b341" x="675.528373" y="576" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="675.528373" y="590.598437" transform="rotate(-0 675.528373 590.598437)">2000</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 764.490466 576
+L 764.490466 108
+" clip-path="url(#p9fb119f3d9)" style="fill: none; stroke: #e2e8f0; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m418d54b341" x="764.490466" y="576" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="764.490466" y="590.598437" transform="rotate(-0 764.490466 590.598437)">2500</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: middle" x="574.56" y="604.276562" transform="rotate(-0 574.56 604.276562)">Employed persons (thousands)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13">
+      <defs>
+       <path id="m0badfe7ff3" d="M 0 0
+L -3.5 0
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="138.324952" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="141.744249" transform="rotate(-0 312.68 141.744249)">Health Care and Social Assistance</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="160.955513" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="164.374809" transform="rotate(-0 312.68 164.374809)">Professional, Scientific and Technical Services</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="183.586074" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="187.00537" transform="rotate(-0 312.68 187.00537)">Retail Trade</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="206.216634" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="209.635931" transform="rotate(-0 312.68 209.635931)">Construction</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="228.847195" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="232.266492" transform="rotate(-0 312.68 232.266492)">Education and Training</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="251.477756" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="254.897053" transform="rotate(-0 312.68 254.897053)">Public Administration and Safety</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="274.108317" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="277.527614" transform="rotate(-0 312.68 277.527614)">Accommodation and Food Services</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="296.738878" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="300.158175" transform="rotate(-0 312.68 300.158175)">Manufacturing</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="319.369439" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="322.788736" transform="rotate(-0 312.68 322.788736)">Transport, Postal and Warehousing</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="342" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="345.419297" transform="rotate(-0 312.68 345.419297)">Financial and Insurance Services</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="364.630561" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="368.049858" transform="rotate(-0 312.68 368.049858)">Other Services</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="387.261122" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="390.680419" transform="rotate(-0 312.68 390.680419)">Administrative and Support Services</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="409.891683" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="413.31098" transform="rotate(-0 312.68 413.31098)">Wholesale Trade</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="432.522244" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="435.941541" transform="rotate(-0 312.68 435.941541)">Mining</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="455.152805" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="458.572102" transform="rotate(-0 312.68 458.572102)">Agriculture, Forestry and Fishing</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="477.783366" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_23">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="481.202662" transform="rotate(-0 312.68 481.202662)">Arts and Recreation Services</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_29">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="500.413926" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="503.833223" transform="rotate(-0 312.68 503.833223)">Rental, Hiring and Real Estate Services</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_30">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="523.044487" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="526.463784" transform="rotate(-0 312.68 526.463784)">Electricity, Gas, Water and Waste Services</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_31">
+      <g>
+       <use xlink:href="#m0badfe7ff3" x="319.68" y="545.675048" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end" x="312.68" y="549.094345" transform="rotate(-0 312.68 549.094345)">Information Media and Telecommunications</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 319.68 129.272727
+L 744.48 129.272727
+L 744.48 147.377176
+L 319.68 147.377176
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 319.68 151.903288
+L 565.93672 151.903288
+L 565.93672 170.007737
+L 319.68 170.007737
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 319.68 174.533849
+L 562.648198 174.533849
+L 562.648198 192.638298
+L 319.68 192.638298
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 319.68 197.16441
+L 554.032043 197.16441
+L 554.032043 215.268859
+L 319.68 215.268859
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 319.68 219.794971
+L 545.480692 219.794971
+L 545.480692 237.89942
+L 319.68 237.89942
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 319.68 242.425532
+L 495.8312 242.425532
+L 495.8312 260.529981
+L 319.68 260.529981
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 319.68 265.056093
+L 487.424868 265.056093
+L 487.424868 283.160542
+L 319.68 283.160542
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 319.68 287.686654
+L 473.869001 287.686654
+L 473.869001 305.791103
+L 319.68 305.791103
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 319.68 310.317215
+L 455.325442 310.317215
+L 455.325442 328.421663
+L 319.68 328.421663
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 319.68 332.947776
+L 424.033216 332.947776
+L 424.033216 351.052224
+L 319.68 351.052224
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 319.68 355.578337
+L 414.563354 355.578337
+L 414.563354 373.682785
+L 319.68 373.682785
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 319.68 378.208897
+L 395.058297 378.208897
+L 395.058297 396.313346
+L 319.68 396.313346
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 319.68 400.839458
+L 381.12766 400.839458
+L 381.12766 418.943907
+L 319.68 418.943907
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 319.68 423.470019
+L 376.574363 423.470019
+L 376.574363 441.574468
+L 319.68 441.574468
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 319.68 446.10058
+L 372.630552 446.10058
+L 372.630552 464.205029
+L 319.68 464.205029
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 319.68 468.731141
+L 368.764324 468.731141
+L 368.764324 486.83559
+L 319.68 486.83559
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 319.68 491.361702
+L 363.452182 491.361702
+L 363.452182 509.466151
+L 319.68 509.466151
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 319.68 513.992263
+L 355.557368 513.992263
+L 355.557368 532.096712
+L 319.68 532.096712
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 319.68 536.622824
+L 351.625485 536.622824
+L 351.625485 554.727273
+L 319.68 554.727273
+z
+" clip-path="url(#p9fb119f3d9)" style="fill: #087e8b"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 319.68 576
+L 829.44 576
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="748.038484" y="140.532452" transform="rotate(-0 748.038484 140.532452)">2,388</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="569.495203" y="163.163013" transform="rotate(-0 569.495203 163.163013)">1,384</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="566.206681" y="185.793574" transform="rotate(-0 566.206681 185.793574)">1,366</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="557.590527" y="208.424134" transform="rotate(-0 557.590527 208.424134)">1,317</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="549.039176" y="231.054695" transform="rotate(-0 549.039176 231.054695)">1,269</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="499.389684" y="253.685256" transform="rotate(-0 499.389684 253.685256)">990</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="490.983352" y="276.315817" transform="rotate(-0 490.983352 276.315817)">943</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="477.427485" y="298.946378" transform="rotate(-0 477.427485 298.946378)">867</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="458.883926" y="321.576939" transform="rotate(-0 458.883926 321.576939)">762</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="427.5917" y="344.2075" transform="rotate(-0 427.5917 344.2075)">587</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="418.121838" y="366.838061" transform="rotate(-0 418.121838 366.838061)">533</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="398.61678" y="389.468622" transform="rotate(-0 398.61678 389.468622)">424</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="384.686144" y="412.099183" transform="rotate(-0 384.686144 412.099183)">345</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="380.132847" y="434.729744" transform="rotate(-0 380.132847 434.729744)">320</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="376.189036" y="457.360305" transform="rotate(-0 376.189036 457.360305)">298</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="372.322808" y="479.990866" transform="rotate(-0 372.322808 479.990866)">276</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="367.010666" y="502.621426" transform="rotate(-0 367.010666 502.621426)">246</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="359.115852" y="525.251987" transform="rotate(-0 359.115852 525.251987)">202</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="355.183968" y="547.882548" transform="rotate(-0 355.183968 547.882548)">180</text>
+   </g>
+  </g>
+  <g id="text_46">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="69.12" y="36.037031" transform="rotate(-0 69.12 36.037031)">Australia: employment by industry</text>
+  </g>
+  <g id="text_47">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52667a" x="69.12" y="61.2" transform="rotate(-0 69.12 61.2)">May 2025 • Seasonally adjusted employed persons • 19 industry divisions</text>
+  </g>
+  <g id="text_48">
+   <a xlink:href="https://raw.githubusercontent.com/lehuukimlam/Aussie-Economy-Dashboard/c70a360200771c9f9d7108fa89db84c7a2e5d250/data/Raw%20Employed%20By%20Industry.xlsx">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="69.12" y="644.4" transform="rotate(-0 69.12 644.4)">ABS employment workbook • retrieved: github.com/lehuukimlam/Aussie-Economy-Dashboard • revision c70a360</text>
+   </a>
+  </g>
+  <g id="text_49">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="69.12" y="663.84" transform="rotate(-0 69.12 663.84)">Files: industry-employment.xlsx</text>
+  </g>
+  <g id="text_50">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52667a" x="69.12" y="683.28" transform="rotate(-0 69.12 683.28)">Retrieved 2026-11-11 • Original-provider agreement unverified • People, not job positions or FTEs; adjusted divisions need not sum to the adjusted total.</text>
+  </g>
+  <g id="text_51">
+   <a xlink:href="/data/australia/#sources-and-reproduction">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #102a43" x="69.12" y="702" transform="rotate(-0 69.12 702)">Exact retrieval URLs, checksums and downloads: /data/australia/ → Sources and reproduction</text>
+   </a>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9fb119f3d9">
+   <rect x="319.68" y="108" width="509.76" height="468"/>
+  </clipPath>
+ </defs>
+</svg>

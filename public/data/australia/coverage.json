@@ -1,0 +1,17 @@
+{
+  "census_geographies": 9,
+  "census_age_cells": 99,
+  "family_groups": 18,
+  "annual_indicators": 8,
+  "annual_rows": 208,
+  "annual_years": [
+    2000,
+    2025
+  ],
+  "employment_series": 20,
+  "employment_rows": 3260,
+  "employment_period": [
+    "1984-11-01",
+    "2025-05-01"
+  ]
+}

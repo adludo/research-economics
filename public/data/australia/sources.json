@@ -1,0 +1,90 @@
+{
+  "retrieved_date_utc": "2026-11-11",
+  "sources": {
+    "census-persons.tsv": {
+      "url": "https://raw.githubusercontent.com/HughParsonage/Census2021.DataPack/2cb84120792534c4d39adfa7a7d4d2abd092d981/tsv/STE/STE__Persons.tsv",
+      "sha256": "1e2da299ac5eed1a4bc84f764ef0ae7fe916e0f2033b0709b74333163e2d59bb",
+      "bytes": 230
+    },
+    "census-age.tsv": {
+      "url": "https://raw.githubusercontent.com/HughParsonage/Census2021.DataPack/2cb84120792534c4d39adfa7a7d4d2abd092d981/tsv/STE/STE__Age.tsv",
+      "sha256": "9363b05324821a0f1a582a470b9e3c12fb5bb439fd57bc6df48c39179d62ce69",
+      "bytes": 2789
+    },
+    "census-families.tsv": {
+      "url": "https://raw.githubusercontent.com/HughParsonage/Census2021.DataPack/2cb84120792534c4d39adfa7a7d4d2abd092d981/tsv/STE/STE__CoupleFamily_HasChild_HasDependentStudent_HasNonDependentChild_families.tsv",
+      "sha256": "ea9bff55d6f92af6f61ee7895b2faa40789a5c42414777c08c040bec569283bb",
+      "bytes": 3968
+    },
+    "census-readme.md": {
+      "url": "https://raw.githubusercontent.com/HughParsonage/Census2021.DataPack/2cb84120792534c4d39adfa7a7d4d2abd092d981/README.md",
+      "sha256": "9d7456a282cde10006bf7d4620285653df309213e87ca0e45190da23f7e8d8cb",
+      "bytes": 2017
+    },
+    "census-transform.Rmd": {
+      "url": "https://raw.githubusercontent.com/HughParsonage/Census2021.DataPack/2cb84120792534c4d39adfa7a7d4d2abd092d981/data-raw/put-data.Rmd",
+      "sha256": "a43dca7aee77bfb6086b1902e4e9dfd1b6fc923d6fda430a4cf7065b7e6668b9",
+      "bytes": 75557
+    },
+    "wdi-metadata.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--world_bank--world_development_indicators/4252d91d988efc0f116d4fa48e92357b778729e5/ddf--concepts--continuous.csv",
+      "sha256": "4d2fafe7196db67d9a47f7f86968576f18cadb709a75cbdd5c4339532b559906",
+      "bytes": 6713082
+    },
+    "sp_pop_totl.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--world_bank--world_development_indicators/4252d91d988efc0f116d4fa48e92357b778729e5/datapoints/ddf--datapoints--sp_pop_totl--by--economy--year.csv",
+      "sha256": "03224d596b5f52863f894f9c3f500a531ba1fc9df811f87eb747beb4e881aec6",
+      "bytes": 302616
+    },
+    "ny_gdp_mktp_kd.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--world_bank--world_development_indicators/4252d91d988efc0f116d4fa48e92357b778729e5/datapoints/ddf--datapoints--ny_gdp_mktp_kd--by--economy--year.csv",
+      "sha256": "a9fe3628c17a21666ee8f20b333aaaf560eaf14f4f027917ad74ae79ff888f68",
+      "bytes": 468470
+    },
+    "ny_gdp_mktp_kd_zg.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--world_bank--world_development_indicators/4252d91d988efc0f116d4fa48e92357b778729e5/datapoints/ddf--datapoints--ny_gdp_mktp_kd_zg--by--economy--year.csv",
+      "sha256": "d82267afcaa2ebba2d04d8b4c1e5a62763b2e38c1885eeeb58fde50b86a9d192",
+      "bytes": 320051
+    },
+    "nv_agr_totl_kd_zg.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--world_bank--world_development_indicators/4252d91d988efc0f116d4fa48e92357b778729e5/datapoints/ddf--datapoints--nv_agr_totl_kd_zg--by--economy--year.csv",
+      "sha256": "e23a03070c1244d5b31fba299212e26487ec3bfc4ab35c0bce5e6806375059e0",
+      "bytes": 236968
+    },
+    "nv_ind_totl_kd_zg.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--world_bank--world_development_indicators/4252d91d988efc0f116d4fa48e92357b778729e5/datapoints/ddf--datapoints--nv_ind_totl_kd_zg--by--economy--year.csv",
+      "sha256": "0ae2accdfdf002efe3683f86f815ea71f2280c412ff832d371ae0e1c6f7f0f6f",
+      "bytes": 231061
+    },
+    "nv_srv_totl_kd_zg.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--world_bank--world_development_indicators/4252d91d988efc0f116d4fa48e92357b778729e5/datapoints/ddf--datapoints--nv_srv_totl_kd_zg--by--economy--year.csv",
+      "sha256": "ae9b0d968b9342c88e357b888c5793e27cc05122d98f37d009e8b3b912fc42d1",
+      "bytes": 215049
+    },
+    "sl_uem_totl_zs.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--world_bank--world_development_indicators/4252d91d988efc0f116d4fa48e92357b778729e5/datapoints/ddf--datapoints--sl_uem_totl_zs--by--economy--year.csv",
+      "sha256": "aac662316b2a85482293b1b8a032f9a362a3fcf2415ddbd180d9ecb3a5f93330",
+      "bytes": 182717
+    },
+    "sl_emp_totl_sp_zs.csv": {
+      "url": "https://raw.githubusercontent.com/open-numbers/ddf--world_bank--world_development_indicators/4252d91d988efc0f116d4fa48e92357b778729e5/datapoints/ddf--datapoints--sl_emp_totl_sp_zs--by--economy--year.csv",
+      "sha256": "4097673717125fe7979b0cd33c680eb1df3f0ca368c13c929b5bd5c064a6dc10",
+      "bytes": 188884
+    },
+    "industry-readme.md": {
+      "url": "https://raw.githubusercontent.com/lehuukimlam/Aussie-Economy-Dashboard/c70a360200771c9f9d7108fa89db84c7a2e5d250/README.md",
+      "sha256": "a256b7dd2c6b5150be40c5edf0564c31c49cbe714cc7b7ec708ed402c7eeebbb",
+      "bytes": 4825
+    },
+    "industry-employment.xlsx": {
+      "url": "https://raw.githubusercontent.com/lehuukimlam/Aussie-Economy-Dashboard/c70a360200771c9f9d7108fa89db84c7a2e5d250/data/Raw%20Employed%20By%20Industry.xlsx",
+      "sha256": "169901472a3e5d0b34676c5b3bfaac4f5cf7f16ee3d9616cd3e1843dd4cd2d5b",
+      "bytes": 138946
+    }
+  },
+  "limits": [
+    "Original ABS, World Bank and ILO endpoints were not retrieved: network proxy returned HTTP 403. Archive identity and internal metadata checked; original-provider agreement remains unverified.",
+    "2021 Census is a historical snapshot. WDI values are a dated archive, not a claim about the latest release or forecast-free observations.",
+    "Census transformations and dashboard workbooks are third-party copies, not official distributions. See pinned source code and metadata."
+  ]
+}

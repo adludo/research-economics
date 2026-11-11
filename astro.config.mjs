@@ -26,6 +26,7 @@ export default defineConfig({
       ] },
       { label: 'Data sources', items: [
         { label: 'Data overview', link: '/data/' },
+        { label: 'Australian population and economy', link: '/data/australia/' },
         { label: 'Fertility data and definitions', link: '/data/fertility/' },
         { label: 'Recent fertility, GDP, and hours', link: '/data/recent-fertility-hours/' },
         { label: 'Historical fertility, GDP, and hours', link: '/data/fertility-charts/' },
@@ -40,6 +41,10 @@ export default defineConfig({
         { label: 'Leisure findings', link: '/findings/leisure/' },
         { label: 'Leisure and productivity findings', link: '/findings/leisure-productivity/' },
         { label: 'Trade findings', link: '/findings/trade/' },
+      ] },
+      { label: 'Case studies', items: [
+        { label: 'Case study overview', link: '/case-studies/' },
+        { label: 'Australia', link: '/case-studies/australia/' },
       ] },
       { label: 'Research audit status', link: '/guides/audit-status/' },
       { label: 'Source and editorial notes', link: '/guides/sources/' },
